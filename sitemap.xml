@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mbod.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-08-13T17:28:08.852Z</lastmod>
+    <loc>https://mallikakulkarni20.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-09-07T23:38:31.881Z</lastmod>
   </url>
   <url>
-    <loc>https://mbod.github.io/comm4190_F25_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
-    <lastmod>2025-08-13T17:28:08.853Z</lastmod>
+    <loc>https://mallikakulkarni20.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_HIMYM/HIMYM.html</loc>
+    <lastmod>2025-09-07T23:38:31.882Z</lastmod>
   </url>
   <url>
-    <loc>https://mbod.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-08-13T17:28:08.852Z</lastmod>
+    <loc>https://mallikakulkarni20.github.io/comm4190_F25_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
+    <lastmod>2025-09-07T23:38:31.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mallikakulkarni20.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
+    <lastmod>2025-09-07T23:38:31.881Z</lastmod>
   </url>
 </urlset>
