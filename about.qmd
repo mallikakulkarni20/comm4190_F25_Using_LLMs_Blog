@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-About this blog
+I am running experiments and exploring! A fun way to learn more about prompting and different LLM capabilities.

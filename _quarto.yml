@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "My Explorations with LLMs"
+  title: "Let's Experiment"
   navbar:
     right:
       - about.qmd
@@ -12,7 +12,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: quartz
     css: styles.css
 
 execute:
