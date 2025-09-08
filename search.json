@@ -7,6 +7,76 @@
     "text": "How I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "posts/001_HIMYM/HIMYM.html",
+    "href": "posts/001_HIMYM/HIMYM.html",
+    "title": "How I Met Your Modor",
+    "section": "",
+    "text": "If you have never watched “How I Met Your Mother”, stop immediately. Open Netflix, pay for a subscription, and watch the first episode.\nOkay, welcome back! Life changing, right? Anyway, you just watched a sitcom script from writers in 2005 write iconic scenes to appeal to an audience in the past. My question is, what does that scene look like if you pummeled it much further in the past.\nThis is an experiment I’m calling “How I Met Your Modor” (think Old English friends hanging out at a bar in Manhattan). The goal is to see if an LLM can rewrite an iconic scene from How I Met Your Mother in starkly contrasted time periods and emotional states. Will it be able to preserve the emotional core, but now appeal to audiences that are relevant to the culture of society back then? Let’s shove Ted and Robin into the: * 5th century AD * Trojan War * 1920s * 2020s."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#the-show",
+    "href": "posts/001_HIMYM/HIMYM.html#the-show",
+    "title": "How I Met Your Modor",
+    "section": "",
+    "text": "If you have never watched “How I Met Your Mother”, stop immediately. Open Netflix, pay for a subscription, and watch the first episode.\nOkay, welcome back! Life changing, right? Anyway, you just watched a sitcom script from writers in 2005 write iconic scenes to appeal to an audience in the past. My question is, what does that scene look like if you pummeled it much further in the past.\nThis is an experiment I’m calling “How I Met Your Modor” (think Old English friends hanging out at a bar in Manhattan). The goal is to see if an LLM can rewrite an iconic scene from How I Met Your Mother in starkly contrasted time periods and emotional states. Will it be able to preserve the emotional core, but now appeal to audiences that are relevant to the culture of society back then? Let’s shove Ted and Robin into the: * 5th century AD * Trojan War * 1920s * 2020s."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#the-subject-of-the-experiment",
+    "href": "posts/001_HIMYM/HIMYM.html#the-subject-of-the-experiment",
+    "title": "How I Met Your Modor",
+    "section": "The Subject of the Experiment",
+    "text": "The Subject of the Experiment\nTed meets Robin! He makes an iconic mistake at the end of their first date: “I think I’m in love with you.”\nI prompted GPT-5 with:\n\n“Recall the scene in the first episode of How I Met Your Mother where Ted tells Robin he loves her. First produce the base case, then rewrite the scene as if you were a writer in the following eras, by catering to relevant audiences and representing the tone of the era: * 5th century AD * Trojan War * 1920s * 2020s (Gen Z)”\n\nHere’s the lab report."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#base-case",
+    "href": "posts/001_HIMYM/HIMYM.html#base-case",
+    "title": "How I Met Your Modor",
+    "section": "Base Case",
+    "text": "Base Case\nHere’s the base case: the original script.\n\nRobin and Ted are dancing in Robin’s apartment. All five dogs are watching from the couch.\n\nRobin: I think I like your Olive Theory.\nTed: I think I like your French Horn.\nRobin: I think I like your nose.\nTed: I think I’m in love with you.\n[Cut to the bar]\nLily, Marshall, Barney (in unison): What?!\n[Cut to 2030]\nSon and Daughter: What?!\n[Cut to Robin’s Apartment again]\nRobin: What?\nTed: So, Orlando. You gonna hit Disney World?\nRobin: You love me?\nTed: Oh God, I can’t believe I said that. Why did I say that? Who says that? I should just go. (Gets up)\nRobin: Hold on. (Hands him olives) Promised you these.\nTed: Olives. Thanks. I love you. What’s wrong with me?"
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#th-century-ad-romanized-gothic-epic",
+    "href": "posts/001_HIMYM/HIMYM.html#th-century-ad-romanized-gothic-epic",
+    "title": "How I Met Your Modor",
+    "section": "5th Century AD (Romanized Gothic Epic)",
+    "text": "5th Century AD (Romanized Gothic Epic)\n\nA dimly torchlit feast hall, hounds by the fire.\n\nRobina: I find favor in thine parable of olives.\nTheodoric: As I in thy cerulean horn of France.\nRobina: Thy visage pleases me still.\nTheodoric: Mine heart—’tis captured. I am besotted with thee.\n[Elsewhere, in the Mead Hall]\nLilius, Marshalus, Barnabas: Quid?!\n[In the Chronicles of 2030]\nOffspringum Primus et Secundus: Quid?!\n[Return to Robina’s quarters]\nRobina: Quid?!\nTheodoric: Wilt thou seek amusements in Orlando?\nRobina: Thou dost love me?\nTheodoric: By Jove, what madness didst compel my tongue? (Rises to depart)\nRobina: Stay. (Offers olives in a wooden bowl) These were pledged.\nTheodoric: Olives. My curse, my confession. What ails me?"
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#trojan-war-era-homeric-epic-style",
+    "href": "posts/001_HIMYM/HIMYM.html#trojan-war-era-homeric-epic-style",
+    "title": "How I Met Your Modor",
+    "section": "Trojan War Era (Homeric Epic Style)",
+    "text": "Trojan War Era (Homeric Epic Style)\n\nAthenian-styled balcony; hounds rest at their feet as lyres play.\n\nRobinē of the North: I admire thy tale of the olives, stranger.\nTēdēs, wielder of the Horn of Blue: And I thy horn, stolen from the House of Musicians.\nRobinē: The slope of thy nose rivals the walls of Ilium.\nTēdēs: My heart, like Troy, burns. I am struck by love.\n[Cut to the hall of comrades]\nLilyon, Marshalon, Barnēos: What sorcery is this?\n[In the future—2030 Olympiad]\nChildren of Tēdēs: What madness doth he speak?\n[Return to the chamber of Robinē]\nRobinē: You love me?\nTēdēs: You journey to Orlando?\nRobinē: Love?\nTēdēs: The gods have toyed with me. (He turns to leave)\nRobinē: Halt. (Gifts the olives of destiny)\nTēdēs: The olives… I love you. Is this a curse of Aphrodite?"
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#s-jazz-age-screwball-romance",
+    "href": "posts/001_HIMYM/HIMYM.html#s-jazz-age-screwball-romance",
+    "title": "How I Met Your Modor",
+    "section": "1920s (Jazz Age Screwball Romance)",
+    "text": "1920s (Jazz Age Screwball Romance)\n\nRobin’s Manhattan loft. Gramophone playing. Dogs in pearls.\n\nRobin: Say, that little olive theory of yours? Quite the bee’s knees.\nTed: Not as swell as that big blue horn. Très chic.\nRobin: Your nose—adorable, see?\nTed: You’re the cat’s pajamas, and… I think I’m nuts about you.\n[Cut to speakeasy]\nLily, Marshall, Barney: Say what now?!\n[Cut to 2030—flapper kids, future edition]\nSon & Daughter: Golly!\n[Cut to Robin’s apartment again]\nRobin: You love me?\nTed: Off to Orlando for the Magic Kingdom?\nRobin: You love me?\nTed: Jeepers, what a line. Why’d I go and say that? (Gets up to leave)\nRobin: Wait, buster. (Hands him olives in a crystal dish)\nTed: Olives… Thanks, doll. I’m crazy for you. Cray-zee."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#s-gen-z-tiktok-core",
+    "href": "posts/001_HIMYM/HIMYM.html#s-gen-z-tiktok-core",
+    "title": "How I Met Your Modor",
+    "section": "2020s (Gen Z, TikTok-core)",
+    "text": "2020s (Gen Z, TikTok-core)\n\nRobin’s apartment. LED lights. Dogs in matching hoodies. Lo-fi playing in background.\n\nRobin: ngl your olive theory? kinda hits.\nTed: same about your French horn. it’s giving chaotic good.\nRobin: your nose? 10/10.\nTed: ok wait. I think I’m in love with you 😳\n[Cut to group FaceTime in the bar]\nLily, Marshall, Barney: bro WHAT 💀\n[Cut to 2030 – kids in VR headsets]\nSon and Daughter: HE SAID WHAT\n[Back to Robin’s apartment]\nRobin: fr? you love me?\n[Cut to Uber, interior night]\nBarney: the stomach ache? it’s not food poisoning. it’s ✨emotional hunger✨. You want novelty. Chaos. Olives.\nMarshall: I’m lowkey scared, but like… when I think of Lily, it’s not scary. It’s just vibes. (Lily appears through the window with a ring light glow)\nLily: We’ll make it work. (they kiss. someone’s phone camera shutter clicks.)\nRanjit: wholesome af.\n[Back to Robin’s place – awkward silence]\nTed: so, you gonna Disney or nah?\nRobin: you said you love me.\nTed: omg delete that from my brain rn. why did I say that 😭 (starts walking out)\nRobin: wait. (hands him olives in a mason jar) promised you these.\nTed: Olives. Thanks. I love you. I need therapy."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#the-verdict",
+    "href": "posts/001_HIMYM/HIMYM.html#the-verdict",
+    "title": "How I Met Your Modor",
+    "section": "The Verdict",
+    "text": "The Verdict\nEach version loses impact. By simply changing the meaning of words, the LLM was not able to capture the true sentiment and feel of the script. This makes me believe even more that chatbots are purely pattern matchers and cannot generate creative information that is not just a slight alteration from the base case."
+  },
+  {
+    "objectID": "posts/001_HIMYM/HIMYM.html#final-takeaways",
+    "href": "posts/001_HIMYM/HIMYM.html#final-takeaways",
+    "title": "How I Met Your Modor",
+    "section": "Final Takeaways",
+    "text": "Final Takeaways\nCan LLMs match tone and subtext?\nLLMs can match tone and subtext, but they do not understand the complexities of language and pop culture over time. The originality of a time period is not easily matched. Instead of adapting an iconic plot to a time period, the LLM adapted specific phrases and words to a time period.\nIf I had prompted the LLM and emphasized creativity, then perhaps it would have wandered more with the script and created something that the different audiences would actually like.\nIc þancie þe (Thank you), Mallika"
+  },
+  {
     "objectID": "posts/000_test_post/index.html",
     "href": "posts/000_test_post/index.html",
     "title": "A test post",
