@@ -25,7 +25,7 @@
     "href": "posts/001_HIMYM/HIMYM.html#the-subject-of-the-experiment",
     "title": "How I Met Your Modor",
     "section": "The Subject of the Experiment",
-    "text": "The Subject of the Experiment\nTed meets Robin! He makes an iconic mistake at the end of their first date: “I think I’m in love with you.”\nI prompted GPT-5 with:\n\n“Recall the scene in the first episode of How I Met Your Mother where Ted tells Robin he loves her. First produce the base case, then rewrite the scene as if you were a writer in the following eras, by catering to relevant audiences and representing the tone of the era: * 5th century AD * Trojan War * 1920s * 2020s (Gen Z)”\n\nHere’s the lab report."
+    "text": "The Subject of the Experiment\nTed meets Robin! He makes an iconic mistake at the end of their first date: “I think I’m in love with you.”\n\nI prompted GPT-5 with:\n\n“Recall the scene in the first episode of How I Met Your Mother where Ted tells Robin he loves her. First produce the base case, then rewrite the scene as if you were a writer in the following eras, by catering to relevant audiences and representing the tone of the era: * 5th century AD * Trojan War * 1920s * 2020s (Gen Z)”\n\nHere’s the lab report."
   },
   {
     "objectID": "posts/001_HIMYM/HIMYM.html#base-case",
