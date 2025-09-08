@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Let’s Experiment",
     "section": "",
-    "text": "ChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
+    "text": "Background\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/001_HIMYM/HIMYM.html",
@@ -75,6 +75,20 @@
     "title": "How I Met Your Modor",
     "section": "Final Takeaways",
     "text": "Final Takeaways\nCan LLMs match tone and subtext?\nLLMs can match tone and subtext, but they do not understand the complexities of language and pop culture over time. The originality of a time period is not easily matched. Instead of adapting an iconic plot to a time period, the LLM adapted specific phrases and words to a time period.\nIf I had prompted the LLM and emphasized creativity, then perhaps it would have wandered more with the script and created something that the different audiences would actually like.\nIc þancie þe (Thank you),\nMallika"
+  },
+  {
+    "objectID": "posts/003_lost_in_translation/lost_in_translation.html",
+    "href": "posts/003_lost_in_translation/lost_in_translation.html",
+    "title": "Background",
+    "section": "",
+    "text": "---\ntitle: \"Lost in Translation\"\ndescription: \"How far can language bend before it breaks?\" \nauthor: \"Mallika Kulkarni\"\ndate: \"9/8/2025\"\ncategories:\n  - Language\n  - Sentiment\n---\nHow far can language bend before it breaks? Technically forever. Common consensus is that with language anything can be communicated, so meaning should be consistent among translation. Human sentiment can be one of the most important things with language and we must test whether an LLM can interpret that sentiment. Otherwise, it will fail with repeated translation.\nI used some of the most commonly spoken languages in order to favor the GPT as much as possible. In this experiment, I ran several English paragraphs through a language chain using Claude because Anthropic has tested better for language skills:"
+  },
+  {
+    "objectID": "posts/003_lost_in_translation/lost_in_translation.html#setup",
+    "href": "posts/003_lost_in_translation/lost_in_translation.html#setup",
+    "title": "Background",
+    "section": "Setup",
+    "text": "Setup\nFor each test, I used GPT-4o and prompted it to do the following:\nTranslate the source paragraph from English to Hindi, then translate that Hindi paragraph to Spanish, then translate that Spanish back to English.\nI conducted these translations separately, by copy and pasting into different prompting chats. This way GPT retained no knowledge between past prompt and did not just recall an earlier prompt. All translations were done separately, in sequence. I also want to be able to see this linguistic drift in 2 different contexts: a very casual conversation as well as a technical conversation. I predict that there will be less drift in a technical conversation because it will rely more on direct word translation."
   },
   {
     "objectID": "posts/002_fashion_critic/fashion_critic.html",
