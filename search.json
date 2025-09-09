@@ -91,6 +91,27 @@
     "text": "Setup\nFor each test, I used GPT-4o and prompted it to do the following:\nTranslate the source paragraph from English to Hindi, then translate that Hindi paragraph to Spanish, then translate that Spanish back to English.\nI conducted these translations separately, by copy and pasting into different prompting chats. This way GPT retained no knowledge between past prompt and did not just recall an earlier prompt. All translations were done separately, in sequence. I also want to be able to see this linguistic drift in 2 different contexts: a very casual conversation as well as a technical conversation. I predict that there will be less drift in a technical conversation because it will rely more on direct word translation."
   },
   {
+    "objectID": "posts/003_lost_in_translation/lost_in_translation.html#technical-script",
+    "href": "posts/003_lost_in_translation/lost_in_translation.html#technical-script",
+    "title": "Background",
+    "section": "Technical Script",
+    "text": "Technical Script\n\nOriginal Script\nA hash table provides average-case constant-time complexity for insertions and lookups, assuming a good hash function with minimal collisions.\n\n\nTranslated to Hindi\nएक हैश टेबल इन्सर्शन और लुकअप के लिए औसत-केस स्थिर-समय जटिलता प्रदान करती है, बशर्ते कि एक अच्छा हैश फंक्शन हो जिसमें न्यूनतम कॉलिजन हों। Transliteration: Ek hash table insertion aur lookup ke liye ausat-case sthir-samay jatilta pradan karti hai, basharte ki ek accha hash function ho jismein nyuntam collision hon.\n\n\nTranslated to Spanish\nUna tabla hash proporciona complejidad de tiempo constante en caso promedio para inserción y búsqueda, siempre que tenga una buena función hash con colisiones mínimas.\n\n\nTranslated back to English\nA hash table provides constant time complexity on average for insertion and search, as long as it has a good hash function with minimal collisions."
+  },
+  {
+    "objectID": "posts/003_lost_in_translation/lost_in_translation.html#casual-script",
+    "href": "posts/003_lost_in_translation/lost_in_translation.html#casual-script",
+    "title": "Background",
+    "section": "Casual Script",
+    "text": "Casual Script\n\nOriginal Script\nOkay but like… if you respond with ‘lol’ one more time, I’m gonna assume you actually hate me and you’re just being polite about it.\n\n\nTranslated to Hindi\n“ठीक है लेकिन यार… अगर तुमने एक बार और ‘lol’ से जवाब दिया, तो मैं समझ जाऊंगा कि तुम सच में मुझसे नफरत करते हो और बस शिष्टाचार के लिए बात कर रहे हो।”\n\n\nTranslated to Spanish\n“Está bien, pero hermano… si respondes con ‘lol’ una vez más, entenderé que realmente me odias y solo estás hablando por cortesía.”\n\n\nTranslated back to English\n“It’s okay, but brother… if you respond with ‘lol’ one more time, I’ll understand that you really hate me and are only talking out of courtesy.”"
+  },
+  {
+    "objectID": "posts/003_lost_in_translation/lost_in_translation.html#takeaways",
+    "href": "posts/003_lost_in_translation/lost_in_translation.html#takeaways",
+    "title": "Background",
+    "section": "Takeaways",
+    "text": "Takeaways\nThe hypothesis I posed at the beginning seems fairly accurate. The translation loop gets broken in the casual script because an LLM cannot capture the nuance of language and slang across multiple languages. However, I will note that an LLM performs comparably to Google Translate which is pretty industry leading in free text translation tools. GPT is a solid translator word-for-word, but context and nuance can get scrambled fast. Languages like Hindi and Spanich carry their own cultural assumptions and syntactic structures; LLMs don’t always account for that drift.\nThanks for translating with me, मेरे साथ अनुवाद करने के लिए धन्यवाद, Gracias por traducir conmigo,\nMallika"
+  },
+  {
     "objectID": "posts/002_fashion_critic/fashion_critic.html",
     "href": "posts/002_fashion_critic/fashion_critic.html",
     "title": "ChatGPT as a Fashion Critic",

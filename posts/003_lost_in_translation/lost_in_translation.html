@@ -195,6 +195,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>For each test, I used GPT-4o and prompted it to do the following:</p>
 <p>Translate the source paragraph from English to Hindi, then translate that Hindi paragraph to Spanish, then translate that Spanish back to English.</p>
 <p>I conducted these translations separately, by copy and pasting into different prompting chats. This way GPT retained no knowledge between past prompt and did not just recall an earlier prompt. All translations were done separately, in sequence. I also want to be able to see this linguistic drift in 2 different contexts: a very casual conversation as well as a technical conversation. I predict that there will be less drift in a technical conversation because it will rely more on direct word translation.</p>
+</section>
+<section id="technical-script" class="level2">
+<h2 class="anchored" data-anchor-id="technical-script">Technical Script</h2>
+<section id="original-script" class="level3">
+<h3 class="anchored" data-anchor-id="original-script">Original Script</h3>
+<p>A hash table provides average-case constant-time complexity for insertions and lookups, assuming a good hash function with minimal collisions.</p>
+</section>
+<section id="translated-to-hindi" class="level3">
+<h3 class="anchored" data-anchor-id="translated-to-hindi">Translated to Hindi</h3>
+<p>एक हैश टेबल इन्सर्शन और लुकअप के लिए औसत-केस स्थिर-समय जटिलता प्रदान करती है, बशर्ते कि एक अच्छा हैश फंक्शन हो जिसमें न्यूनतम कॉलिजन हों। Transliteration: Ek hash table insertion aur lookup ke liye ausat-case sthir-samay jatilta pradan karti hai, basharte ki ek accha hash function ho jismein nyuntam collision hon.</p>
+</section>
+<section id="translated-to-spanish" class="level3">
+<h3 class="anchored" data-anchor-id="translated-to-spanish">Translated to Spanish</h3>
+<p>Una tabla hash proporciona complejidad de tiempo constante en caso promedio para inserción y búsqueda, siempre que tenga una buena función hash con colisiones mínimas.</p>
+</section>
+<section id="translated-back-to-english" class="level3">
+<h3 class="anchored" data-anchor-id="translated-back-to-english">Translated back to English</h3>
+<p>A hash table provides constant time complexity on average for insertion and search, as long as it has a good hash function with minimal collisions.</p>
+</section>
+</section>
+<section id="casual-script" class="level2">
+<h2 class="anchored" data-anchor-id="casual-script">Casual Script</h2>
+<section id="original-script-1" class="level3">
+<h3 class="anchored" data-anchor-id="original-script-1">Original Script</h3>
+<p>Okay but like… if you respond with ‘lol’ one more time, I’m gonna assume you actually hate me and you’re just being polite about it.</p>
+</section>
+<section id="translated-to-hindi-1" class="level3">
+<h3 class="anchored" data-anchor-id="translated-to-hindi-1">Translated to Hindi</h3>
+<p>“ठीक है लेकिन यार… अगर तुमने एक बार और ‘lol’ से जवाब दिया, तो मैं समझ जाऊंगा कि तुम सच में मुझसे नफरत करते हो और बस शिष्टाचार के लिए बात कर रहे हो।”</p>
+</section>
+<section id="translated-to-spanish-1" class="level3">
+<h3 class="anchored" data-anchor-id="translated-to-spanish-1">Translated to Spanish</h3>
+<p>“Está bien, pero hermano… si respondes con ‘lol’ una vez más, entenderé que realmente me odias y solo estás hablando por cortesía.”</p>
+</section>
+<section id="translated-back-to-english-1" class="level3">
+<h3 class="anchored" data-anchor-id="translated-back-to-english-1">Translated back to English</h3>
+<p>“It’s okay, but brother… if you respond with ‘lol’ one more time, I’ll understand that you really hate me and are only talking out of courtesy.”</p>
+</section>
+</section>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<p>The hypothesis I posed at the beginning seems fairly accurate. The translation loop gets broken in the casual script because an LLM cannot capture the nuance of language and slang across multiple languages. However, I will note that an LLM performs comparably to Google Translate which is pretty industry leading in free text translation tools. GPT is a solid translator word-for-word, but context and nuance can get scrambled fast. Languages like Hindi and Spanich carry their own cultural assumptions and syntactic structures; LLMs don’t always account for that drift.</p>
+<p>Thanks for translating with me, मेरे साथ अनुवाद करने के लिए धन्यवाद, Gracias por traducir conmigo,</p>
+<p>Mallika</p>
 
 
 </section>
