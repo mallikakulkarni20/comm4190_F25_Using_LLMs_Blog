@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mallika Kulkarni">
+<meta name="dcterms.date" content="2025-09-08">
+<meta name="description" content="How far can language bend before it breaks?">
 
-<title>Background – Let’s Experiment</title>
+<title>Lost in Translation – Let’s Experiment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -149,14 +117,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Background</h1>
-                      </div>
+      <h1 class="title">Lost in Translation</h1>
+                  <div>
+        <div class="description">
+          How far can language bend before it breaks?
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Language</div>
+                <div class="quarto-category">Sentiment</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Mallika Kulkarni </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 8, 2025</p>
+      </div>
+    </div>
     
       
     </div>
@@ -173,27 +162,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div id="e13cfb42-6318-4cbe-8d5b-f8d0ec87ae5b" class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: <span class="st">"Lost in Translation"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description: <span class="st">"How far can language bend before it breaks?"</span> </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>author: <span class="st">"Mallika Kulkarni"</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>date: <span class="st">"9/8/2025"</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>categories:</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="op">-</span> Language</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="op">-</span> Sentiment</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<p><img src="world.jpeg" class="img-fluid"></p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
 <p>How far can language bend before it breaks? Technically forever. Common consensus is that with language anything can be communicated, so meaning should be consistent among translation. Human sentiment can be one of the most important things with language and <strong>we must test whether an LLM can interpret that sentiment</strong>. Otherwise, it will fail with repeated translation.</p>
 <p>I used some of the most commonly spoken languages in order to favor the GPT as much as possible. In this experiment, I ran several English paragraphs through a <strong>language</strong> chain using Claude because Anthropic has tested better for language skills:</p>
 <section id="english-hindi-spanish-back-to-english" class="level4">
 <h4 class="anchored" data-anchor-id="english-hindi-spanish-back-to-english">English → Hindi → Spanish → back to English</h4>
 <p>My goal was to test <strong>prompt chaining</strong> across different types of text and see how meaning and nuance is interpreted by LLMs.</p>
 </section>
+</section>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
 <p>For each test, I used GPT-4o and prompted it to do the following:</p>
-<p>Translate the source paragraph from English to Hindi, then translate that Hindi paragraph to Spanish, then translate that Spanish back to English.</p>
+<p>Translate the source paragraph from English to Hindi,</p>
+<p><img src="hindi.png" class="img-fluid"></p>
+<p>then translate that Hindi paragraph to Spanish,</p>
+<p><img src="spanish.jpeg" class="img-fluid"></p>
+<p>then translate that Spanish back to English.</p>
 <p>I conducted these translations separately, by copy and pasting into different prompting chats. This way GPT retained no knowledge between past prompt and did not just recall an earlier prompt. All translations were done separately, in sequence. I also want to be able to see this linguistic drift in 2 different contexts: a very casual conversation as well as a technical conversation. I predict that there will be less drift in a technical conversation because it will rely more on direct word translation.</p>
 </section>
 <section id="technical-script" class="level2">
