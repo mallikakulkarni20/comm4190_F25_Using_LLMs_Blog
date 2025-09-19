@@ -196,13 +196,6 @@
     "text": "Takeaways\nThe hypothesis I posed at the beginning seems fairly accurate. The translation loop gets broken in the casual script because an LLM cannot capture the nuance of language and slang across multiple languages. However, I will note that an LLM performs comparably to Google Translate which is pretty industry leading in free text translation tools. GPT is a solid translator word-for-word, but context and nuance can get scrambled fast. Languages like Hindi and Spanich carry their own cultural assumptions and syntactic structures; LLMs don’t always account for that drift.\nThanks for translating with me, मेरे साथ अनुवाद करने के लिए धन्यवाद, Gracias por traducir conmigo,\nMallika"
   },
   {
-    "objectID": "posts/006_individualism/individualism.html",
-    "href": "posts/006_individualism/individualism.html",
-    "title": "East vs. West: Does Gemini Favor Individualism or Collectivism?",
-    "section": "",
-    "text": "As an Indian-American, I have been brought up with a fusion of eastern and western values. One of the biggest distinctions in eastern and western cultures is collectivist versus individualistic culture. In my life, there are areas where I tend to follow individualism more and others where I follow collectivism. Large Language Models (LLMs) like Gemini are trained on texts from all over the world, exposing them to both Western and Eastern cultural values. What would happen if we asked Gemini to comment on certain culturally-charged decisions? Would Gemini lean more towards one culture over the other?"
-  },
-  {
     "objectID": "posts/006_individualism/individualism.html#takeaways",
     "href": "posts/006_individualism/individualism.html#takeaways",
     "title": "East vs. West: Does Gemini Favor Individualism or Collectivism?",
