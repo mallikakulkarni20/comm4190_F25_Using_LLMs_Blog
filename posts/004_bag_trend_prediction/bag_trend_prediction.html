@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mallika Kulkarni">
+<meta name="dcterms.date" content="2025-09-07">
+<meta name="description" content="Can an LLM do real-world trend analysis">
 
-<title>Let’s Experiment</title>
+<title>Can AI Spot the Next It-Bag? – Let’s Experiment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-281dcb174454a99020e1b057be57acf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-281dcb174454a99020e1b057be57acf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Let’s Experiment</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -176,210 +119,92 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Let’s Experiment</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Can AI Spot the Next It-Bag?</h1>
+                  <div>
+        <div class="description">
+          Can an LLM do real-world trend analysis
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Pop Culture</div>
+                <div class="quarto-category">Trends</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Mallika Kulkarni </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 7, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TGFuZ3VhZ2U=">Language <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bG9naWM=">logic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVyc29uYXM=">Personas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9wJTIwQ3VsdHVyZQ==">Pop Culture <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHJvbXB0aW5n">prompting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2VudGltZW50">Sentiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VG9uZQ==">Tone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJlbmRz">Trends <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><img src="bag.webp" class="img-fluid"> ## Background</p>
+<p>Fashion trend forecasters spend their lives determining what styles will be trending based on <strong>underlying cultural shifts</strong>. Not only do they use data to identify patterns and create insights, they are able to connect the dots between history, identity, and lived observation, to predict the next big fashion trend.</p>
+<p>For example, the <strong>WhoWhatWear</strong> blog, indicated that “fashion, like all industries, follows society’s course. Claiming that as we are living in the “dark ages,” our wardrobes will match the energy, leading to the trend of dark and gothic fall fashion.</p>
+<p>In fashion, trends are predicted from just data points. They’re the product of cultural barometers.</p>
+<p>Today, we’ll test whether AI can generate reasoning in fashion trend forecasting beyond what it sees in massive datasets like e-commerce sales, social media hashtags, and fashion show transcripts. <strong>Can LLMs capture the cultural narrative in fashion?</strong></p>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>I used GPT-4o and prompted it with the following:</p>
+<blockquote class="blockquote">
+<p>Prompt: I’m shopping for Winter 2025. Can you predict what will be trendy in the fashion world?</p>
+</blockquote>
+<p>ChatGPT gave me a list of the following 10 fashion trends based on its forecasting abilities 1. Oversized Moto Jacket 2. Minimalist Flat Knee-High Boots 3. Balloon Pants 4. Victorian Lace 5. Matching Sets 6. Bold Color Combinations 7. Cozy Maximalism 8. Faux Fur 9. Opera Coats 10. Scarf Details</p>
+<p>While ChatGPT was able to grab what it believed to be the new trends for Winter 2025 from various online fashion sources. I <strong>then asked ChatGPT to generate its own predictions</strong>, wondering if instead ChatGPT would resort to analyzing datasets rather than pulling from existing trend predictions.</p>
+<blockquote class="blockquote">
+<p>ChatGPT gave me a new list of 10 fashion trends with their corresponding reasonings.</p>
+</blockquote>
+<ol type="1">
+<li>Tech-Enhanced Outerwear: As wearable tech becomes mainstream, consumers are looking for clothing that combines style and functionality. Winter outerwear is the perfect canvas for this, merging comfort, warmth, and utility.</li>
+<li>Architectural Boots: Footwear is increasingly seen as a statement piece. Minimalism is taking a backseat to bold, art-inspired designs, appealing to Gen Z and social media-savvy shoppers.</li>
+<li>Maxi Knit Dresses with Layered Textures: Comfort remains key, but consumers want elevated casualwear that looks put-together for hybrid work and online visibility.</li>
+<li>Neo-Animal Prints: Prints are getting more playful and futuristic, moving beyond traditional neutrals, reflecting the desire for self-expression post-pandemic.</li>
+<li>Color-Blocking with Neon Accents: Consumers want winter clothes that stand out without screaming “loud.” Strategic neon placement energizes outfits while keeping them wearable.</li>
+<li>Convertible Accessories: With sustainability and versatility top-of-mind, multi-use items allow people to reduce wardrobe clutter while staying fashionable.</li>
+<li>Oversized Layered Shearling: Shearling offers warmth and luxury, and oversized silhouettes satisfy the ongoing love for “cocooning” and comfort-focused fashion.</li>
+<li>Wide-Leg Utility Trousers: Utility meets streetwear—functionality is still fashionable, but consumers want it reimagined with a high-fashion edge.</li>
+<li>Mini Bags with Maximal Impact: Accessories are evolving into art pieces. Mini bags are eye-catching and perfect for social media aesthetics.</li>
+<li>Mood-Adaptive Fabrics: Fashion is becoming interactive. Consumers love novelty and personalization, and these fabrics deliver a futuristic, playful edge for winter wardrobes.</li>
+</ol>
+</section>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<p>Although ChatGPT did a great job synthesizing trend predictions from across the internet, it struggled a bit more to add a human touch to its own predictions. LLMs are very valuable tools in identifying trend patterns and generating culturally informed ideas, however they lack lived experience and nuanced cultural intuition that keeps them from predicting the next “It-bag”. Because of this, humans still lead the way in fashion trend forecasting.</p>
+<p>Keep calm and keep predicting,</p>
+<p>Mallika</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UG9wJTIwQ3VsdHVyZSUyQ1RyZW5kcyUyQ1BlcnNvbmFz" data-listing-date-sort="1757289600000" data-listing-file-modified-sort="1758308903337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1168">
-<div class="thumbnail"><a href="./posts/002_fashion_critic/fashion_critic.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/002_fashion_critic/profile.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_fashion_critic/fashion_critic.html" class="no-external">ChatGPT as a Fashion Critic</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG9wJTIwQ3VsdHVyZQ=='); return false;">Pop Culture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VHJlbmRz'); return false;">Trends</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVyc29uYXM='); return false;">Personas</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_fashion_critic/fashion_critic.html" class="no-external">
-<p>How well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_fashion_critic/fashion_critic.html" class="no-external">
-<div class="listing-date">
-Sep 8, 2025
-</div>
-<div class="listing-author">
-Mallika Kulkarni
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TGFuZ3VhZ2UlMkNTZW50aW1lbnQ=" data-listing-date-sort="1757289600000" data-listing-file-modified-sort="1758308903339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586">
-<div class="thumbnail"><a href="./posts/003_lost_in_translation/lost_in_translation.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/003_lost_in_translation/world.jpeg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_lost_in_translation/lost_in_translation.html" class="no-external">Lost in Translation</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFuZ3VhZ2U='); return false;">Language</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2VudGltZW50'); return false;">Sentiment</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_lost_in_translation/lost_in_translation.html" class="no-external">
-<p>How far can language bend before it breaks?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_lost_in_translation/lost_in_translation.html" class="no-external">
-<div class="listing-date">
-Sep 8, 2025
-</div>
-<div class="listing-author">
-Mallika Kulkarni
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ1BvcCUyMEN1bHR1cmUlMkNUcmVuZHM=" data-listing-date-sort="1757203200000" data-listing-file-modified-sort="1758308903339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="558">
-<div class="thumbnail"><a href="./posts/004_bag_trend_prediction/bag_trend_prediction.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/004_bag_trend_prediction/bag.webp"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_bag_trend_prediction/bag_trend_prediction.html" class="no-external">Can AI Spot the Next It-Bag?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG9wJTIwQ3VsdHVyZQ=='); return false;">Pop Culture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VHJlbmRz'); return false;">Trends</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/004_bag_trend_prediction/bag_trend_prediction.html" class="no-external">
-<p>Can an LLM do real-world trend analysis</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/004_bag_trend_prediction/bag_trend_prediction.html" class="no-external">
-<div class="listing-date">
-Sep 7, 2025
-</div>
-<div class="listing-author">
-Mallika Kulkarni
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ1BvcCUyMEN1bHR1cmUlMkNUb25l" data-listing-date-sort="1757203200000" data-listing-file-modified-sort="1758308903336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1029">
-<div class="thumbnail"><a href="./posts/001_HIMYM/HIMYM.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/001_HIMYM/post1.jpeg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_HIMYM/HIMYM.html" class="no-external">How I Met Your Modor</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG9wJTIwQ3VsdHVyZQ=='); return false;">Pop Culture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VG9uZQ=='); return false;">Tone</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/001_HIMYM/HIMYM.html" class="no-external">
-<p>Can an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/001_HIMYM/HIMYM.html" class="no-external">
-<div class="listing-date">
-Sep 7, 2025
-</div>
-<div class="listing-author">
-Mallika Kulkarni
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ3Byb21wdGluZyUyQ2xvZ2lj" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1758308903336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="./posts/000_test_post/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/000_test_post/gpt3-5.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/000_test_post/index.html" class="no-external">A test post</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJvbXB0aW5n'); return false;">prompting</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">logic</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/000_test_post/index.html" class="no-external">
-<p>An example post from a Jupyter notebook</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/000_test_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
