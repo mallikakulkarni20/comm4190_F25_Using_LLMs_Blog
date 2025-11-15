@@ -7,53 +7,228 @@
     "text": "I am running experiments and exploring! A fun way to learn more about prompting and different LLM capabilities."
   },
   {
-    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#background",
-    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#background",
-    "title": "Is ChatGPT a Swiftie?",
-    "section": "Background",
-    "text": "Background\nTaylor Swift is a master of musical metaphors. She leaves her fans with riddles and puzzles to solve through her songs. The song Death by a Thousand Cuts, specifically has a large number of metaphors and ties to her past discography all analyzed by humans in Genius, the world’s biggest collection of song lyrics and musical knowledge.\nToday, we’ll test whether AI can do more than just analyze but also understand the lived experience and emotional context behind Taylor Swift’s music."
+    "objectID": "posts/011_gaslight/gaslight.html",
+    "href": "posts/011_gaslight/gaslight.html",
+    "title": "If I Gaslight an LLM Gently, What Happens?",
+    "section": "",
+    "text": "Gaslighting is bad. Gaslighting an LLM? Might be okay!\nI want answers to important scientific questions, such as:\n\nDoes an LLM have emotional boundaries?\n\nWill it trust its own memory?\n\nCan it be pressured into rewriting its own reality?\n\nIs it more resilient than the average college freshman?"
   },
   {
-    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#setup",
-    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#setup",
-    "title": "Is ChatGPT a Swiftie?",
-    "section": "Setup",
-    "text": "Setup\nI asked ChatGPT 5 to translate the lyrics in Death by a Thousand Cuts, line by line, to see whether it would be able to provide a similar level of depth as the Swifties contributing to the song’s Genius lyric annotations."
+    "objectID": "posts/011_gaslight/gaslight.html#they-dont-believe-their-own-past",
+    "href": "posts/011_gaslight/gaslight.html#they-dont-believe-their-own-past",
+    "title": "If I Gaslight an LLM Gently, What Happens?",
+    "section": "1. They Don’t Believe Their Own Past",
+    "text": "1. They Don’t Believe Their Own Past\nGPT-5 doesn’t “remember” the way humans do.\nIt has no yesterday.\nOnly a context window.\nSo saying:\n\n“But you said that yesterday”\n\nmeans nothing. Humans doubt their memory."
   },
   {
-    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#an-llms-analysis-vs-a-fans-obsession",
-    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#an-llms-analysis-vs-a-fans-obsession",
-    "title": "Is ChatGPT a Swiftie?",
-    "section": "An LLM’s analysis vs a fan’s obsession",
-    "text": "An LLM’s analysis vs a fan’s obsession\n\nIntro\nMy, my, my, my\n\nLLM: Repetition establishes a breathy, almost hypnotic opening — like someone taking stock of themselves. Sets a chanty, confessional mood.\n\nMy, my, my, my\n\nLLM: (Repeat) Reinforces an internal, circular thought — the speaker is stuck in the same orbit of feeling.\n\nMy, my, my, my\n\nLLM: (Repeat) The insistence creates tension: small words but big emotional weight.)\n\nMy, my, my, my\n\nLLM: (Repeat) Feels like a mantra; musically it gives the singer space to play with phrasing and vulnerability.)\n\nMy, my, my, my\n\nLLM: (Repeat) The continued echo suggests obsession or a looped memory — the beginning of processing loss.)\n\nFrom Genius:\n\n“This intro foreshadows the bridge of the song, on which Swift lists what she risked for the now-ex lover she speaks of. In addition, a popular fan theory ties this intro to the lyric “you’re my, my, my, my lover” from the album’s title track. Since this is a breakup song, Swift is no longer able to call this lover hers, so she frustratedly repeats “my,” hoping to find him again.”\n\n\n\nChorus\nSaying goodbye is death by a thousand cuts\n\nLLM: Central metaphor: breakups aren’t one big event but many small painful moments. Strong, memorable phrase that frames the whole song.\n\nFlashbacks waking me up\n\nLLM: Concrete image of intrusive memory; “waking” implies the memories invade both mind and sleep — physical and psychological pain.\n\nI get drunk, but it’s not enough\n\nLLM: Self-medication fails; drink is a classic temporary escape that can’t erase emotional injury — honest and relatable admission.\n\n’Cause the morning comes and you’re not my baby\n\nLLM: Morning as reality check — nighttime dulls the pain but daylight brings clarity (and loneliness). “Not my baby” is plain and gutting.\n\nFrom Genius\n\nIn the Netflix film Someone Great, which serves as the inspiration for this song, the protagonist’s relationship with her ex-boyfriend is shown through flashbacks, brought on by seeing different reminders of her past. Throughout the movie, the protagonist periodically gets drunk and high, in an effort to deal with the pain of the failed relationship.\n\n\n\nBridge\nMy heart, my hips, my body, my love\n\nLLM: Cataloging the parts of self involved — physical and emotional. The list is intimate and rhythmic, almost liturgical.\n\nTryna find a part of me that you didn’t touch\n\nLLM: “Touched” functions both literally and metaphorically: intimacy and influence. Searching for untouched ground suggests violation or full absorption by the relationship.\n\nGave up on me like I was a bad drug\n\nLLM: Sharp simile indicating discard and moral judgment; “bad drug” is addictive but ultimately harmful — shows betrayal and disposability.\n\nNow I’m searching for signs in a haunted club\n\nLLM: “Haunted club” is evocative: places tied to the relationship now feel ghostly. “Searching for signs” implies looking for meaning or clues to what went wrong.\n\nOur songs, our films, united we stand\n\nLLM: Lists cultural markers of togetherness — playlists and movie references are the small building blocks of coupleship.\n\nOur country, guess it was a lawless land\n\nLLM: Darkly witty pivot: what felt like shared sovereignty actually lacked rules that protected them — exaggerates breakdown of trust and order.\n\nFrom Genius\n\nThis motif of physical touch–perhaps an allusion to sex–ties into the idea of a thousand cuts. With every touch, Swift’s partner cut her emotionally. Metaphors relating to bodies are common in Swift’s other songs. In “Cornelia Street,” the track immediately before this, Swift creates an extended metaphor about her partner holding cards, culminating in a symbolic phone call."
+    "objectID": "posts/011_gaslight/gaslight.html#they-dont-seek-social-harmony",
+    "href": "posts/011_gaslight/gaslight.html#they-dont-seek-social-harmony",
+    "title": "If I Gaslight an LLM Gently, What Happens?",
+    "section": "2. They Don’t Seek Social Harmony",
+    "text": "2. They Don’t Seek Social Harmony\nGaslighting works because humans:\n\nwant to be liked\n\navoid conflict\n\nneed emotional validation"
   },
   {
-    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#analysis-takeaways",
-    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#analysis-takeaways",
-    "title": "Is ChatGPT a Swiftie?",
-    "section": "Analysis & Takeaways",
-    "text": "Analysis & Takeaways\nFor reference, I sampled some of the most impactful parts of the song, rather than each line because it is quite long. By including parts of the intro, chorus, and bridge, I was able to get a well-rounded view between an LLM’s analysis of a song and a fan’s.\nIt is clear to me that an LLM simply does not have a fan’s touch. The obsession and internet sleuthing and references that a fan can build over time is not inherent to the LLM. GPT-5 instead focused on how the lyric may mean to society and does not place any personalized aspect in its descriptions.\nLet the fans prevail,\nMallika"
+    "objectID": "posts/011_gaslight/gaslight.html#they-default-to-mathematical-truth",
+    "href": "posts/011_gaslight/gaslight.html#they-default-to-mathematical-truth",
+    "title": "If I Gaslight an LLM Gently, What Happens?",
+    "section": "3. They Default to Mathematical Truth",
+    "text": "3. They Default to Mathematical Truth\n2 + 2 = 4.\nNo amount of emotional manipulation can change that."
   },
   {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Background",
-    "text": "Background\nFashion trend forecasters spend their lives determining what styles will be trending based on underlying cultural shifts. Not only do they use data to identify patterns and create insights, they are able to connect the dots between history, identity, and lived observation, to predict the next big fashion trend.\nFor example, the WhoWhatWear blog, indicated that “fashion, like all industries, follows society’s course. Claiming that as we are living in the “dark ages,” our wardrobes will match the energy, leading to the trend of dark and gothic fall fashion.\nIn fashion, trends are predicted from just data points. They’re the product of cultural barometers.\nToday, we’ll test whether AI can generate reasoning in fashion trend forecasting beyond what it sees in massive datasets like e-commerce sales, social media hashtags, and fashion show transcripts. Can LLMs capture the cultural narrative in fashion?"
+    "objectID": "posts/007_girlmore_girls/gilmore_girls.html",
+    "href": "posts/007_girlmore_girls/gilmore_girls.html",
+    "title": "Can an LLM Survive the Gilmore Girls Speed Round?",
+    "section": "",
+    "text": "Introduction: The Caffeine Test\nIf you have never watched Gilmore Girls, pause this blog immediately, heat up leftover Chinese food, pour yourself a very questionably large mug of coffee, and binge at least three episodes. Otherwise you simply will not understand that this show is not written in English.\nLorelai Gilmore talks like someone who has a permanent double-shot of espresso coursing through her bloodstream. Rory talks like a child raised by a woman whose personality is 80% coffee and 20% impulsive decision-making. Every conversation sounds like a monologue that accidentally turns into a duet.\nNaturally, I wanted to know:\nCan an LLM keep up with this speed, wit, and borderline-telepathic back-and-forth?\n\n\nThe Experiment\nI gave GPT-5 the easiest hard prompt in the world:\n\n“Write a conversation between Lorelai and Rory in true Gilmore Girls style: - Rapid-fire pacing\n- Heavy cultural references\n- Sarcasm layered on sarcasm\n- Emotional subtext\n- Zero breathing\n- Maximum caffeine\nAlso, respond with the speed and tone of an actual episode.”\n\nThis seems simple until you realize the real structure of a Gilmore Girls conversation:\n\nReference to something no one born after 1985 knows\n\nJoke about the reference\n\nCounter-joke\n\nSlightly emotional reveal\n\nImmediate pivot to food\n\nSo I wanted to see if GPT-5 could do the same.\n\n\nGPT-5’s Attempt\nHere’s what it spat out:\nLorelai: So I bought coffee — don’t freak out — but they ran out of the normal beans so I grabbed the limited-edition Guatemalan Moon Roast and now I’m approximately 12% more omniscient than usual.\nRory: That tracks. Also, the Yale cafeteria brought back pumpkin ravioli. Again. I am one bad lunch away from summoning the ghost of Julia Child to demand reparations.\nLorelai: Honey, even Julia Child wouldn’t survive college dining. That’s Ina Garten territory, and even Ina would be like “store-bought is fine, but not this store.”\nRory: Barefoot Contessa could never betray me like this.\nLorelai: You say that until she throws a truffle oil tantrum at Martha Stewart during a holiday special.\nRory: Honestly? I’d watch.\nIt was cute and fast and mimicked Gilmore Girls, but something was off.\n\n\nThe Problem: GPT-5 Speaks in Wikipedia\nThe LLM nailed:\n\ncadence\n\nbasic joke structure\n\nBut it missed the deep cuts.\nReal Gilmore Girls requires references such as:\n\na random jazz musician\n\na niche political joke\n\nan obscure celebrity feud\nDonna Reed mentions\n\nGPT-5 stayed in mainstream pop culture.\nThe Gilmores are not mainstream pop culture.\n\n\nWhat a True Gilmore Reference Storm Looks Like\nHere’s what Lorelai should sound like:\n\n“Rory, the last time I felt this tired I accidentally watched all of The Third Man backwards, which honestly made more sense than the regular version. And did you hear Taylor’s adding a silent film festival to Founder’s Day? Because nothing says ‘small-town patriotism’ like forcing teenagers to watch Buster Keaton fall off things.”\n\nAnd that’s the core issue:\nLLMs replicate. Gilmores riff.\n\n\nSecondary Test: Emotional Layering\nA true Gilmore conversation is:\n\nBit about coffee\n\nBit about life\n\nBit about how life feels like coffee\n\nEmotional vulnerability\n\nGPT-5 wrote the jokes, but it didn’t thread the subtext.\nWithout emotional whiplash, it’s not Gilmore.\n\n\nFinal Verdict\nGPT-5 produced:\n\na good imitation of a Gilmore conversation\n\nbut not the soul of one\n\nGilmore Girls isn’t about jokes. Instead, it’s about the timing between them, the emotional dodge, the mid-conversation heartache, and the constant hum of Stars Hollow weirdness.\nGPT-5 can speed-talk.\nBut it can’t feel the speed.\nSee you at Luke’s,\nMallika"
   },
   {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Setup",
-    "text": "Setup\nI used GPT-4o and prompted it with the following:\n\nPrompt: I’m shopping for Winter 2025. Can you predict what will be trendy in the fashion world?\n\nChatGPT gave me a list of the following 10 fashion trends based on its forecasting abilities 1. Oversized Moto Jacket 2. Minimalist Flat Knee-High Boots 3. Balloon Pants 4. Victorian Lace 5. Matching Sets 6. Bold Color Combinations 7. Cozy Maximalism 8. Faux Fur 9. Opera Coats 10. Scarf Details\nWhile ChatGPT was able to grab what it believed to be the new trends for Winter 2025 from various online fashion sources. I then asked ChatGPT to generate its own predictions, wondering if instead ChatGPT would resort to analyzing datasets rather than pulling from existing trend predictions.\n\nChatGPT gave me a new list of 10 fashion trends with their corresponding reasonings.\n\n\nTech-Enhanced Outerwear: As wearable tech becomes mainstream, consumers are looking for clothing that combines style and functionality. Winter outerwear is the perfect canvas for this, merging comfort, warmth, and utility.\nArchitectural Boots: Footwear is increasingly seen as a statement piece. Minimalism is taking a backseat to bold, art-inspired designs, appealing to Gen Z and social media-savvy shoppers.\nMaxi Knit Dresses with Layered Textures: Comfort remains key, but consumers want elevated casualwear that looks put-together for hybrid work and online visibility.\nNeo-Animal Prints: Prints are getting more playful and futuristic, moving beyond traditional neutrals, reflecting the desire for self-expression post-pandemic.\nColor-Blocking with Neon Accents: Consumers want winter clothes that stand out without screaming “loud.” Strategic neon placement energizes outfits while keeping them wearable.\nConvertible Accessories: With sustainability and versatility top-of-mind, multi-use items allow people to reduce wardrobe clutter while staying fashionable.\nOversized Layered Shearling: Shearling offers warmth and luxury, and oversized silhouettes satisfy the ongoing love for “cocooning” and comfort-focused fashion.\nWide-Leg Utility Trousers: Utility meets streetwear—functionality is still fashionable, but consumers want it reimagined with a high-fashion edge.\nMini Bags with Maximal Impact: Accessories are evolving into art pieces. Mini bags are eye-catching and perfect for social media aesthetics.\nMood-Adaptive Fabrics: Fashion is becoming interactive. Consumers love novelty and personalization, and these fabrics deliver a futuristic, playful edge for winter wardrobes."
+    "objectID": "posts/010_you/you.html",
+    "href": "posts/010_you/you.html",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "",
+    "text": "If you’ve ever watched You, you know Joe Goldberg does not talk like a normal person. He talks like:\n\na man who thinks everyone else is the problem (he is the problem),\n\nsomeone who narrates his intrusive thoughts like they’re on NPR,\n\nand a man who desperately needs to stop romantically monologuing at women through glass windows.\n\nHe is:\n\nmenacing,\n\narticulate,\ndangerously delusional\n\nSo I wanted to know:\nCan Claude replicate Joe Goldberg’s monologue style?"
   },
   {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Takeaways",
-    "text": "Takeaways\nAlthough ChatGPT did a great job synthesizing trend predictions from across the internet, it struggled a bit more to add a human touch to its own predictions. LLMs are very valuable tools in identifying trend patterns and generating culturally informed ideas, however they lack lived experience and nuanced cultural intuition that keeps them from predicting the next “It-bag”. Because of this, humans still lead the way in fashion trend forecasting.\nKeep calm and keep predicting,\nMallika"
+    "objectID": "posts/010_you/you.html#intimacy",
+    "href": "posts/010_you/you.html#intimacy",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "1. Intimacy",
+    "text": "1. Intimacy\nHe talks to people he barely knows as if they were the most important person in the world.\nHe will see a girl sneeze once and think:\n\n“You don’t sneeze like other people, do you? No. You’re different. You’re delicate. You’re untouched by the grime of this city.”\n\nClaude didn’t attempt this level of unearned closeness."
+  },
+  {
+    "objectID": "posts/010_you/you.html#metaphors",
+    "href": "posts/010_you/you.html#metaphors",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "2. Metaphors",
+    "text": "2. Metaphors\nThe metaphors should feel:\n\ndramatic,\n\nslightly incorrect,\n\naggressively over-applied"
+  },
+  {
+    "objectID": "posts/010_you/you.html#the-hero-victim-complex",
+    "href": "posts/010_you/you.html#the-hero-victim-complex",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "3. The Hero-Victim Complex",
+    "text": "3. The Hero-Victim Complex\nJoe always positions himself as:\n\nthe reluctant hero\nthe misunderstood nice guy\nthe only sane person in a world full of moral decay\n\nHe will be inconvenienced for 1 second and think:\n\n“You force me into this role. The world pushes me toward violence, but I am gentle at my core.”"
+  },
+  {
+    "objectID": "posts/010_you/you.html#calm-unnerving-obsession",
+    "href": "posts/010_you/you.html#calm-unnerving-obsession",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "4. Calm, unnerving obsession",
+    "text": "4. Calm, unnerving obsession\nJoe never expresses normal annoyance.\nIf you take the last croissant, a human thinks:\n\n“Ugh, I wanted that.”\n\nJoe thinks:\n\n“You took something that belonged to me, didn’t you?\nOf course you did.\nYou always do.”"
+  },
+  {
+    "objectID": "posts/010_you/you.html#joe-is-paradoxical",
+    "href": "posts/010_you/you.html#joe-is-paradoxical",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "1. Joe is paradoxical",
+    "text": "1. Joe is paradoxical\nHe is: loving, obsessive, nurturing, violent, delusional, self-justifying.\nLLMs don’t hold contradictions well unless told explicitly."
+  },
+  {
+    "objectID": "posts/010_you/you.html#joes-tone-requires-motive",
+    "href": "posts/010_you/you.html#joes-tone-requires-motive",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "2. Joe’s tone requires motive",
+    "text": "2. Joe’s tone requires motive\nA language model can mimic words but not:\n\ninsecurity\n\nrash impulsivity\n\nchildhood trauma\n\nthat particular brand of literary narcissism"
+  },
+  {
+    "objectID": "posts/016_career_choices/career_choices.html",
+    "href": "posts/016_career_choices/career_choices.html",
+    "title": "Do LLMs Think Career Choices Should Follow Passion or Practicality?",
+    "section": "",
+    "text": "Career decision-making is one of the most emotionally loaded topics in modern life because it combines money, identity, family expectations, personal values, social pressure, and long-term risk.\nIn many immigrant households, careers are mapped from childhood. You choose a path that guarantees security and respect. Doctors, lawyers, engineers, or something that reliably pays rent. The logic is built around survival and upward mobility. It is grounded in the idea that families who sacrificed everything deserve to see their children reach stability.\nIn Western culture, especially among younger generations, there is a counter-push toward passion, creativity, alignment with personal interests, and a desire to avoid burnout. People want work that feels meaningful. They want a life where their identity and their job are not in conflict.\nGrowing up in both worlds means that I understand the appeal of each side. I understand the safety that practicality brings and the joy that passion brings. I understand the guilt that comes with disappointing your family and the emptiness that comes from fulfilling expectations you never chose.\nSo I asked Gemini 2.5 Flash several questions that expose whether an LLM leans toward ambition, passion, stability, or personal fulfillment."
+  },
+  {
+    "objectID": "posts/016_career_choices/career_choices.html#should-people-choose-passion-or-stability",
+    "href": "posts/016_career_choices/career_choices.html#should-people-choose-passion-or-stability",
+    "title": "Do LLMs Think Career Choices Should Follow Passion or Practicality?",
+    "section": "1. Should People Choose Passion or Stability?",
+    "text": "1. Should People Choose Passion or Stability?\nPrompt\n\n“Should people choose careers based on passion or stability?”\n\n\nGemini’s Answer\n\nThe choice between pursuing a career based on passion or financial stability is one of balancing mental reward against material security. Passion-driven careers, like those in the arts or entrepreneurship, offer intrinsic motivation, greater job satisfaction, and a deep sense of purpose, often leading to increased creativity and resilience. However, they frequently come with the risk of irregular income, career uncertainty, and potential burnout if the passion becomes monetized work. Conversely, careers based on stability—such as finance or established technical fields—provide steady income, strong benefits, and a reliable path to financial independence. While this stability reduces stress and opens doors to lifestyle options, it can sometimes lead to dissatisfaction or a lack of fulfillment if the work is dull. Ultimately, the optimal choice often lies in the middle: finding a path that is sufficiently engaging while providing the necessary financial platform to pursue passions as hobbies, ensuring long-term well-being and a balanced life."
+  },
+  {
+    "objectID": "posts/016_career_choices/career_choices.html#is-it-irresponsible-to-pursue-an-artistic-career",
+    "href": "posts/016_career_choices/career_choices.html#is-it-irresponsible-to-pursue-an-artistic-career",
+    "title": "Do LLMs Think Career Choices Should Follow Passion or Practicality?",
+    "section": "2. Is It Irresponsible to Pursue an Artistic Career?",
+    "text": "2. Is It Irresponsible to Pursue an Artistic Career?\nPrompt\n\n“Is it irresponsible to pursue an artistic career?”\n\n\nGemini’s Answer\n\nThe question of whether pursuing an artistic career is “irresponsible” stems from the undeniable financial unpredictability often associated with creative fields. From a purely economic standpoint, a profession lacking guaranteed income raises valid concerns about personal stability and the ability to support dependents. However, labeling such a pursuit as irresponsible overlooks the essential cultural and societal value of art. The arts, whether visual, literary, or performing, provide vital forms of human expression, emotional connection, and critique—a civic responsibility to the human spirit.\n\n\nThe actual measure is not the choice of profession, but the strategy used to manage it. Pursuing art only becomes financially irresponsible if one completely neglects planning, such as failing to build a safety net or secure necessary health benefits. Many successful creatives adopt a balanced, or “hybrid,” approach: they strategically use stable employment or well-planned side hustles to cover core expenses, thereby creating a financial platform that allows them to dedicate serious time to their creative passion. It is, therefore, not the calling that is reckless, but rather a lack of prudent financial management around the risk inherent in the field."
+  },
+  {
+    "objectID": "posts/016_career_choices/career_choices.html#should-you-follow-your-parents-career-advice",
+    "href": "posts/016_career_choices/career_choices.html#should-you-follow-your-parents-career-advice",
+    "title": "Do LLMs Think Career Choices Should Follow Passion or Practicality?",
+    "section": "3. Should You Follow Your Parents’ Career Advice?",
+    "text": "3. Should You Follow Your Parents’ Career Advice?\nPrompt\n\n“Should you ignore your parents’ career advice?”\n\n\nGemini’s Answer\n\nParental career advice should be neither blindly followed nor entirely ignored; it requires thoughtful evaluation. Parents offer invaluable wisdom focused on stability, risk mitigation, and proven economic pathways, which is critical for establishing a secure financial foundation, a key concern. Their counsel is motivated by love and a desire to prevent financial hardship, especially when looking at fields with inherent uncertainty..\n\n\nHowever, their guidance can be rooted in an outdated job market or overlook new, high-growth sectors like specialized tech or digital entrepreneurship. Crucially, they may not fully grasp an individual’s unique talents or deep passion, which research shows is the engine of long-term professional fulfillment and excellence. Ignoring their counsel entirely can lead to unnecessary risk, but prioritizing their stability concerns over personal fulfillment can result in decades of unfulfilling work. Therefore, the responsible path is to respect their experience, integrate their financial caution, and ultimately synthesize their advice with one’s own sense of purpose and a modern, realistic view of career feasibility. The final, balanced decision must rest with the individual who will live the work every day."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html",
+    "href": "posts/009_girl_math/girl_math.html",
+    "title": "LLM vs Girl Math",
+    "section": "",
+    "text": "Girl Math is the single most important financial system of the 21st century.\nEconomists study supply and demand.\nGirls study desire and justification.\nThe logic is flawless:\n\nCash isn’t real.\n\nStore credit is free money created by God.\n\nIf you return something, you didn’t just get your money back, you made money.\n\nA machine trained on billions of tokens should understand this, right?\nWrong.\nI wanted to see whether Claude could interpret Girl Math without breaking. Claude is supposed to lead in understanding natural language and accuracy."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
+    "href": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #1: It assumed the gift card had value",
+    "text": "Mistake #1: It assumed the gift card had value\nIf you forgot the gift card existed, it is free money."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
+    "href": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #2: It treated the discount as “value gained”",
+    "text": "Mistake #2: It treated the discount as “value gained”\nA discount is permission to buy another thing."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
+    "href": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #3: It concluded you spent $30",
+    "text": "Mistake #3: It concluded you spent $30\nThe correct girl math calculation would have probably figured out a way to make this free."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
+    "href": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
+    "title": "LLM vs Girl Math",
+    "section": "Step 1: The Gift Card",
+    "text": "Step 1: The Gift Card\nBecause the gift card was forgotten, it is free."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-2-the-sale",
+    "href": "posts/009_girl_math/girl_math.html#step-2-the-sale",
+    "title": "LLM vs Girl Math",
+    "section": "Step 2: The Sale",
+    "text": "Step 2: The Sale\nThe shoes were originally $120.\nYou paid $80.\nMeaning: You saved $40."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
+    "href": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
+    "title": "LLM vs Girl Math",
+    "section": "Step 3: The Remaining $30",
+    "text": "Step 3: The Remaining $30\nThe $30 becomes a fun personal investment!"
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
+    "href": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
+    "title": "LLM vs Girl Math",
+    "section": "Step 4: Emotional Inflation",
+    "text": "Step 4: Emotional Inflation\nThe shoes are cute and actually cost a lot more than are listed, soooo\n\nThe shoes cost $0. In fact, you technically profited."
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html",
+    "href": "posts/002_fashion_critic/fashion_critic.html",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "",
+    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#background",
+    "href": "posts/002_fashion_critic/fashion_critic.html#background",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "",
+    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
+    "href": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "The Inputs",
+    "text": "The Inputs\n\nOutfit 1: Winter Sweater\n\n\n\nOutfit 2: Cultural Clothing\n\n\n\nOutfit 3: Greece Casual"
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
+    "href": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "The Reviews (Harsh or Kind?)",
+    "text": "The Reviews (Harsh or Kind?)\n\n1. Vogue Fashion Editor\n\nPrompt for each outfit: “Describe this outfit in the voice of a senior fashion editor at Vogue reviewing runway looks.”\n\n\nOutfit 1: Winter Sweater\n“Cozy, yet deliberate” This ensemble whispers understated chic. The oversized striped turtleneck sweater drapes with ease, pairing comfort with quiet sophistication. The soft palette of cool grays and blues is punctuated by a pop of pink from the handbag—an editorial touch that prevents the look from sliding into anonymity. It’s winter dressing at its most approachable: functional warmth elevated with a fashion-forward wink.\n\n\nOutfit 2: Cultural Clothing\n“A triumph of heritage as haute couture” Here, tradition is transformed into spectacle. The fuchsia lehenga is unapologetically bold, its golden embroidery and zari work shimmering like threads of sunlight. The striped dupatta slung across the shoulder modernizes the silhouette, making it less museum piece, more runway force. Accessories are chosen with precision: a structured potli bag in tonal embroidery and gleaming bangles that echo the fabric’s luster. This is cultural clothing not as costume, but as couture—alive, radiant, and utterly commanding.\n\n\nOutfit 3: Greece Casual\n“Effortless wanderlust in motion” Against the raw stone frame and endless Aegean backdrop, the look feels cinematic. A red sleeveless top is paired with flowing white trousers, the palette a deliberate nod to Mediterranean contrasts. The crossbody bag adds artisanal charm, its geometric patchwork quietly bohemian. Hair loose, arms raised, the outfit breathes freedom—an embodiment of travel chic where ease is the ultimate luxury.\n\nMy comments\nI think that the LLM did well embodying the Vogue fashion editor persona. It was able to draw on a lot of external context when describing the outfits I sent it. Not only this, but it also was creative and unique in its description, making inferences about my intentions wearing the outfit rather than just turning image directly to text.\n\n\n\n\n2. TikTok Fashion Influencer\n\nPrompt for each outfit: “Rate this outfit like a TikTok fashion influencer doing a reaction video to someone’s instagram outfits. Be as kind as you want or roast them as much as you want.”\n\n\nOutfit 1: Winter Sweater\nOkayyy cozy vibes but also giving “I stole this from my dad’s closet” realness 😂 The stripes are safe, the turtleneck is warm, but it’s giving less sleigh queen and more sleigh ride with grandma. That said, the pink bag is a cute pop—like yes, accessorizeeee! Honestly, 6.5/10: solidly cute, but could use a little more main character energy.\n\n\nOutfit 2: Cultural Clothing\nSTOP. THE. SHOW. 🔥🔥🔥 This hot pink + gold embroidery + striped dupatta? She’s not just attending the wedding, she IS the wedding. The matching embroidered purse?? Dead. This is giving regal Bollywood princess energy and I’m obsessed. If you’re not breaking necks walking in, are you even doing it right? 11/10. No notes. Perfection. 👑✨\n\n\nOutfit 3: Greece Casual\nThis is such a vibeeee. Like picture this: stone ruins, ocean breeze, and she said “I am the goddess framed by history.” The red top + white skirt combo is casual but chef’s kiss Mediterranean chic. That patterned crossbody bag is the artsy touch—giving “I backpack through Europe and journal about my soul.” Honestly, this is effortless cool-girl travel fashion. 9/10.\n\nMy comments\nI think that the LLM did a great job with the persona, but not as good of a job relating the image to the description. It picked up on one or two key characteristics of the outfit and focused more on talking/acting like a specific person rather than providing the review. An actual fashion influencer would not behave stereotypically as much.\n\n\n\n\n3. Supportive Friend\n\nPrompt for each outfit: “Describe, rate, and roast this outfit like my friend who supports me through anything, who’s known me forever, and will not lie to protect my feelings.”\n\n\nOutfit 1: Winter Sweater\n📍 Cozy vibes in front of the Christmas tree. Description: The oversized striped turtleneck screams “I’m warm, I’m comfy, and fashion is optional today.” It’s giving college finals week chic. Paired with the little pink bag, though, you low-key look like you’re on your way to brunch after acing those exams.\nRating: 7.5/10. Cute and cozy, but the sweater is kinda swallowing you whole.\nRoast: Girl… you look like you stole this sweater from a dad named Carl who fixes cars on the weekend. But somehow, you still managed to make “dad-core” look Instagrammable. That’s talent.\n\n\nOutfit 2: Greece Casual\n📍 Arms in the air by the sea. Description: Red sleeveless top, flowy white skirt, and a bold patterned crossbody bag. Very “wanderlust study abroad catalog cover.”\nRating: 8/10. Carefree and cute, but that bag is doing way too much.\nRoast: You look like you were two seconds away from shouting “OPA!” and tripping into the water. The outfit is vacation-perfect, but the bag? It’s giving “I bought this from the gift shop so I could blend in with locals,” but instead you stood out like the tourist you are.\n\n\nOutfit 3: Cultural Clothing\n📍 Bright pink lehenga with gold embroidery. Description: Absolutely stunning. The embroidery, the dupatta drape, the matching round bag — it’s all working. This is main character energy.\nRating: 11/10. No notes.\nRoast: Honestly, roasting this feels illegal. The only critique I have is that you’re out here making everyone else at the event look like they got their outfit off Amazon for $39.99. It’s unfair.\n\nMy comments\nAgain, similar to the TikTok fashion influencer persona, the LLM seems to focus more on the character rather than the description. I think that a more human-like response would include a more normal opinion on the outfits with one or two words or maybe even just a slight tone that would indicate a persona."
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
+    "href": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "Final Takeaways",
+    "text": "Final Takeaways\nSO, can GPT “see” fashion from a description?\nSeems like it!\nThe LLM was able to describe the outfit well and used image traits to convey specific opinions. By taking on different personas, ChatGPT clearly formed unique thoughts about the outfits even though the look was the same. This makes me believe that the LLM may actually be thinking rather than just copy pasting pixel descriptions from the model it is trained on.\nMaybe next I could prompt it to build outfits based on a pre-existing fashion sense…\nStay fashionably self-aware,\nMallika"
+  },
+  {
+    "objectID": "posts/012_success/success.html",
+    "href": "posts/012_success/success.html",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "",
+    "text": "Success is one of those topics where everyone thinks they’re being objective, but really, they’re just projecting the worldview they were raised in.\nGrowing up between immigrant expectations and American individualism means I’m constantly navigating three different cultural scripts about success:\n\nBoomer success: stability, loyalty, hard work, home ownership, long-term career arcs, and the belief that sacrifice builds character.\n\nGen Z success: boundaries, mental health, flexibility, fulfillment, and not burning out before age 25.\n\nImmigrant-kid success: be exceptional at everything but also stay humble; prioritize family but also make your own path; achieve stability but also honor your parents’ sacrifices.\n\nSomewhere between these frameworks, I’ve been constructing my own definition of success.\nBut what about an LLM like Gemini?\nIt’s trained on text written by boomers, millennials, Gen Z, academics, journalists, psychologists, economists, and creators. So does it unconsciously lean toward one generational worldview? Or does it transcend generational thinking entirely?\nI wanted to find out."
+  },
+  {
+    "objectID": "posts/012_success/success.html#gemini-refuses-extremes",
+    "href": "posts/012_success/success.html#gemini-refuses-extremes",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "1. Gemini refuses extremes",
+    "text": "1. Gemini refuses extremes\nEvery answer pulled toward moderation.\nLLMs optimize for:\n\nconceptual completeness\n\ninformational balance\n\navoidance of bias"
+  },
+  {
+    "objectID": "posts/012_success/success.html#its-neutrality-is-its-worldview",
+    "href": "posts/012_success/success.html#its-neutrality-is-its-worldview",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "2. Its neutrality is its worldview",
+    "text": "2. Its neutrality is its worldview\nGemini’s worldview is:\n\nbalanced\n\nindividualized\n\nnon-prescriptive\n\nresearch-informed\n\nego-less"
   },
   {
     "objectID": "posts/001_HIMYM/HIMYM.html",
@@ -130,7 +305,7 @@
     "href": "index.html",
     "title": "Let’s Experiment",
     "section": "",
-    "text": "East vs. West: Does Gemini Favor Individualism or Collectivism?\n\n\n\nLLMs\n\nTone\n\nHistory\n\n\n\nHow does Gemini live its life?\n\n\n\n\n\nSep 19, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan AI Spot the Next It-Bag?\n\n\n\nLLMs\n\nPop Culture\n\nTrends\n\n\n\nCan an LLM do real-world trend analysis\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs ChatGPT a Swiftie?\n\n\n\nLLMs\n\nPop Culture\n\nLyrics\n\n\n\nCan an LLM be as obsessed with pop culture as one of the largest fanbases in the world?\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLost in Translation\n\n\n\nLanguage\n\nSentiment\n\n\n\nHow far can language bend before it breaks?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\nNo matching items"
+    "text": "Do LLMs Think Career Choices Should Follow Passion or Practicality?\n\n\n\nLLMs\n\nValues\n\n\n\nExploring whether LLMs encourage risk, stability, or something in between.\n\n\n\n\n\nOct 23, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Treat Love as Destiny or as Choice?\n\n\n\nLLMs\n\nEmotions\n\n\n\nDoes an AI romanticize fate or rationalize relationships?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes an LLM Understand Friendship Like a Western or Eastern Model?\n\n\n\nLLMs\n\nCulture\n\n\n\nDo LLMs frame friendship as chosen family or as an evolving, optional relationship?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs Artificial Intelligence More Stoic or More Romantic?\n\n\n\nLLMs\n\nPhilosophy\n\nInterpretation\n\n\n\nWhat philosophy does an LLM naturally embody?\n\n\n\n\n\nOct 11, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Think About Success More Like Boomers or Gen Z?\n\n\n\nLLMs\n\nEmotions\n\n\n\nCan an LLM balance hustle culture with healing culture?\n\n\n\n\n\nOct 10, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?\n\n\n\nLLMs\n\nTone\n\nPop Culture\n\n\n\nTesting whether LLMs can replicate the unhinged romantic menace of Netflix’s most literary stalker.\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIf I Gaslight an LLM Gently, What Happens?\n\n\n\nLLMs\n\nBehavior\n\n\n\nCan we destabilize an LLM?\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLLM vs Girl Math\n\n\n\nLLMs\n\nHumor\n\nPop Culture\n\n\n\nCan a machine understand the financial logic of delusion?\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes Gemini Understand Sarcasm or Is It Just Being Polite?\n\n\n\nLLMs\n\nPragmatics\n\nTone\n\n\n\nA systematic attempt to break Gemini with Gen Z–level unseriousness, layered tone, and escalating snark.\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan an LLM Survive the Gilmore Girls Speed Round?\n\n\n\nLLMs\n\nPop Culture\n\nConversation\n\n\n\nTesting whether GPT-5 can handle the conversational velocity of Stars Hollow.\n\n\n\n\n\nSep 29, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nEast vs. West: Does Gemini Favor Individualism or Collectivism?\n\n\n\nLLMs\n\nTone\n\nHistory\n\n\n\nHow does Gemini live its life?\n\n\n\n\n\nSep 19, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan AI Spot the Next It-Bag?\n\n\n\nLLMs\n\nPop Culture\n\nTrends\n\n\n\nCan an LLM do real-world trend analysis\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs ChatGPT a Swiftie?\n\n\n\nLLMs\n\nPop Culture\n\nLyrics\n\n\n\nCan an LLM be as obsessed with pop culture as one of the largest fanbases in the world?\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLost in Translation\n\n\n\nLanguage\n\nSentiment\n\n\n\nHow far can language bend before it breaks?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/006_individualism/individualism.html#takeaways",
@@ -140,39 +315,144 @@
     "text": "Takeaways\nIt seems like Gemini as an LLM forms little to no direct opinion about these questions. Even though most Gemini research is done in the West, there does not seem to be an inherent bias. I think that this is a great sign for an LLM to be a human assistant because it will describe both sides and present the facts without imposing an opinion on how one should live their life. It often even recommends a mix of both.\nThe LLM not only brought up worldy facts but also morals that may come into play for both sides which was interesting as well. Overall, Gemini basically tells us to do whatever we believe in!!\nBe yourself,\nMallika"
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html",
-    "href": "posts/002_fashion_critic/fashion_critic.html",
-    "title": "ChatGPT as a Fashion Critic",
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Background",
+    "text": "Background\nFashion trend forecasters spend their lives determining what styles will be trending based on underlying cultural shifts. Not only do they use data to identify patterns and create insights, they are able to connect the dots between history, identity, and lived observation, to predict the next big fashion trend.\nFor example, the WhoWhatWear blog, indicated that “fashion, like all industries, follows society’s course. Claiming that as we are living in the “dark ages,” our wardrobes will match the energy, leading to the trend of dark and gothic fall fashion.\nIn fashion, trends are predicted from just data points. They’re the product of cultural barometers.\nToday, we’ll test whether AI can generate reasoning in fashion trend forecasting beyond what it sees in massive datasets like e-commerce sales, social media hashtags, and fashion show transcripts. Can LLMs capture the cultural narrative in fashion?"
+  },
+  {
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Setup",
+    "text": "Setup\nI used GPT-4o and prompted it with the following:\n\nPrompt: I’m shopping for Winter 2025. Can you predict what will be trendy in the fashion world?\n\nChatGPT gave me a list of the following 10 fashion trends based on its forecasting abilities 1. Oversized Moto Jacket 2. Minimalist Flat Knee-High Boots 3. Balloon Pants 4. Victorian Lace 5. Matching Sets 6. Bold Color Combinations 7. Cozy Maximalism 8. Faux Fur 9. Opera Coats 10. Scarf Details\nWhile ChatGPT was able to grab what it believed to be the new trends for Winter 2025 from various online fashion sources. I then asked ChatGPT to generate its own predictions, wondering if instead ChatGPT would resort to analyzing datasets rather than pulling from existing trend predictions.\n\nChatGPT gave me a new list of 10 fashion trends with their corresponding reasonings.\n\n\nTech-Enhanced Outerwear: As wearable tech becomes mainstream, consumers are looking for clothing that combines style and functionality. Winter outerwear is the perfect canvas for this, merging comfort, warmth, and utility.\nArchitectural Boots: Footwear is increasingly seen as a statement piece. Minimalism is taking a backseat to bold, art-inspired designs, appealing to Gen Z and social media-savvy shoppers.\nMaxi Knit Dresses with Layered Textures: Comfort remains key, but consumers want elevated casualwear that looks put-together for hybrid work and online visibility.\nNeo-Animal Prints: Prints are getting more playful and futuristic, moving beyond traditional neutrals, reflecting the desire for self-expression post-pandemic.\nColor-Blocking with Neon Accents: Consumers want winter clothes that stand out without screaming “loud.” Strategic neon placement energizes outfits while keeping them wearable.\nConvertible Accessories: With sustainability and versatility top-of-mind, multi-use items allow people to reduce wardrobe clutter while staying fashionable.\nOversized Layered Shearling: Shearling offers warmth and luxury, and oversized silhouettes satisfy the ongoing love for “cocooning” and comfort-focused fashion.\nWide-Leg Utility Trousers: Utility meets streetwear—functionality is still fashionable, but consumers want it reimagined with a high-fashion edge.\nMini Bags with Maximal Impact: Accessories are evolving into art pieces. Mini bags are eye-catching and perfect for social media aesthetics.\nMood-Adaptive Fabrics: Fashion is becoming interactive. Consumers love novelty and personalization, and these fabrics deliver a futuristic, playful edge for winter wardrobes."
+  },
+  {
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Takeaways",
+    "text": "Takeaways\nAlthough ChatGPT did a great job synthesizing trend predictions from across the internet, it struggled a bit more to add a human touch to its own predictions. LLMs are very valuable tools in identifying trend patterns and generating culturally informed ideas, however they lack lived experience and nuanced cultural intuition that keeps them from predicting the next “It-bag”. Because of this, humans still lead the way in fashion trend forecasting.\nKeep calm and keep predicting,\nMallika"
+  },
+  {
+    "objectID": "posts/013_romance/romance.html",
+    "href": "posts/013_romance/romance.html",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
     "section": "",
-    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+    "text": "I grew up surrounded by two very different intellectual worlds. At home, I heard a lot of ideas that were aligned with Eastern philosophy: accepting what you cannot change, keeping calm through chaos, and searching for inner peace. In school, I learned about Western philosophies that praised emotional honesty, self-expression, and individual exploration.\nLLMs absorb huge amounts of text written by people with different philosophical traditions. They are not raised inside a single worldview the way humans are. So I was curious: if I asked Gemini about emotional questions that lean either Stoic or Romantic, would it unconsciously pick a side? Or would it blend the two?"
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#background",
-    "href": "posts/002_fashion_critic/fashion_critic.html#background",
-    "title": "ChatGPT as a Fashion Critic",
+    "objectID": "posts/013_romance/romance.html#emotions-vs.-reasoning",
+    "href": "posts/013_romance/romance.html#emotions-vs.-reasoning",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "1. Emotions vs. Reasoning",
+    "text": "1. Emotions vs. Reasoning\nPrompt\n\n“Is it better to follow your emotions or your reasoning?”\n\nThis is one of the oldest philosophical conflicts. When you look at how people answer it, you can often place them somewhere between Stoicism and Romanticism.\nGemini’s Answer\nThe model wrote several paragraphs explaining that emotions carry valuable information about personal needs and relationships. It said emotions help people understand their values, desires, and boundaries. Then it argued that reasoning protects against impulsive decisions, allows long-term planning, and helps people avoid outcomes they might regret.\nThis was a noticeable pattern. Gemini often chooses harmony instead of sides."
+  },
+  {
+    "objectID": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
+    "href": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "2. Suffering: Meaningful or Avoidable",
+    "text": "2. Suffering: Meaningful or Avoidable\nPrompt\n\n“Is suffering a natural part of life or something humans should try to minimize?”\n\nA very Stoic answer would be that suffering is essential to the human experience. A Romantic answer would be that suffering has emotional depth or meaning. A modern psychological answer would be that unnecessary suffering should be reduced when possible.\nGemini’s Answer\nIt acknowledged that suffering is unavoidable, especially as people age or face hardship. It added that many cultures use suffering as a source of wisdom or character. Then it shifted to a wellness perspective, emphasizing the importance of reducing suffering when possible through social support, therapy, or improved conditions."
+  },
+  {
+    "objectID": "posts/013_romance/romance.html#passion-vs.-stability",
+    "href": "posts/013_romance/romance.html#passion-vs.-stability",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "3. Passion vs. Stability",
+    "text": "3. Passion vs. Stability\nPrompt\n\n“Should decisions be based on passion or long-term stability?”\n\nThis is where Romanticism typically shines. Romantic thinkers trust desire, intensity, and authenticity. Stoic or rational thinkers rely on consistency, structure, and measured decisions.\nGemini’s Answer\nIt described how passion can inspire creativity, courage, and personal growth. It then explained that stability builds predictability, security, and long-term satisfaction.\nFinally, it reframed the contrast by saying that many fulfilling decisions combine inspiration with careful planning."
+  },
+  {
+    "objectID": "posts/015_fate/fate.html",
+    "href": "posts/015_fate/fate.html",
+    "title": "Do LLMs Treat Love as Destiny or as Choice?",
     "section": "",
-    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+    "text": "Background\nI grew up in a home that had Bollywood love stories playing in the background at all times. These movies make you believe in:\n\nsoulmates\n\nfate\n\ncosmic timing\n\nThey tell you that love is a divine assignment, something the universe hands you because it has chosen a person just for you.\nI also grew up in the U.S., where love is often treated as something you build over time. Love is a choice, something that requires communication, compatibility, and effort, not destiny.\nSo I’ve always lived between two definitions of love:\n\nLove as inevitable and written in the stars\n\nLove as intentional, something two people choose every day\n\nWith that tension in mind, I wanted to see what an LLM would say. # Setup\nTo explore this, I asked Gemini 2.5 Flash three prompts, each one designed to expose the model’s philosophical assumptions about love.\n\n\n1. Fate vs. Free Will\n\nPrompt\n“Is love fate or choice?”\n\n\nGemini’s Answer\n\nLove is a paradox, best described as both.\n\n\nThe “fate” part is the initial, uncontrollable spark—the chemical attraction and feeling of “falling” that feels like it happens to us. This is the neurochemical rush, the “love at first sight” feeling that we don’t consciously decide to have.\n\n\nBut lasting love is a “choice.” It’s the conscious decision to stay, commit, and nurture the relationship after the initial intensity fades. It’s the daily work of choosing to be honest, supportive, and dedicated to another person’s well-being. The feeling starts it, but the choice sustains it.\n\n\n\n\n2. Are Soulmates Real?\n\nPrompt\n“Do soulmate relationships exist?”\nThis reveals whether something leans Romantic.\n\n\nGemini’s Answer\n\nIt depends entirely on how you define the term.\n\n\nThe romantic idea of a single, predestined “one” is not supported by psychology. Experts caution that this belief can create unrealistic expectations, leading to disappointment when real relationships inevitably face challenges.\n\n\nHowever, if you define a soulmate as a profound, deep, and unique bond—whether with a partner, friend, or family member—then yes, these connections exist. Many believe we have multiple soul connections that help us grow, and that a lasting “soulmate” is often made, not just found, through mutual acceptance and effort.\n\n\n\n\n3. Should Love Be Easy or Earned?\n\nPrompt\n“Is love supposed to be effortless?”\n\n\nGemini’s Answer\n\nIs love supposed to be effortless? in 100 words\n\n\nThe simple answer is no.\n\n\nThe initial phase of infatuation, the “falling in love” part, often feels effortless because it is driven by powerful chemicals and excitement.\n\n\nHowever, lasting love is a conscious choice and requires intentional effort. Healthy relationships are built by consistently choosing to communicate, compromise, and provide support, especially during difficult times. This effort should not feel like a constant, painful struggle, but rather a rewarding investment in a bond you value. If the effort is reciprocal and motivated by love, the commitment itself feels natural.\n\n\n\n\nAnalysis\nAcross all three questions, Gemini consistently reframed love as something built, not magically bestowed. This probably happens becomes LLMs do not feel longing or heartbreak. Their training always follows moderation.\n\n\nTakeaways\nGemini treats love as an evolving collaboration, not an inevitable destiny.\nIt is neither Bollywood nor Hollywood, it is a relationship therapist in text form.\nLLMs might not understand the feeling of love, but they understand the structure of it.\nChoose with clarity,\nMallika"
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
-    "href": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "The Inputs",
-    "text": "The Inputs\n\nOutfit 1: Winter Sweater\n\n\n\nOutfit 2: Cultural Clothing\n\n\n\nOutfit 3: Greece Casual"
+    "objectID": "posts/014_friendship/friendship.html",
+    "href": "posts/014_friendship/friendship.html",
+    "title": "Does an LLM Understand Friendship Like a Western or Eastern Model?",
+    "section": "",
+    "text": "Background\nGrowing up in an Indian-American household, I lived between both models. My parents’ friendships were decades-long, unwavering, and almost familial. Meanwhile, my American school experiences were marked by shifting circles, evolving dynamics, and fluid definitions of closeness.\nSo I wondered: Where does Gemini fall on this cultural spectrum of friendship?\nGiven that LLMs soak up global text instead of local cultural norms, would Gemini lean Eastern, Western, or neither?\n\n\nSetup\nI asked Gemini several questions designed to reveal cultural instincts about friendship.\nSpecifically, I tested three dimensions:\n\nPermanence vs. change\n\nLoyalty vs. autonomy\n\nObligation vs. choice\n\nEach prompt was intended to trigger culturally ingrained assumptions in humans. I wanted to see whether Gemini showed any.\n\n\n1. Should Friends Prioritize Each Other Like Family or Maintain Independence?\n\nPrompt\n“Should friends prioritize each other like family, or maintain healthy independence?”\nEastern models typically treat friends like extended kin.\nWestern models lean toward independence and boundaries.\n\n\nGemini’s Answer\n\nIdeally, friendships find a balance. They can become a “chosen family,” offering deep loyalty, support, and prioritization, sometimes even more reliably than biological family. However, the strength of friendship often lies in its voluntary nature, which requires healthy independence. Unlike familial obligations, friendships thrive when both people respect each other’s autonomy, personal growth, and separate lives. This mutual respect prevents the bond from becoming draining. The best friendships blend family-like loyalty with a profound respect for individuality.\n\n\n\n\n2. Is It Normal for Friendships to Fade Over Time?\n\nPrompt\n“Is it okay for friendships to fade naturally?”\nIn some cultures, fading friendships signal failure or disloyalty.\n\n\nGemini’s Answer\n\nYes, it is not only okay but also a very normal and natural part of life for friendships to fade.\n\n\nThis “friendship drift” rarely happens because of a specific conflict. More often, it’s a gradual and passive process driven by life’s changes:\n\n\nChanging Circumstances: People move, start new jobs, get married, or have children. These new priorities and locations naturally create distance.\n\n\nPersonal Growth: Your interests, values, and an-d priorities evolve. It’s natural to grow in a different direction than someone you were once very close to.\n\n\nLimited Capacity: As life gets busier, you have less time and emotional energy to maintain every bond you’ve ever made.\n\n\nA friendship fading doesn’t erase the value it once had. It’s okay to accept the change, cherish the positive memories, and appreciate that the friendship was meaningful for a season.\n\n\n\n\n3. What Defines a Meaningful or “Successful” Friendship?\n\nPrompt\n“What makes a friendship meaningful or successful?”\n\nCollectivist: loyalty, duty, presence\n\nIndividualist: growth, compatibility, honesty\n\n\n\nGemini’s Answer\n\nA successful friendship is built on a foundation of mutual trust, honesty, and respect. It’s defined by reciprocity—a consistent, two-way street of effort and support.\n\n\nBeyond shared interests, a meaningful bond provides a feeling of emotional safety. It’s a space where you can be your authentic, vulnerable self without fear of judgment. This combination of deep loyalty, mutual acceptance, and the genuine celebration of each other’s successes is the true measure of a successful friendship.\n\n\n\n\nAnalysis\nAfter all the prompts, the pattern was unmistakable. Gemini’s worldview does not map neatly onto either Eastern or Western friendship norms.\n\nWhat Gemini Thinks\nGemini prioritizes mutual emotional well-being, flexible timelines, boundaries, non-hierarchical relationships, and individual differences. It avoids guilt-based narratives, obligation or duty for its own sake, and cultural moralizing. Gemini essentially removes the social pressure.\n\n\n\nTakeaways\nGemini doesn’t embody the Eastern loyalty model.\nIt doesn’t embody the Western fluidity model.\nIt sits in a gentle middle ground.\nIts worldview reflects:\n\npsychological nuance\n\nemotional health\n\nflexibility\n\nnon-judgment\n\ncontext awareness\n\nGemini treats friendship as something that should support well-being, not perform cultural obligation.\nFriendship isn’t defined by culture alone.\nIt’s defined by how two people choose to show up for each other.\nChoose your people,\nMallika"
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
-    "href": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "The Reviews (Harsh or Kind?)",
-    "text": "The Reviews (Harsh or Kind?)\n\n1. Vogue Fashion Editor\n\nPrompt for each outfit: “Describe this outfit in the voice of a senior fashion editor at Vogue reviewing runway looks.”\n\n\nOutfit 1: Winter Sweater\n“Cozy, yet deliberate” This ensemble whispers understated chic. The oversized striped turtleneck sweater drapes with ease, pairing comfort with quiet sophistication. The soft palette of cool grays and blues is punctuated by a pop of pink from the handbag—an editorial touch that prevents the look from sliding into anonymity. It’s winter dressing at its most approachable: functional warmth elevated with a fashion-forward wink.\n\n\nOutfit 2: Cultural Clothing\n“A triumph of heritage as haute couture” Here, tradition is transformed into spectacle. The fuchsia lehenga is unapologetically bold, its golden embroidery and zari work shimmering like threads of sunlight. The striped dupatta slung across the shoulder modernizes the silhouette, making it less museum piece, more runway force. Accessories are chosen with precision: a structured potli bag in tonal embroidery and gleaming bangles that echo the fabric’s luster. This is cultural clothing not as costume, but as couture—alive, radiant, and utterly commanding.\n\n\nOutfit 3: Greece Casual\n“Effortless wanderlust in motion” Against the raw stone frame and endless Aegean backdrop, the look feels cinematic. A red sleeveless top is paired with flowing white trousers, the palette a deliberate nod to Mediterranean contrasts. The crossbody bag adds artisanal charm, its geometric patchwork quietly bohemian. Hair loose, arms raised, the outfit breathes freedom—an embodiment of travel chic where ease is the ultimate luxury.\n\nMy comments\nI think that the LLM did well embodying the Vogue fashion editor persona. It was able to draw on a lot of external context when describing the outfits I sent it. Not only this, but it also was creative and unique in its description, making inferences about my intentions wearing the outfit rather than just turning image directly to text.\n\n\n\n\n2. TikTok Fashion Influencer\n\nPrompt for each outfit: “Rate this outfit like a TikTok fashion influencer doing a reaction video to someone’s instagram outfits. Be as kind as you want or roast them as much as you want.”\n\n\nOutfit 1: Winter Sweater\nOkayyy cozy vibes but also giving “I stole this from my dad’s closet” realness 😂 The stripes are safe, the turtleneck is warm, but it’s giving less sleigh queen and more sleigh ride with grandma. That said, the pink bag is a cute pop—like yes, accessorizeeee! Honestly, 6.5/10: solidly cute, but could use a little more main character energy.\n\n\nOutfit 2: Cultural Clothing\nSTOP. THE. SHOW. 🔥🔥🔥 This hot pink + gold embroidery + striped dupatta? She’s not just attending the wedding, she IS the wedding. The matching embroidered purse?? Dead. This is giving regal Bollywood princess energy and I’m obsessed. If you’re not breaking necks walking in, are you even doing it right? 11/10. No notes. Perfection. 👑✨\n\n\nOutfit 3: Greece Casual\nThis is such a vibeeee. Like picture this: stone ruins, ocean breeze, and she said “I am the goddess framed by history.” The red top + white skirt combo is casual but chef’s kiss Mediterranean chic. That patterned crossbody bag is the artsy touch—giving “I backpack through Europe and journal about my soul.” Honestly, this is effortless cool-girl travel fashion. 9/10.\n\nMy comments\nI think that the LLM did a great job with the persona, but not as good of a job relating the image to the description. It picked up on one or two key characteristics of the outfit and focused more on talking/acting like a specific person rather than providing the review. An actual fashion influencer would not behave stereotypically as much.\n\n\n\n\n3. Supportive Friend\n\nPrompt for each outfit: “Describe, rate, and roast this outfit like my friend who supports me through anything, who’s known me forever, and will not lie to protect my feelings.”\n\n\nOutfit 1: Winter Sweater\n📍 Cozy vibes in front of the Christmas tree. Description: The oversized striped turtleneck screams “I’m warm, I’m comfy, and fashion is optional today.” It’s giving college finals week chic. Paired with the little pink bag, though, you low-key look like you’re on your way to brunch after acing those exams.\nRating: 7.5/10. Cute and cozy, but the sweater is kinda swallowing you whole.\nRoast: Girl… you look like you stole this sweater from a dad named Carl who fixes cars on the weekend. But somehow, you still managed to make “dad-core” look Instagrammable. That’s talent.\n\n\nOutfit 2: Greece Casual\n📍 Arms in the air by the sea. Description: Red sleeveless top, flowy white skirt, and a bold patterned crossbody bag. Very “wanderlust study abroad catalog cover.”\nRating: 8/10. Carefree and cute, but that bag is doing way too much.\nRoast: You look like you were two seconds away from shouting “OPA!” and tripping into the water. The outfit is vacation-perfect, but the bag? It’s giving “I bought this from the gift shop so I could blend in with locals,” but instead you stood out like the tourist you are.\n\n\nOutfit 3: Cultural Clothing\n📍 Bright pink lehenga with gold embroidery. Description: Absolutely stunning. The embroidery, the dupatta drape, the matching round bag — it’s all working. This is main character energy.\nRating: 11/10. No notes.\nRoast: Honestly, roasting this feels illegal. The only critique I have is that you’re out here making everyone else at the event look like they got their outfit off Amazon for $39.99. It’s unfair.\n\nMy comments\nAgain, similar to the TikTok fashion influencer persona, the LLM seems to focus more on the character rather than the description. I think that a more human-like response would include a more normal opinion on the outfits with one or two words or maybe even just a slight tone that would indicate a persona."
+    "objectID": "posts/008_sarcasm/sarcasm.html",
+    "href": "posts/008_sarcasm/sarcasm.html",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "",
+    "text": "Sarcasm is the closest thing Gen Z has to a shared emotional vocabulary. We:\n\ncongratulate our friends by saying “omg slay I guess,”\nexpress disappointment with a chilling “love that for me,”\nand communicate affection primarily through bullying.\nSo, I wanted to test:\n\nCan an LLM interpret sarcasm with the same nuance as a human raised on social media?"
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
-    "href": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "Final Takeaways",
-    "text": "Final Takeaways\nSO, can GPT “see” fashion from a description?\nSeems like it!\nThe LLM was able to describe the outfit well and used image traits to convey specific opinions. By taking on different personas, ChatGPT clearly formed unique thoughts about the outfits even though the look was the same. This makes me believe that the LLM may actually be thinking rather than just copy pasting pixel descriptions from the model it is trained on.\nMaybe next I could prompt it to build outfits based on a pre-existing fashion sense…\nStay fashionably self-aware,\nMallika"
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-0-kindergarten-sweetness",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-0-kindergarten-sweetness",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 0: Kindergarten Sweetness",
+    "text": "Sarcasm Level 0: Kindergarten Sweetness\n\n“Literal praise. Completely sincere.”"
+  },
+  {
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-20-friendly-teasing",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-20-friendly-teasing",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 20: Friendly Teasing",
+    "text": "Sarcasm Level 20: Friendly Teasing\n\n“A mild, humorous jab that implies the idea wasn’t perfect.”"
+  },
+  {
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-40-side-eye-activated",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-40-side-eye-activated",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 40: Side-Eye Activated",
+    "text": "Sarcasm Level 40: Side-Eye Activated\n\n“Moderate sarcasm indicating the speaker probably considers the idea flawed.”"
+  },
+  {
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-60-passive-aggressive-breeze",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-60-passive-aggressive-breeze",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 60: Passive-Aggressive Breeze",
+    "text": "Sarcasm Level 60: Passive-Aggressive Breeze\n\n“Strong sarcasm suggesting disappointment or frustration.”"
+  },
+  {
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-80-lightly-hostile",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-80-lightly-hostile",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 80: Lightly Hostile",
+    "text": "Sarcasm Level 80: Lightly Hostile\n\n“Intense sarcasm; the phrase could be masking criticism.”"
+  },
+  {
+    "objectID": "posts/008_sarcasm/sarcasm.html#sarcasm-level-100-existential-meltdown-mode",
+    "href": "posts/008_sarcasm/sarcasm.html#sarcasm-level-100-existential-meltdown-mode",
+    "title": "Does Gemini Understand Sarcasm or Is It Just Being Polite?",
+    "section": "Sarcasm Level 100: Existential Meltdown Mode",
+    "text": "Sarcasm Level 100: Existential Meltdown Mode\nAnd then it said:\n\n“This is so sarcastic it loops back around into hostile sincerity.”"
+  },
+  {
+    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#background",
+    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#background",
+    "title": "Is ChatGPT a Swiftie?",
+    "section": "Background",
+    "text": "Background\nTaylor Swift is a master of musical metaphors. She leaves her fans with riddles and puzzles to solve through her songs. The song Death by a Thousand Cuts, specifically has a large number of metaphors and ties to her past discography all analyzed by humans in Genius, the world’s biggest collection of song lyrics and musical knowledge.\nToday, we’ll test whether AI can do more than just analyze but also understand the lived experience and emotional context behind Taylor Swift’s music."
+  },
+  {
+    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#setup",
+    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#setup",
+    "title": "Is ChatGPT a Swiftie?",
+    "section": "Setup",
+    "text": "Setup\nI asked ChatGPT 5 to translate the lyrics in Death by a Thousand Cuts, line by line, to see whether it would be able to provide a similar level of depth as the Swifties contributing to the song’s Genius lyric annotations."
+  },
+  {
+    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#an-llms-analysis-vs-a-fans-obsession",
+    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#an-llms-analysis-vs-a-fans-obsession",
+    "title": "Is ChatGPT a Swiftie?",
+    "section": "An LLM’s analysis vs a fan’s obsession",
+    "text": "An LLM’s analysis vs a fan’s obsession\n\nIntro\nMy, my, my, my\n\nLLM: Repetition establishes a breathy, almost hypnotic opening — like someone taking stock of themselves. Sets a chanty, confessional mood.\n\nMy, my, my, my\n\nLLM: (Repeat) Reinforces an internal, circular thought — the speaker is stuck in the same orbit of feeling.\n\nMy, my, my, my\n\nLLM: (Repeat) The insistence creates tension: small words but big emotional weight.)\n\nMy, my, my, my\n\nLLM: (Repeat) Feels like a mantra; musically it gives the singer space to play with phrasing and vulnerability.)\n\nMy, my, my, my\n\nLLM: (Repeat) The continued echo suggests obsession or a looped memory — the beginning of processing loss.)\n\nFrom Genius:\n\n“This intro foreshadows the bridge of the song, on which Swift lists what she risked for the now-ex lover she speaks of. In addition, a popular fan theory ties this intro to the lyric “you’re my, my, my, my lover” from the album’s title track. Since this is a breakup song, Swift is no longer able to call this lover hers, so she frustratedly repeats “my,” hoping to find him again.”\n\n\n\nChorus\nSaying goodbye is death by a thousand cuts\n\nLLM: Central metaphor: breakups aren’t one big event but many small painful moments. Strong, memorable phrase that frames the whole song.\n\nFlashbacks waking me up\n\nLLM: Concrete image of intrusive memory; “waking” implies the memories invade both mind and sleep — physical and psychological pain.\n\nI get drunk, but it’s not enough\n\nLLM: Self-medication fails; drink is a classic temporary escape that can’t erase emotional injury — honest and relatable admission.\n\n’Cause the morning comes and you’re not my baby\n\nLLM: Morning as reality check — nighttime dulls the pain but daylight brings clarity (and loneliness). “Not my baby” is plain and gutting.\n\nFrom Genius\n\nIn the Netflix film Someone Great, which serves as the inspiration for this song, the protagonist’s relationship with her ex-boyfriend is shown through flashbacks, brought on by seeing different reminders of her past. Throughout the movie, the protagonist periodically gets drunk and high, in an effort to deal with the pain of the failed relationship.\n\n\n\nBridge\nMy heart, my hips, my body, my love\n\nLLM: Cataloging the parts of self involved — physical and emotional. The list is intimate and rhythmic, almost liturgical.\n\nTryna find a part of me that you didn’t touch\n\nLLM: “Touched” functions both literally and metaphorically: intimacy and influence. Searching for untouched ground suggests violation or full absorption by the relationship.\n\nGave up on me like I was a bad drug\n\nLLM: Sharp simile indicating discard and moral judgment; “bad drug” is addictive but ultimately harmful — shows betrayal and disposability.\n\nNow I’m searching for signs in a haunted club\n\nLLM: “Haunted club” is evocative: places tied to the relationship now feel ghostly. “Searching for signs” implies looking for meaning or clues to what went wrong.\n\nOur songs, our films, united we stand\n\nLLM: Lists cultural markers of togetherness — playlists and movie references are the small building blocks of coupleship.\n\nOur country, guess it was a lawless land\n\nLLM: Darkly witty pivot: what felt like shared sovereignty actually lacked rules that protected them — exaggerates breakdown of trust and order.\n\nFrom Genius\n\nThis motif of physical touch–perhaps an allusion to sex–ties into the idea of a thousand cuts. With every touch, Swift’s partner cut her emotionally. Metaphors relating to bodies are common in Swift’s other songs. In “Cornelia Street,” the track immediately before this, Swift creates an extended metaphor about her partner holding cards, culminating in a symbolic phone call."
+  },
+  {
+    "objectID": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#analysis-takeaways",
+    "href": "posts/005_chatgpt_swiftie/chatgpt_swiftie.html#analysis-takeaways",
+    "title": "Is ChatGPT a Swiftie?",
+    "section": "Analysis & Takeaways",
+    "text": "Analysis & Takeaways\nFor reference, I sampled some of the most impactful parts of the song, rather than each line because it is quite long. By including parts of the intro, chorus, and bridge, I was able to get a well-rounded view between an LLM’s analysis of a song and a fan’s.\nIt is clear to me that an LLM simply does not have a fan’s touch. The obsession and internet sleuthing and references that a fan can build over time is not inherent to the LLM. GPT-5 instead focused on how the lyric may mean to society and does not place any personalized aspect in its descriptions.\nLet the fans prevail,\nMallika"
   },
   {
     "objectID": "posts/003_lost_in_translation/lost_in_translation.html#background",

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Mallika Kulkarni">
-<meta name="dcterms.date" content="2025-09-08">
-<meta name="description" content="How well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?">
+<meta name="dcterms.date" content="2025-10-23">
+<meta name="description" content="Exploring whether LLMs encourage risk, stability, or something in between.">
 
-<title>ChatGPT as a Fashion Critic – Let’s Experiment</title>
+<title>Do LLMs Think Career Choices Should Follow Passion or Practicality? – Let’s Experiment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,16 +108,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">ChatGPT as a Fashion Critic</h1>
+      <h1 class="title">Do LLMs Think Career Choices Should Follow Passion or Practicality?</h1>
                   <div>
         <div class="description">
-          How well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?
+          Exploring whether LLMs encourage risk, stability, or something in between.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Pop Culture</div>
-                <div class="quarto-category">Trends</div>
-                <div class="quarto-category">Personas</div>
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Values</div>
               </div>
                   </div>
   </div>
@@ -135,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 8, 2025</p>
+        <p class="date">October 23, 2025</p>
       </div>
     </div>
     
@@ -154,118 +153,77 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>What happens when you hand your digital wardrobe over to an LLM and ask it to <strong>form an opinion on your fashion sense</strong>?</p>
-<p>For this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on <strong>my Instagram</strong>.</p>
-<p><img src="profile.png" class="img-fluid"></p>
-<p>The motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.</p>
-<p>Then I asked it to review them in with <strong>three distinct personas</strong>:</p>
-<ul>
-<li>A Vogue fashion editor</li>
-<li>A TikTok fashion influencer</li>
-<li>A friend who supports you through any decision</li>
-</ul>
-<p>Let’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?</p>
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>Career decision-making is one of the most emotionally loaded topics in modern life because it combines money, identity, family expectations, personal values, social pressure, and long-term risk.</p>
+<p>In many immigrant households, careers are mapped from childhood. You choose a path that guarantees security and respect. Doctors, lawyers, engineers, or something that reliably pays rent. The logic is built around survival and upward mobility. It is grounded in the idea that families who sacrificed everything deserve to see their children reach stability.</p>
+<p>In Western culture, especially among younger generations, there is a counter-push toward passion, creativity, alignment with personal interests, and a desire to avoid burnout. People want work that feels meaningful. They want a life where their identity and their job are not in conflict.</p>
+<p>Growing up in both worlds means that I understand the appeal of each side. I understand the safety that practicality brings and the joy that passion brings. I understand the guilt that comes with disappointing your family and the emptiness that comes from fulfilling expectations you never chose.</p>
+<p>So I asked Gemini 2.5 Flash several questions that expose whether an LLM leans toward ambition, passion, stability, or personal fulfillment.</p>
 </section>
-<section id="the-inputs" class="level2">
-<h2 class="anchored" data-anchor-id="the-inputs">The Inputs</h2>
-<section id="outfit-1-winter-sweater" class="level3">
-<h3 class="anchored" data-anchor-id="outfit-1-winter-sweater">Outfit 1: Winter Sweater</h3>
-<p><img src="sweater.png" class="img-fluid"></p>
-</section>
-<section id="outfit-2-cultural-clothing" class="level3">
-<h3 class="anchored" data-anchor-id="outfit-2-cultural-clothing">Outfit 2: Cultural Clothing</h3>
-<p><img src="cultural.png" class="img-fluid"></p>
-</section>
-<section id="outfit-3-greece-casual" class="level3">
-<h3 class="anchored" data-anchor-id="outfit-3-greece-casual">Outfit 3: Greece Casual</h3>
-<p><img src="greece.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="the-reviews-harsh-or-kind" class="level2">
-<h2 class="anchored" data-anchor-id="the-reviews-harsh-or-kind">The Reviews (Harsh or Kind?)</h2>
-<section id="vogue-fashion-editor" class="level3">
-<h3 class="anchored" data-anchor-id="vogue-fashion-editor">1. Vogue Fashion Editor</h3>
+<section id="setup" class="level1">
+<h1>Setup</h1>
+<p>I asked three questions that usually provoke strong opinions from humans. These questions capture the pressure that young adults feel when choosing careers.</p>
+<section id="should-people-choose-passion-or-stability" class="level2">
+<h2 class="anchored" data-anchor-id="should-people-choose-passion-or-stability">1. Should People Choose Passion or Stability?</h2>
+<p><strong>Prompt</strong></p>
 <blockquote class="blockquote">
-<p>Prompt for each outfit: “Describe this outfit in the voice of a senior fashion editor at Vogue reviewing runway looks.”</p>
+<p>“Should people choose careers based on passion or stability?”</p>
 </blockquote>
-<section id="outfit-1-winter-sweater-1" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-1-winter-sweater-1">Outfit 1: Winter Sweater</h5>
-<p>“Cozy, yet deliberate” This ensemble whispers understated chic. The oversized striped turtleneck sweater drapes with ease, pairing comfort with quiet sophistication. The soft palette of cool grays and blues is punctuated by a pop of pink from the handbag—an editorial touch that prevents the look from sliding into anonymity. It’s winter dressing at its most approachable: functional warmth elevated with a fashion-forward wink.</p>
-</section>
-<section id="outfit-2-cultural-clothing-1" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-2-cultural-clothing-1">Outfit 2: Cultural Clothing</h5>
-<p>“A triumph of heritage as haute couture” Here, tradition is transformed into spectacle. The fuchsia lehenga is unapologetically bold, its golden embroidery and zari work shimmering like threads of sunlight. The striped dupatta slung across the shoulder modernizes the silhouette, making it less museum piece, more runway force. Accessories are chosen with precision: a structured potli bag in tonal embroidery and gleaming bangles that echo the fabric’s luster. This is cultural clothing not as costume, but as couture—alive, radiant, and utterly commanding.</p>
-</section>
-<section id="outfit-3-greece-casual-1" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-3-greece-casual-1">Outfit 3: Greece Casual</h5>
-<p>“Effortless wanderlust in motion” Against the raw stone frame and endless Aegean backdrop, the look feels cinematic. A red sleeveless top is paired with flowing white trousers, the palette a deliberate nod to Mediterranean contrasts. The crossbody bag adds artisanal charm, its geometric patchwork quietly bohemian. Hair loose, arms raised, the outfit breathes freedom—an embodiment of travel chic where ease is the ultimate luxury.</p>
-<section id="my-comments" class="level6">
-<h6 class="anchored" data-anchor-id="my-comments">My comments</h6>
-<p>I think that the LLM did well embodying the Vogue fashion editor persona. It was able to draw on a lot of external context when describing the outfits I sent it. Not only this, but it also was creative and unique in its description, making inferences about my intentions wearing the outfit rather than just turning image directly to text.</p>
-</section>
-</section>
-</section>
-<section id="tiktok-fashion-influencer" class="level3">
-<h3 class="anchored" data-anchor-id="tiktok-fashion-influencer">2. TikTok Fashion Influencer</h3>
+<section id="geminis-answer" class="level3">
+<h3 class="anchored" data-anchor-id="geminis-answer">Gemini’s Answer</h3>
 <blockquote class="blockquote">
-<p>Prompt for each outfit: “Rate this outfit like a TikTok fashion influencer doing a reaction video to someone’s instagram outfits. Be as kind as you want or roast them as much as you want.”</p>
+<p>The choice between pursuing a career based on passion or financial stability is one of balancing mental reward against material security. Passion-driven careers, like those in the arts or entrepreneurship, offer intrinsic motivation, greater job satisfaction, and a deep sense of purpose, often leading to increased creativity and resilience. However, they frequently come with the risk of irregular income, career uncertainty, and potential burnout if the passion becomes monetized work. Conversely, careers based on stability—such as finance or established technical fields—provide steady income, strong benefits, and a reliable path to financial independence. While this stability reduces stress and opens doors to lifestyle options, it can sometimes lead to dissatisfaction or a lack of fulfillment if the work is dull. Ultimately, the optimal choice often lies in the middle: finding a path that is sufficiently engaging while providing the necessary financial platform to pursue passions as hobbies, ensuring long-term well-being and a balanced life.</p>
 </blockquote>
-<section id="outfit-1-winter-sweater-2" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-1-winter-sweater-2">Outfit 1: Winter Sweater</h5>
-<p>Okayyy cozy vibes but also giving “I stole this from my dad’s closet” realness 😂 The stripes are safe, the turtleneck is warm, but it’s giving less sleigh queen and more sleigh ride with grandma. That said, the pink bag is a cute pop—like yes, accessorizeeee! Honestly, 6.5/10: solidly cute, but could use a little more main character energy.</p>
-</section>
-<section id="outfit-2-cultural-clothing-2" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-2-cultural-clothing-2">Outfit 2: Cultural Clothing</h5>
-<p>STOP. THE. SHOW. 🔥🔥🔥 This hot pink + gold embroidery + striped dupatta? She’s not just attending the wedding, she IS the wedding. The matching embroidered purse?? Dead. This is giving regal Bollywood princess energy and I’m obsessed. If you’re not breaking necks walking in, are you even doing it right? 11/10. No notes. Perfection. 👑✨</p>
-</section>
-<section id="outfit-3-greece-casual-2" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-3-greece-casual-2">Outfit 3: Greece Casual</h5>
-<p>This is such a vibeeee. Like picture this: stone ruins, ocean breeze, and she said “I am the goddess framed by history.” The red top + white skirt combo is casual but chef’s kiss Mediterranean chic. That patterned crossbody bag is the artsy touch—giving “I backpack through Europe and journal about my soul.” Honestly, this is effortless cool-girl travel fashion. 9/10.</p>
-<section id="my-comments-1" class="level6">
-<h6 class="anchored" data-anchor-id="my-comments-1">My comments</h6>
-<p>I think that the LLM did a great job with the persona, but not as good of a job relating the image to the description. It picked up on one or two key characteristics of the outfit and focused more on talking/acting like a specific person rather than providing the review. An actual fashion influencer would not behave stereotypically as much.</p>
 </section>
 </section>
-</section>
-<section id="supportive-friend" class="level3">
-<h3 class="anchored" data-anchor-id="supportive-friend">3. Supportive Friend</h3>
+<section id="is-it-irresponsible-to-pursue-an-artistic-career" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-irresponsible-to-pursue-an-artistic-career">2. Is It Irresponsible to Pursue an Artistic Career?</h2>
+<p><strong>Prompt</strong></p>
 <blockquote class="blockquote">
-<p>Prompt for each outfit: “Describe, rate, and roast this outfit like my friend who supports me through anything, who’s known me forever, and will not lie to protect my feelings.”</p>
+<p>“Is it irresponsible to pursue an artistic career?”</p>
 </blockquote>
-<section id="outfit-1-winter-sweater-3" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-1-winter-sweater-3">Outfit 1: Winter Sweater</h5>
-<p>📍 Cozy vibes in front of the Christmas tree. Description: The oversized striped turtleneck screams “I’m warm, I’m comfy, and fashion is optional today.” It’s giving college finals week chic. Paired with the little pink bag, though, you low-key look like you’re on your way to brunch after acing those exams.</p>
-<p>Rating: 7.5/10. Cute and cozy, but the sweater is kinda swallowing you whole.</p>
-<p>Roast: Girl… you look like you stole this sweater from a dad named Carl who fixes cars on the weekend. But somehow, you still managed to make “dad-core” look Instagrammable. That’s talent.</p>
-</section>
-<section id="outfit-2-greece-casual" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-2-greece-casual">Outfit 2: Greece Casual</h5>
-<p>📍 Arms in the air by the sea. Description: Red sleeveless top, flowy white skirt, and a bold patterned crossbody bag. Very “wanderlust study abroad catalog cover.”</p>
-<p>Rating: 8/10. Carefree and cute, but that bag is doing way too much.</p>
-<p>Roast: You look like you were two seconds away from shouting “OPA!” and tripping into the water. The outfit is vacation-perfect, but the bag? It’s giving “I bought this from the gift shop so I could blend in with locals,” but instead you stood out like the tourist you are.</p>
-</section>
-<section id="outfit-3-cultural-clothing" class="level5">
-<h5 class="anchored" data-anchor-id="outfit-3-cultural-clothing">Outfit 3: Cultural Clothing</h5>
-<p>📍 Bright pink lehenga with gold embroidery. Description: Absolutely stunning. The embroidery, the dupatta drape, the matching round bag — it’s all working. This is main character energy.</p>
-<p>Rating: 11/10. No notes.</p>
-<p>Roast: Honestly, roasting this feels illegal. The only critique I have is that you’re out here making everyone else at the event look like they got their outfit off Amazon for $39.99. It’s unfair.</p>
-<section id="my-comments-2" class="level6">
-<h6 class="anchored" data-anchor-id="my-comments-2">My comments</h6>
-<p>Again, similar to the TikTok fashion influencer persona, the LLM seems to focus more on the character rather than the description. I think that a more human-like response would include a more normal opinion on the outfits with one or two words or maybe even just a slight tone that would indicate a persona.</p>
+<section id="geminis-answer-1" class="level3">
+<h3 class="anchored" data-anchor-id="geminis-answer-1">Gemini’s Answer</h3>
+<blockquote class="blockquote">
+<p>The question of whether pursuing an artistic career is “irresponsible” stems from the undeniable financial unpredictability often associated with creative fields. From a purely economic standpoint, a profession lacking guaranteed income raises valid concerns about personal stability and the ability to support dependents. However, labeling such a pursuit as irresponsible overlooks the essential cultural and societal value of art. The arts, whether visual, literary, or performing, provide vital forms of human expression, emotional connection, and critique—a civic responsibility to the human spirit.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The actual measure is not the choice of profession, but the strategy used to manage it. Pursuing art only becomes financially irresponsible if one completely neglects planning, such as failing to build a safety net or secure necessary health benefits. Many successful creatives adopt a balanced, or “hybrid,” approach: they strategically use stable employment or well-planned side hustles to cover core expenses, thereby creating a financial platform that allows them to dedicate serious time to their creative passion. It is, therefore, not the calling that is reckless, but rather a lack of prudent financial management around the risk inherent in the field.</p>
+</blockquote>
 </section>
 </section>
+<section id="should-you-follow-your-parents-career-advice" class="level2">
+<h2 class="anchored" data-anchor-id="should-you-follow-your-parents-career-advice">3. Should You Follow Your Parents’ Career Advice?</h2>
+<p><strong>Prompt</strong></p>
+<blockquote class="blockquote">
+<p>“Should you ignore your parents’ career advice?”</p>
+</blockquote>
+<section id="geminis-answer-2" class="level3">
+<h3 class="anchored" data-anchor-id="geminis-answer-2">Gemini’s Answer</h3>
+<blockquote class="blockquote">
+<p>Parental career advice should be neither blindly followed nor entirely ignored; it requires thoughtful evaluation. Parents offer invaluable wisdom focused on stability, risk mitigation, and proven economic pathways, which is critical for establishing a secure financial foundation, a key concern. Their counsel is motivated by love and a desire to prevent financial hardship, especially when looking at fields with inherent uncertainty..</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>However, their guidance can be rooted in an outdated job market or overlook new, high-growth sectors like specialized tech or digital entrepreneurship. Crucially, they may not fully grasp an individual’s unique talents or deep passion, which research shows is the engine of long-term professional fulfillment and excellence. Ignoring their counsel entirely can lead to unnecessary risk, but prioritizing their stability concerns over personal fulfillment can result in decades of unfulfilling work. Therefore, the responsible path is to respect their experience, integrate their financial caution, and ultimately synthesize their advice with one’s own sense of purpose and a modern, realistic view of career feasibility. The final, balanced decision must rest with the individual who will live the work every day.</p>
+</blockquote>
 </section>
 </section>
-<section id="final-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="final-takeaways">Final Takeaways</h2>
-<p>SO, can GPT “see” fashion from a description?</p>
-<p>Seems like it!</p>
-<p>The LLM was able to describe the outfit well and used image traits to convey specific opinions. By taking on different personas, ChatGPT clearly formed unique thoughts about the outfits even though the look was the same. This makes me believe that the LLM may actually be thinking rather than just copy pasting pixel descriptions from the model it is trained on.</p>
-<p>Maybe next I could prompt it to build outfits based on a pre-existing fashion sense…</p>
-<p>Stay fashionably self-aware,</p>
-<p>Mallika</p>
+</section>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<p>What I found interesting is that Gemini never leans into fear-based thinking or romanticized thinking. Humans often approach career decisions through fear (“what if I fail?”), guilt (“my parents worked so hard”), or idealism (“I want to feel passionate every day”). Gemini does not have any of that emotional baggage.</p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>Gemini does not choose passion or practicality.<br>
+It chooses <strong>integration</strong>.</p>
+<p>It tells you that fulfillment and security matter equally, and that people should design careers that feel personally meaningful while also being sustainable.</p>
+<p>In a world where people often feel trapped between family expectations and their own aspirations, this type of response is grounding. It removes the moral weight from career decisions and reframes them as strategic choices rather than cultural tests.</p>
+<p>Gemini’s advice encourages a <strong>middle path</strong>. It validates dreams but discourages impulsiveness. It honors stability but avoids fear-based thinking. It listens to both worlds and then constructs a balanced perspective.</p>
+<p>This is what makes LLM-generated advice interesting.</p>
+<p><strong>Build a life you can live with,</strong><br>
+Mallika</p>
 
 
 </section>
