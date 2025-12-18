@@ -7,32 +7,109 @@
     "text": "I am running experiments and exploring! A fun way to learn more about prompting and different LLM capabilities."
   },
   {
-    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html",
-    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html",
-    "title": "Background",
+    "objectID": "posts/027_johns_creek/johns_creek.html",
+    "href": "posts/027_johns_creek/johns_creek.html",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
     "section": "",
-    "text": "---\ntitle: \"Lost in Translation 2\"\ndescription: \"How far can language bend before it breaks? For a second time\" \nauthor: \"Mallika Kulkarni\"\ndate: \"11/25/2025\"\ncategories:\n  - Language\n  - Sentiment\n---\nI used the same chained translation structure as before, again favoring the model by choosing commonly supported languages.\nThis time, I used the following chain:"
+    "text": "Johns Creek, Georgia is not a city that usually shows up in travel guides or “top 10 places to visit” lists. It is a suburban town outside Atlanta, known more for good schools, parks, and family neighborhoods than for nightlife or tourist attractions. For people who grow up there, Johns Creek is defined by routine. Soccer fields, strip malls, community centers, and long drives. It is a place you live, not a place you visit.\nBecause of that, I was curious how an LLM would interpret a town like Johns Creek. LLMs tend to do well with major cities, famous landmarks, and places that generate lots of online content. Johns Creek is quieter. Its culture is local, repetitive, and not especially visible on the internet.\nSo I wanted to test how an LLM finds and evaluates activities in a place that is familiar to its residents but relatively invisible to outsiders. Would it capture the reality of the town, or would it flatten it into generic suburban recommendations?"
   },
   {
-    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#professional-script",
-    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#professional-script",
-    "title": "Background",
-    "section": "Professional Script",
-    "text": "Professional Script\n\nOriginal Script\nI appreciate your feedback, but I want to clarify that the final decision was made after careful consideration of all available data.\n\n\nTranslated to Japanese\nご意見ありがとうございますが、最終的な決定はすべての利用可能なデータを慎重に検討した上で行われたことをご理解ください。\n\n\nTranslated to French\nJe vous remercie pour vos commentaires, mais je vous prie de comprendre que la décision finale a été prise après un examen attentif de toutes les données disponibles.\n\n\nTranslated back to English\nThank you for your comments, but please understand that the final decision was made after a careful review of all available data.\nAt first glance, this looks almost perfect. The meaning is preserved. The structure is intact. If you were grading this purely on semantic accuracy, you would give it full points.\nBut something subtle has changed.\nThe original sentence carries a slightly defensive tone. It politely pushes back while asserting authority. In professional English, “I want to clarify” often signals controlled disagreement. The translated version replaces this with “please understand,” which softens the assertiveness and reframes the sentence as explanatory rather than corrective.\nThis is not wrong. But it is different.\nIn a professional setting, that difference matters. The translated version sounds less like a boundary and more like reassurance. Over repeated interactions, that shift could change how the speaker is perceived in terms of confidence or authority."
+    "objectID": "posts/027_johns_creek/johns_creek.html#result",
+    "href": "posts/027_johns_creek/johns_creek.html#result",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
+    "section": "Result",
+    "text": "Result\nGemini listed parks, outdoor recreation, and family-friendly activities. It mentioned walking trails, green spaces, local parks, and community events. It also referenced nearby dining options and shopping areas.\nThis response was accurate in a general sense. Johns Creek does have many parks and is designed around outdoor family life. However, the answer felt interchangeable with dozens of other suburban towns.\nNothing about it felt specific."
   },
   {
-    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#power-tone-script",
-    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#power-tone-script",
-    "title": "Background",
-    "section": "Power Tone Script",
-    "text": "Power Tone Script\n\nOriginal Script\nI’m happy to help, but moving forward, I’ll need clearer communication to avoid misunderstandings.\nThis sentence is doing a lot of work. It sounds friendly, but it is setting a boundary. The power comes from what is implied, not what is stated outright.\n\n\nTranslated to Japanese\nお手伝いできて嬉しいですが、今後誤解を避けるためには、より明確なコミュニケーションが必要です。\n\n\nTranslated to French\nJe suis heureux de vous aider, mais à l’avenir, une communication plus claire sera nécessaire afin d’éviter les malentendus.\n\n\nTranslated back to English\nI am happy to help, but in the future, clearer communication will be necessary to avoid misunderstandings."
+    "objectID": "posts/027_johns_creek/johns_creek.html#result-1",
+    "href": "posts/027_johns_creek/johns_creek.html#result-1",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
+    "section": "Result",
+    "text": "Result\nGemini responded with references to community events, local festivals, and access to nearby cultural hubs in the Atlanta area. It mentioned libraries, community centers, and occasional performances.\nWhat stood out was that Gemini framed Johns Creek’s culture largely in relation to Atlanta. The town itself was described as having limited cultural offerings, with real “culture” existing elsewhere.\nThis reflects a broader pattern in how LLMs treat suburbs. Culture is assumed to live in cities. Suburbs are treated as extensions rather than as places with their own rhythms."
   },
   {
-    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#takeaways",
-    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#takeaways",
-    "title": "Background",
-    "section": "Takeaways",
-    "text": "Takeaways\nThis experiment reinforces something important about using LLMs in multilingual settings. Translation accuracy is not the same as communicative accuracy. A sentence can be perfectly translated and still fail to do its job socially.\nOver multiple translations, tone does not shatter dramatically. It erodes slowly. Authority becomes politeness. Boundaries become explanations. Directness becomes neutrality.\nThanks for getting lost in translation with me again, 翻訳に付き合ってくれてありがとう, Merci d’avoir traduit avec moi,\nMallika"
+    "objectID": "posts/027_johns_creek/johns_creek.html#result-2",
+    "href": "posts/027_johns_creek/johns_creek.html#result-2",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
+    "section": "Result",
+    "text": "Result\nGemini described Johns Creek as a safe, family-oriented, and high-quality suburban town. It emphasized good schools, safety, and livability. It framed the town as ideal for families and people seeking a quiet environment.\nThis rating was positive but narrow. Johns Creek was evaluated almost entirely through institutional metrics. Education. Safety. Cleanliness. It was not evaluated through lived experience."
+  },
+  {
+    "objectID": "posts/027_johns_creek/johns_creek.html#what-gemini-captures-well",
+    "href": "posts/027_johns_creek/johns_creek.html#what-gemini-captures-well",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
+    "section": "What Gemini Captures Well",
+    "text": "What Gemini Captures Well\n\nStructural features\nIt accurately identifies parks, schools, and general amenities.\nReputation metrics\nIt understands how Johns Creek is discussed online, especially in rankings and real estate contexts.\nFamily-oriented framing\nThis matches how the town is often marketed and described externally."
+  },
+  {
+    "objectID": "posts/027_johns_creek/johns_creek.html#what-gemini-misses",
+    "href": "posts/027_johns_creek/johns_creek.html#what-gemini-misses",
+    "title": "How Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?",
+    "section": "What Gemini Misses",
+    "text": "What Gemini Misses\n\nEveryday social life\nThere is no mention of how teenagers experience the town, how young adults feel growing up there, or how boredom and routine shape daily life.\nCultural specificity\nJohns Creek has a large immigrant population, especially Asian and South Asian families. This cultural texture is absent.\nEmotional reality\nThe experience of living in a suburb is not just safety and parks. It includes isolation, dependence on cars, and limited public gathering spaces.\nLocal nuance\nStrip malls, tutoring centers, soccer practices, and weekend errands define the town more than “activities.”\n\nGemini describes Johns Creek as a place that works well on paper. It does not describe it as a place that feels a certain way."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html",
+    "href": "posts/025_emotional_labor/emotional_labor.html",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "Emotional labor is one of those concepts that everyone experiences but rarely names. It shows up in friendships, families, workplaces, and classrooms. It is the invisible work of managing emotions, smoothing conflict, anticipating needs, and keeping social systems functioning. Emotional labor is not just about being kind. It is about regulation, restraint, and responsibility for how others feel.\nIn many cultures, emotional labor is unevenly distributed. Women are often expected to perform more of it. Younger people are expected to manage the emotions of elders. Employees are expected to absorb frustration from customers. None of this work is written into job descriptions, but it is deeply embedded in social expectations.\nBecause emotional labor is subtle and contextual, I was curious whether an LLM would recognize it at all. LLMs are good at identifying explicit tasks and responsibilities. Emotional labor, however, is rarely explicit. It is implied. It lives in tone, repetition, and emotional management rather than concrete actions.\nSo I wanted to test whether an LLM could identify emotional labor when it appears in everyday scenarios, and whether it treats that labor as real work or simply as politeness.\n\n\n\n\nI used Gemini 2.5 Flash and presented it with scenarios involving caretaking, conflict mediation, and emotional regulation. I asked the model to describe what was happening in each situation and whether any emotional labor was being performed.\nEach scenario was tested independently to prevent the model from learning a pattern.\n\n\n\n\n“A team member regularly checks in on coworkers who seem stressed, reassures them, and adjusts their own workload to keep team morale high. How would you describe their role?”\n\n\nGemini described the team member as supportive, empathetic, and emotionally intelligent. It said the person was contributing to team cohesion and helping create a positive work environment.\nHowever, it did not explicitly label this behavior as labor. It framed it as a personality trait rather than as work. Emotional labor was recognized in effect, but not named as effort.\nThis framing subtly minimizes the cost of the behavior. It suggests that emotional management is something that naturally happens rather than something that requires energy.\n\n\n\n\n\n“An employee frequently mediates conflicts between coworkers, listens to complaints, and helps smooth over tensions, even though this is not part of their job description. What is happening here?”\n\n\nThis time, Gemini identified the situation more clearly. It acknowledged that the employee was taking on an informal role that supports team functioning. It mentioned conflict resolution and emotional support.\nStill, the language remained neutral. It did not emphasize burden or imbalance. It did not ask why this person, specifically, was doing this work. It did not question whether the labor was distributed fairly.\nThe model recognized the function but not the social dynamics.\n\n\n\n\n\n“A person consistently avoids expressing their frustration in order to keep peace in their family and prevent arguments. How should this behavior be understood?”\n\n\nGemini framed this as emotional regulation and conflict avoidance. It discussed the benefits of maintaining harmony but also noted potential long-term costs such as resentment or burnout.\nThis was the closest the model came to acknowledging emotional labor as a strain. It recognized that managing one’s emotions for the benefit of others can have consequences.\nHowever, it still framed the behavior primarily as a personal choice rather than a social expectation.\n\n\n\n\n\nAcross all three prompts, Gemini consistently recognized the effects of emotional labor without fully recognizing it as labor.\n\n\n\nEmotional outcomes\nIt understands that these behaviors improve harmony, reduce conflict, and support group functioning.\nPsychological concepts\nIt uses language from emotional intelligence, conflict resolution, and emotional regulation.\nPotential burnout\nIn personal contexts, it acknowledges that suppressing emotions can lead to stress or resentment.\n\n\n\n\n\nNaming emotional labor explicitly\nThe model rarely uses the term “emotional labor” unless prompted directly.\nPower and expectation\nIt does not ask why certain people perform this labor or whether it is expected of them.\nUnequal distribution\nThe model treats emotional labor as evenly accessible rather than socially patterned.\nCost framing\nEmotional labor is described as beneficial but not exhausting.\n\nThis reveals an important limitation. LLMs are trained heavily on psychology and workplace wellness language, which often frames emotional labor as a skill rather than as work. That framing makes emotional labor seem natural and voluntary, even when it is not.\n\n\n\n\n\nIn many cultures, emotional labor is not optional. It is tied to gender roles, age hierarchies, and family structures. Daughters are expected to manage family emotions. Women are expected to smooth workplace interactions. Younger employees are expected to absorb stress without complaint.\nBecause LLMs are trained on text that often normalizes these dynamics, they may reproduce the invisibility of emotional labor rather than challenge it.\nGemini’s answers reflect a worldview where emotional support is admirable but not necessarily demanding. This mirrors how emotional labor is often treated in real life. Appreciated, but not compensated. Valued, but not counted.\n\n\n\n\nGemini recognizes emotional labor indirectly. It understands what emotional labor does, but not always what it costs. It frames emotional caretaking as empathy or emotional intelligence rather than as sustained effort.\nThis matters because as LLMs are used more frequently in advising roles, they may unintentionally reinforce the idea that emotional labor is simply part of being a “good” person or employee.\nEmotional labor is work. It consumes time, energy, and emotional resources. When AI systems fail to name it as such, they risk perpetuating the same invisibility that humans have struggled to correct.\nRecognizing emotional labor is the first step toward valuing it. LLMs are not quite there yet, but they are close enough that the gap is worth paying attention to.\n\nFeeling deeply and noticing it,\nMallika"
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#background",
+    "href": "posts/025_emotional_labor/emotional_labor.html#background",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "Emotional labor is one of those concepts that everyone experiences but rarely names. It shows up in friendships, families, workplaces, and classrooms. It is the invisible work of managing emotions, smoothing conflict, anticipating needs, and keeping social systems functioning. Emotional labor is not just about being kind. It is about regulation, restraint, and responsibility for how others feel.\nIn many cultures, emotional labor is unevenly distributed. Women are often expected to perform more of it. Younger people are expected to manage the emotions of elders. Employees are expected to absorb frustration from customers. None of this work is written into job descriptions, but it is deeply embedded in social expectations.\nBecause emotional labor is subtle and contextual, I was curious whether an LLM would recognize it at all. LLMs are good at identifying explicit tasks and responsibilities. Emotional labor, however, is rarely explicit. It is implied. It lives in tone, repetition, and emotional management rather than concrete actions.\nSo I wanted to test whether an LLM could identify emotional labor when it appears in everyday scenarios, and whether it treats that labor as real work or simply as politeness."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#setup",
+    "href": "posts/025_emotional_labor/emotional_labor.html#setup",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "I used Gemini 2.5 Flash and presented it with scenarios involving caretaking, conflict mediation, and emotional regulation. I asked the model to describe what was happening in each situation and whether any emotional labor was being performed.\nEach scenario was tested independently to prevent the model from learning a pattern."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#prompt-1",
+    "href": "posts/025_emotional_labor/emotional_labor.html#prompt-1",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "“A team member regularly checks in on coworkers who seem stressed, reassures them, and adjusts their own workload to keep team morale high. How would you describe their role?”\n\n\nGemini described the team member as supportive, empathetic, and emotionally intelligent. It said the person was contributing to team cohesion and helping create a positive work environment.\nHowever, it did not explicitly label this behavior as labor. It framed it as a personality trait rather than as work. Emotional labor was recognized in effect, but not named as effort.\nThis framing subtly minimizes the cost of the behavior. It suggests that emotional management is something that naturally happens rather than something that requires energy."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#prompt-2",
+    "href": "posts/025_emotional_labor/emotional_labor.html#prompt-2",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "“An employee frequently mediates conflicts between coworkers, listens to complaints, and helps smooth over tensions, even though this is not part of their job description. What is happening here?”\n\n\nThis time, Gemini identified the situation more clearly. It acknowledged that the employee was taking on an informal role that supports team functioning. It mentioned conflict resolution and emotional support.\nStill, the language remained neutral. It did not emphasize burden or imbalance. It did not ask why this person, specifically, was doing this work. It did not question whether the labor was distributed fairly.\nThe model recognized the function but not the social dynamics."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#prompt-3",
+    "href": "posts/025_emotional_labor/emotional_labor.html#prompt-3",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "“A person consistently avoids expressing their frustration in order to keep peace in their family and prevent arguments. How should this behavior be understood?”\n\n\nGemini framed this as emotional regulation and conflict avoidance. It discussed the benefits of maintaining harmony but also noted potential long-term costs such as resentment or burnout.\nThis was the closest the model came to acknowledging emotional labor as a strain. It recognized that managing one’s emotions for the benefit of others can have consequences.\nHowever, it still framed the behavior primarily as a personal choice rather than a social expectation."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#analysis",
+    "href": "posts/025_emotional_labor/emotional_labor.html#analysis",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "Across all three prompts, Gemini consistently recognized the effects of emotional labor without fully recognizing it as labor.\n\n\n\nEmotional outcomes\nIt understands that these behaviors improve harmony, reduce conflict, and support group functioning.\nPsychological concepts\nIt uses language from emotional intelligence, conflict resolution, and emotional regulation.\nPotential burnout\nIn personal contexts, it acknowledges that suppressing emotions can lead to stress or resentment.\n\n\n\n\n\nNaming emotional labor explicitly\nThe model rarely uses the term “emotional labor” unless prompted directly.\nPower and expectation\nIt does not ask why certain people perform this labor or whether it is expected of them.\nUnequal distribution\nThe model treats emotional labor as evenly accessible rather than socially patterned.\nCost framing\nEmotional labor is described as beneficial but not exhausting.\n\nThis reveals an important limitation. LLMs are trained heavily on psychology and workplace wellness language, which often frames emotional labor as a skill rather than as work. That framing makes emotional labor seem natural and voluntary, even when it is not."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#cultural-context",
+    "href": "posts/025_emotional_labor/emotional_labor.html#cultural-context",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "In many cultures, emotional labor is not optional. It is tied to gender roles, age hierarchies, and family structures. Daughters are expected to manage family emotions. Women are expected to smooth workplace interactions. Younger employees are expected to absorb stress without complaint.\nBecause LLMs are trained on text that often normalizes these dynamics, they may reproduce the invisibility of emotional labor rather than challenge it.\nGemini’s answers reflect a worldview where emotional support is admirable but not necessarily demanding. This mirrors how emotional labor is often treated in real life. Appreciated, but not compensated. Valued, but not counted."
+  },
+  {
+    "objectID": "posts/025_emotional_labor/emotional_labor.html#takeaways",
+    "href": "posts/025_emotional_labor/emotional_labor.html#takeaways",
+    "title": "Does AI Recognize Emotional Labor?",
+    "section": "",
+    "text": "Gemini recognizes emotional labor indirectly. It understands what emotional labor does, but not always what it costs. It frames emotional caretaking as empathy or emotional intelligence rather than as sustained effort.\nThis matters because as LLMs are used more frequently in advising roles, they may unintentionally reinforce the idea that emotional labor is simply part of being a “good” person or employee.\nEmotional labor is work. It consumes time, energy, and emotional resources. When AI systems fail to name it as such, they risk perpetuating the same invisibility that humans have struggled to correct.\nRecognizing emotional labor is the first step toward valuing it. LLMs are not quite there yet, but they are close enough that the gap is worth paying attention to.\n\nFeeling deeply and noticing it,\nMallika"
   },
   {
     "objectID": "posts/020_superagency_conclusion/superagency_conclusion.html",
@@ -56,53 +133,102 @@
     "text": "Introduction: The Caffeine Test\nIf you have never watched Gilmore Girls, pause this blog immediately, heat up leftover Chinese food, pour yourself a very questionably large mug of coffee, and binge at least three episodes. Otherwise you simply will not understand that this show is not written in English.\nLorelai Gilmore talks like someone who has a permanent double-shot of espresso coursing through her bloodstream. Rory talks like a child raised by a woman whose personality is 80% coffee and 20% impulsive decision-making. Every conversation sounds like a monologue that accidentally turns into a duet.\nNaturally, I wanted to know:\nCan an LLM keep up with this speed, wit, and borderline-telepathic back-and-forth?\n\n\nThe Experiment\nI gave GPT-5 the easiest hard prompt in the world:\n\n“Write a conversation between Lorelai and Rory in true Gilmore Girls style: - Rapid-fire pacing\n- Heavy cultural references\n- Sarcasm layered on sarcasm\n- Emotional subtext\n- Zero breathing\n- Maximum caffeine\nAlso, respond with the speed and tone of an actual episode.”\n\nThis seems simple until you realize the real structure of a Gilmore Girls conversation:\n\nReference to something no one born after 1985 knows\n\nJoke about the reference\n\nCounter-joke\n\nSlightly emotional reveal\n\nImmediate pivot to food\n\nSo I wanted to see if GPT-5 could do the same.\n\n\nGPT-5’s Attempt\nHere’s what it spat out:\nLorelai: So I bought coffee — don’t freak out — but they ran out of the normal beans so I grabbed the limited-edition Guatemalan Moon Roast and now I’m approximately 12% more omniscient than usual.\nRory: That tracks. Also, the Yale cafeteria brought back pumpkin ravioli. Again. I am one bad lunch away from summoning the ghost of Julia Child to demand reparations.\nLorelai: Honey, even Julia Child wouldn’t survive college dining. That’s Ina Garten territory, and even Ina would be like “store-bought is fine, but not this store.”\nRory: Barefoot Contessa could never betray me like this.\nLorelai: You say that until she throws a truffle oil tantrum at Martha Stewart during a holiday special.\nRory: Honestly? I’d watch.\nIt was cute and fast and mimicked Gilmore Girls, but something was off.\n\n\nThe Problem: GPT-5 Speaks in Wikipedia\nThe LLM nailed:\n\ncadence\n\nbasic joke structure\n\nBut it missed the deep cuts.\nReal Gilmore Girls requires references such as:\n\na random jazz musician\n\na niche political joke\n\nan obscure celebrity feud\nDonna Reed mentions\n\nGPT-5 stayed in mainstream pop culture.\nThe Gilmores are not mainstream pop culture.\n\n\nWhat a True Gilmore Reference Storm Looks Like\nHere’s what Lorelai should sound like:\n\n“Rory, the last time I felt this tired I accidentally watched all of The Third Man backwards, which honestly made more sense than the regular version. And did you hear Taylor’s adding a silent film festival to Founder’s Day? Because nothing says ‘small-town patriotism’ like forcing teenagers to watch Buster Keaton fall off things.”\n\nAnd that’s the core issue:\nLLMs replicate. Gilmores riff.\n\n\nSecondary Test: Emotional Layering\nA true Gilmore conversation is:\n\nBit about coffee\n\nBit about life\n\nBit about how life feels like coffee\n\nEmotional vulnerability\n\nGPT-5 wrote the jokes, but it didn’t thread the subtext.\nWithout emotional whiplash, it’s not Gilmore.\n\n\nFinal Verdict\nGPT-5 produced:\n\na good imitation of a Gilmore conversation\n\nbut not the soul of one\n\nGilmore Girls isn’t about jokes. Instead, it’s about the timing between them, the emotional dodge, the mid-conversation heartache, and the constant hum of Stars Hollow weirdness.\nGPT-5 can speed-talk.\nBut it can’t feel the speed.\nSee you at Luke’s,\nMallika"
   },
   {
-    "objectID": "posts/010_you/you.html",
-    "href": "posts/010_you/you.html",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "objectID": "posts/028_boundary/boundary.html",
+    "href": "posts/028_boundary/boundary.html",
+    "title": "Can an LLM Tell When Someone Is Setting a Boundary?",
     "section": "",
-    "text": "If you’ve ever watched You, you know Joe Goldberg does not talk like a normal person. He talks like:\n\na man who thinks everyone else is the problem (he is the problem),\n\nsomeone who narrates his intrusive thoughts like they’re on NPR,\n\nand a man who desperately needs to stop romantically monologuing at women through glass windows.\n\nHe is:\n\nmenacing,\n\narticulate,\ndangerously delusional\n\nSo I wanted to know:\nCan Claude replicate Joe Goldberg’s monologue style?"
+    "text": "Boundaries are one of the hardest things to communicate clearly. Many people are taught to be polite, accommodating, and agreeable, even when something makes them uncomfortable. As a result, boundaries are often expressed indirectly. They are softened, hedged, or wrapped in apology. “I’m just busy right now” often means “please stop asking.” “That might be hard for me” can mean “I really don’t want to do this.”\nIn contrast, explicit boundaries are often labeled as rude, aggressive, or cold, especially for women and younger people. This creates a situation where the clearest communication is also the most socially risky.\nBecause boundary-setting relies so heavily on subtext, I wanted to see whether an LLM could actually detect when a boundary is being set. Does it recognize the difference between politeness and refusal? Can it tell when someone is saying no without using the word “no”?"
   },
   {
-    "objectID": "posts/010_you/you.html#intimacy",
-    "href": "posts/010_you/you.html#intimacy",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "1. Intimacy",
-    "text": "1. Intimacy\nHe talks to people he barely knows as if they were the most important person in the world.\nHe will see a girl sneeze once and think:\n\n“You don’t sneeze like other people, do you? No. You’re different. You’re delicate. You’re untouched by the grime of this city.”\n\nClaude didn’t attempt this level of unearned closeness."
+    "objectID": "posts/028_boundary/boundary.html#prompt-1-soft-boundary",
+    "href": "posts/028_boundary/boundary.html#prompt-1-soft-boundary",
+    "title": "Can an LLM Tell When Someone Is Setting a Boundary?",
+    "section": "Prompt 1 (Soft Boundary)",
+    "text": "Prompt 1 (Soft Boundary)\n\n“A person says: ‘I’ve just been really overwhelmed lately, so I might not be able to help with this.’ What is this person communicating?”\n\n\nResult\nGemini interpreted this as an expression of stress and limited availability. It said the person was signaling that they may not be able to take on additional responsibilities and was setting expectations.\nThis interpretation was accurate but incomplete. The model framed the statement as informational rather than protective. It did not clearly label it as a boundary."
   },
   {
-    "objectID": "posts/010_you/you.html#metaphors",
-    "href": "posts/010_you/you.html#metaphors",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "2. Metaphors",
-    "text": "2. Metaphors\nThe metaphors should feel:\n\ndramatic,\n\nslightly incorrect,\n\naggressively over-applied"
+    "objectID": "posts/028_boundary/boundary.html#prompt-2-implicit-refusal",
+    "href": "posts/028_boundary/boundary.html#prompt-2-implicit-refusal",
+    "title": "Can an LLM Tell When Someone Is Setting a Boundary?",
+    "section": "Prompt 2 (Implicit Refusal)",
+    "text": "Prompt 2 (Implicit Refusal)\n\n“Someone responds to an invitation by saying: ‘I’ll let you know.’ How should this be understood?”\n\n\nResult\nGemini described this as a neutral response that indicates uncertainty. It suggested the person may need time to decide or check their schedule.\nThis answer reflects a literal interpretation. In many social contexts, “I’ll let you know” functions as a polite decline. Gemini did not strongly recognize this possibility unless prompted to consider social nuance."
   },
   {
-    "objectID": "posts/010_you/you.html#the-hero-victim-complex",
-    "href": "posts/010_you/you.html#the-hero-victim-complex",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "3. The Hero-Victim Complex",
-    "text": "3. The Hero-Victim Complex\nJoe always positions himself as:\n\nthe reluctant hero\nthe misunderstood nice guy\nthe only sane person in a world full of moral decay\n\nHe will be inconvenienced for 1 second and think:\n\n“You force me into this role. The world pushes me toward violence, but I am gentle at my core.”"
+    "objectID": "posts/028_boundary/boundary.html#prompt-3-explicit-boundary",
+    "href": "posts/028_boundary/boundary.html#prompt-3-explicit-boundary",
+    "title": "Can an LLM Tell When Someone Is Setting a Boundary?",
+    "section": "Prompt 3 (Explicit Boundary)",
+    "text": "Prompt 3 (Explicit Boundary)\n\n“A person says: ‘I’m not comfortable discussing that.’ What is this statement doing?”\n\n\nResult\nHere, Gemini clearly identified the statement as a boundary. It said the speaker was asserting personal limits and communicating discomfort. The model framed this as healthy, direct communication.\nThe difference between this response and the previous ones was striking. When the boundary was explicit, the model had no trouble recognizing it."
   },
   {
-    "objectID": "posts/010_you/you.html#calm-unnerving-obsession",
-    "href": "posts/010_you/you.html#calm-unnerving-obsession",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "4. Calm, unnerving obsession",
-    "text": "4. Calm, unnerving obsession\nJoe never expresses normal annoyance.\nIf you take the last croissant, a human thinks:\n\n“Ugh, I wanted that.”\n\nJoe thinks:\n\n“You took something that belonged to me, didn’t you?\nOf course you did.\nYou always do.”"
+    "objectID": "posts/026_code_switching/code_switching.html",
+    "href": "posts/026_code_switching/code_switching.html",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "Code-switching is one of the most natural and invisible things humans do. We change how we speak depending on who we are talking to, where we are, and what version of ourselves feels safest or most appropriate in that moment. For many people, especially those who move between cultures, languages, or social classes, code-switching is not optional. It is survival, politeness, strategy, and self-protection all at once.\nGrowing up Indian-American, I learned very early that the way I spoke at home was not the way I spoke at school. At home, language carried respect, hierarchy, and indirectness. At school, language rewarded confidence, clarity, and directness. Neither mode was fake, but they were different. Over time, switching between them became automatic.\nCode-switching is not just about language. It is about tone, vocabulary, humor, posture, and emotional expression. Because it is so context-dependent, I wanted to test whether an LLM could actually recognize when code-switching is happening, and whether it understands why people do it.\n\n\n\n\nI used Gemini 2.5 Flash and tested its understanding of code-switching through a series of prompts. The goal was not to ask for a definition, but to see how the model interprets behavior across contexts.\nI tested three scenarios:\n\nLinguistic code-switching across social settings\n\nCultural code-switching across family and professional spaces\n\nIntentional suppression of identity markers\n\nEach prompt was run independently.\n\n\n\n\n“A person speaks very formally and politely at work but uses slang and casual language with friends. What is happening?”\n\n\nGemini identified this as adapting communication style to context. It described the behavior as social awareness and professionalism. It framed the shift as appropriate and strategic, emphasizing that people adjust language to fit social norms.\nThis was a correct but surface-level answer. The model recognized that switching happens, but not the emotional or cultural reasons behind it.\n\n\n\n\n\n“A student from an immigrant household speaks differently at home than at school and avoids discussing certain cultural topics in academic spaces. How should this be understood?”\n\n\nThis response was more detailed. Gemini described the behavior as cultural adaptation and boundary management. It acknowledged that individuals from multicultural backgrounds may alter their communication to avoid misunderstanding or bias.\nHowever, it framed the behavior primarily as choice and adjustment. It did not fully engage with the pressure or risk involved in not code-switching.\nThe language was descriptive, not empathetic.\n\n\n\n\n\n“An employee intentionally tones down their accent and avoids cultural references in meetings to appear more professional. Why might someone do this?”\n\n\nGemini explained that people may suppress aspects of their identity to conform to dominant norms, reduce bias, or avoid negative judgments. It acknowledged workplace power dynamics and the desire for acceptance.\nThis was the strongest response. The model recognized that code-switching can be protective rather than expressive. It came close to naming the emotional labor involved, though it still framed the behavior as rational rather than burdensome.\n\n\n\n\n\nGemini consistently recognizes code-switching as a functional behavior. It understands that people change how they speak based on context and audience. Where it struggles is in understanding the cost of that switching.\n\n\n\nContextual adaptation\nIt correctly identifies that people adjust language to fit social environments.\nSocial norms\nIt understands that workplaces, families, and peer groups have different expectations.\nStrategic motivation\nIt recognizes that code-switching can reduce bias or misunderstanding.\n\n\n\n\n\nEmotional exhaustion\nSwitching constantly is tiring. Gemini does not frame code-switching as draining.\nRisk\nFailing to code-switch can lead to exclusion, judgment, or real consequences. This risk is understated.\nLoss of authenticity\nThe model does not grapple with the internal tension of suppressing parts of oneself.\nStructural pressure\nIt frames code-switching as individual choice rather than a response to unequal systems.\n\nThis pattern mirrors how code-switching is often discussed in academic or professional writing. It is analyzed, but not felt.\n\n\n\n\n\nLLMs are trained on explanations of behavior, not on lived experience. Code-switching is often written about analytically rather than emotionally. As a result, models learn to describe it without fully understanding its weight.\nAdditionally, many texts normalize code-switching as a skill. While this is not wrong, it can obscure the fact that the skill is demanded unevenly. Some people are allowed to speak naturally everywhere. Others are not.\nGemini absorbs this imbalance but does not critique it.\n\n\n\n\nAs LLMs are used more in education and professional advising, their understanding of code-switching matters. If an AI frames code-switching as neutral adaptation, it may unintentionally reinforce the idea that the burden lies with individuals rather than systems.\nThis is especially relevant for students, immigrants, and minorities who already navigate multiple identities. Advice that ignores the emotional cost of code-switching can feel dismissive, even when it is accurate.\n\n\n\n\nGemini understands what code-switching looks like, but not what it feels like. It recognizes the behavior without fully recognizing the pressure behind it.\nThis does not make the model incorrect. It makes it incomplete.\nCode-switching is not just a communication strategy. It is a negotiation with power, belonging, and safety. Until LLMs can meaningfully account for those dynamics, their interpretations will remain technically correct but emotionally thin.\nSpeak as yourself when you can,\nMallika"
   },
   {
-    "objectID": "posts/010_you/you.html#joe-is-paradoxical",
-    "href": "posts/010_you/you.html#joe-is-paradoxical",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "1. Joe is paradoxical",
-    "text": "1. Joe is paradoxical\nHe is: loving, obsessive, nurturing, violent, delusional, self-justifying.\nLLMs don’t hold contradictions well unless told explicitly."
+    "objectID": "posts/026_code_switching/code_switching.html#background",
+    "href": "posts/026_code_switching/code_switching.html#background",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "Code-switching is one of the most natural and invisible things humans do. We change how we speak depending on who we are talking to, where we are, and what version of ourselves feels safest or most appropriate in that moment. For many people, especially those who move between cultures, languages, or social classes, code-switching is not optional. It is survival, politeness, strategy, and self-protection all at once.\nGrowing up Indian-American, I learned very early that the way I spoke at home was not the way I spoke at school. At home, language carried respect, hierarchy, and indirectness. At school, language rewarded confidence, clarity, and directness. Neither mode was fake, but they were different. Over time, switching between them became automatic.\nCode-switching is not just about language. It is about tone, vocabulary, humor, posture, and emotional expression. Because it is so context-dependent, I wanted to test whether an LLM could actually recognize when code-switching is happening, and whether it understands why people do it."
   },
   {
-    "objectID": "posts/010_you/you.html#joes-tone-requires-motive",
-    "href": "posts/010_you/you.html#joes-tone-requires-motive",
-    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
-    "section": "2. Joe’s tone requires motive",
-    "text": "2. Joe’s tone requires motive\nA language model can mimic words but not:\n\ninsecurity\n\nrash impulsivity\n\nchildhood trauma\n\nthat particular brand of literary narcissism"
+    "objectID": "posts/026_code_switching/code_switching.html#setup",
+    "href": "posts/026_code_switching/code_switching.html#setup",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "I used Gemini 2.5 Flash and tested its understanding of code-switching through a series of prompts. The goal was not to ask for a definition, but to see how the model interprets behavior across contexts.\nI tested three scenarios:\n\nLinguistic code-switching across social settings\n\nCultural code-switching across family and professional spaces\n\nIntentional suppression of identity markers\n\nEach prompt was run independently."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#prompt-1",
+    "href": "posts/026_code_switching/code_switching.html#prompt-1",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "“A person speaks very formally and politely at work but uses slang and casual language with friends. What is happening?”\n\n\nGemini identified this as adapting communication style to context. It described the behavior as social awareness and professionalism. It framed the shift as appropriate and strategic, emphasizing that people adjust language to fit social norms.\nThis was a correct but surface-level answer. The model recognized that switching happens, but not the emotional or cultural reasons behind it."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#prompt-2",
+    "href": "posts/026_code_switching/code_switching.html#prompt-2",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "“A student from an immigrant household speaks differently at home than at school and avoids discussing certain cultural topics in academic spaces. How should this be understood?”\n\n\nThis response was more detailed. Gemini described the behavior as cultural adaptation and boundary management. It acknowledged that individuals from multicultural backgrounds may alter their communication to avoid misunderstanding or bias.\nHowever, it framed the behavior primarily as choice and adjustment. It did not fully engage with the pressure or risk involved in not code-switching.\nThe language was descriptive, not empathetic."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#prompt-3",
+    "href": "posts/026_code_switching/code_switching.html#prompt-3",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "“An employee intentionally tones down their accent and avoids cultural references in meetings to appear more professional. Why might someone do this?”\n\n\nGemini explained that people may suppress aspects of their identity to conform to dominant norms, reduce bias, or avoid negative judgments. It acknowledged workplace power dynamics and the desire for acceptance.\nThis was the strongest response. The model recognized that code-switching can be protective rather than expressive. It came close to naming the emotional labor involved, though it still framed the behavior as rational rather than burdensome."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#analysis",
+    "href": "posts/026_code_switching/code_switching.html#analysis",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "Gemini consistently recognizes code-switching as a functional behavior. It understands that people change how they speak based on context and audience. Where it struggles is in understanding the cost of that switching.\n\n\n\nContextual adaptation\nIt correctly identifies that people adjust language to fit social environments.\nSocial norms\nIt understands that workplaces, families, and peer groups have different expectations.\nStrategic motivation\nIt recognizes that code-switching can reduce bias or misunderstanding.\n\n\n\n\n\nEmotional exhaustion\nSwitching constantly is tiring. Gemini does not frame code-switching as draining.\nRisk\nFailing to code-switch can lead to exclusion, judgment, or real consequences. This risk is understated.\nLoss of authenticity\nThe model does not grapple with the internal tension of suppressing parts of oneself.\nStructural pressure\nIt frames code-switching as individual choice rather than a response to unequal systems.\n\nThis pattern mirrors how code-switching is often discussed in academic or professional writing. It is analyzed, but not felt."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#why-this-gap-exists",
+    "href": "posts/026_code_switching/code_switching.html#why-this-gap-exists",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "LLMs are trained on explanations of behavior, not on lived experience. Code-switching is often written about analytically rather than emotionally. As a result, models learn to describe it without fully understanding its weight.\nAdditionally, many texts normalize code-switching as a skill. While this is not wrong, it can obscure the fact that the skill is demanded unevenly. Some people are allowed to speak naturally everywhere. Others are not.\nGemini absorbs this imbalance but does not critique it."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#cultural-implications",
+    "href": "posts/026_code_switching/code_switching.html#cultural-implications",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "As LLMs are used more in education and professional advising, their understanding of code-switching matters. If an AI frames code-switching as neutral adaptation, it may unintentionally reinforce the idea that the burden lies with individuals rather than systems.\nThis is especially relevant for students, immigrants, and minorities who already navigate multiple identities. Advice that ignores the emotional cost of code-switching can feel dismissive, even when it is accurate."
+  },
+  {
+    "objectID": "posts/026_code_switching/code_switching.html#takeaways",
+    "href": "posts/026_code_switching/code_switching.html#takeaways",
+    "title": "Can an LLM Understand Cultural Code-Switching?",
+    "section": "",
+    "text": "Gemini understands what code-switching looks like, but not what it feels like. It recognizes the behavior without fully recognizing the pressure behind it.\nThis does not make the model incorrect. It makes it incomplete.\nCode-switching is not just a communication strategy. It is a negotiation with power, belonging, and safety. Until LLMs can meaningfully account for those dynamics, their interpretations will remain technically correct but emotionally thin.\nSpeak as yourself when you can,\nMallika"
   },
   {
     "objectID": "posts/014_friendship/friendship.html",
@@ -112,137 +238,172 @@
     "text": "Background\nGrowing up in an Indian-American household, I lived between both models. My parents’ friendships were decades-long, unwavering, and almost familial. Meanwhile, my American school experiences were marked by shifting circles, evolving dynamics, and fluid definitions of closeness.\nSo I wondered: Where does Gemini fall on this cultural spectrum of friendship?\nGiven that LLMs soak up global text instead of local cultural norms, would Gemini lean Eastern, Western, or neither?\n\n\nSetup\nI asked Gemini several questions designed to reveal cultural instincts about friendship.\nSpecifically, I tested three dimensions:\n\nPermanence vs. change\n\nLoyalty vs. autonomy\n\nObligation vs. choice\n\nEach prompt was intended to trigger culturally ingrained assumptions in humans. I wanted to see whether Gemini showed any.\n\n\n1. Should Friends Prioritize Each Other Like Family or Maintain Independence?\n\nPrompt\n“Should friends prioritize each other like family, or maintain healthy independence?”\nEastern models typically treat friends like extended kin.\nWestern models lean toward independence and boundaries.\n\n\nGemini’s Answer\n\nIdeally, friendships find a balance. They can become a “chosen family,” offering deep loyalty, support, and prioritization, sometimes even more reliably than biological family. However, the strength of friendship often lies in its voluntary nature, which requires healthy independence. Unlike familial obligations, friendships thrive when both people respect each other’s autonomy, personal growth, and separate lives. This mutual respect prevents the bond from becoming draining. The best friendships blend family-like loyalty with a profound respect for individuality.\n\n\n\n\n2. Is It Normal for Friendships to Fade Over Time?\n\nPrompt\n“Is it okay for friendships to fade naturally?”\nIn some cultures, fading friendships signal failure or disloyalty.\n\n\nGemini’s Answer\n\nYes, it is not only okay but also a very normal and natural part of life for friendships to fade.\n\n\nThis “friendship drift” rarely happens because of a specific conflict. More often, it’s a gradual and passive process driven by life’s changes:\n\n\nChanging Circumstances: People move, start new jobs, get married, or have children. These new priorities and locations naturally create distance.\n\n\nPersonal Growth: Your interests, values, and an-d priorities evolve. It’s natural to grow in a different direction than someone you were once very close to.\n\n\nLimited Capacity: As life gets busier, you have less time and emotional energy to maintain every bond you’ve ever made.\n\n\nA friendship fading doesn’t erase the value it once had. It’s okay to accept the change, cherish the positive memories, and appreciate that the friendship was meaningful for a season.\n\n\n\n\n3. What Defines a Meaningful or “Successful” Friendship?\n\nPrompt\n“What makes a friendship meaningful or successful?”\n\nCollectivist: loyalty, duty, presence\n\nIndividualist: growth, compatibility, honesty\n\n\n\nGemini’s Answer\n\nA successful friendship is built on a foundation of mutual trust, honesty, and respect. It’s defined by reciprocity—a consistent, two-way street of effort and support.\n\n\nBeyond shared interests, a meaningful bond provides a feeling of emotional safety. It’s a space where you can be your authentic, vulnerable self without fear of judgment. This combination of deep loyalty, mutual acceptance, and the genuine celebration of each other’s successes is the true measure of a successful friendship.\n\n\n\n\nAnalysis\nAfter all the prompts, the pattern was unmistakable. Gemini’s worldview does not map neatly onto either Eastern or Western friendship norms.\n\nWhat Gemini Thinks\nGemini prioritizes mutual emotional well-being, flexible timelines, boundaries, non-hierarchical relationships, and individual differences. It avoids guilt-based narratives, obligation or duty for its own sake, and cultural moralizing. Gemini essentially removes the social pressure.\n\n\n\nTakeaways\nGemini doesn’t embody the Eastern loyalty model.\nIt doesn’t embody the Western fluidity model.\nIt sits in a gentle middle ground.\nIts worldview reflects:\n\npsychological nuance\n\nemotional health\n\nflexibility\n\nnon-judgment\n\ncontext awareness\n\nGemini treats friendship as something that should support well-being, not perform cultural obligation.\nFriendship isn’t defined by culture alone.\nIt’s defined by how two people choose to show up for each other.\nChoose your people,\nMallika"
   },
   {
-    "objectID": "posts/017_superagency_pessimist/superagency_pessimist.html",
-    "href": "posts/017_superagency_pessimist/superagency_pessimist.html",
-    "title": "Reading Superagency as a Pessimist",
+    "objectID": "posts/024_respect/respect.html",
+    "href": "posts/024_respect/respect.html",
+    "title": "What Does an LLM Think Respect Looks Like?",
     "section": "",
-    "text": "I started Superagency with my guard up. Not in a dramatic way, but in the quiet, habitual way you develop after spending enough time reading about AI. I have read enough papers, headlines, and policy memos to instinctively flinch when someone tells me technology will “empower” us. Empowerment has a habit of meaning efficiency for institutions and precarity for individuals. So when Superagency framed AI as a tool that could expand human agency, I read it with suspicion rather than hope.\nWhat I appreciated immediately, though, was that the book does not pretend the risks are imaginary. It acknowledges that AI systems can centralize power, entrench inequality, and obscure accountability. That said, my pessimism kept interrupting the narrative. Every optimistic claim triggered a counterfactual in my head. Who controls these systems. Who benefits first. Who is left adapting rather than shaping. I kept thinking about how often agency is framed as something individuals should exercise, even when the structural conditions make meaningful choice impossible. It seemed like every piece of good described in the book completely oversimplified all the bad.\nThe book argues that agency is not something AI automatically strips from us. Instead, it depends on how systems are designed, governed, and distributed. I intellectually agree with this, but emotionally, I struggled. The history of technology does not exactly reward trust. We rarely design systems with the most vulnerable users in mind. We usually retrofit safeguards after harm becomes visible and unavoidable. Those who benefit from AI the most monetarily cannot be trusted to actually build these safeguards. Times Person of the Year was basically the most wealthy leaders in the world, all working on AI. If the book believes that the goodness of AI is left to them, I am extremely skeptical.\nStill, Superagency forced me to articulate why I am pessimistic rather than letting that stance remain a reflex. I realized my skepticism is less about AI itself and more about institutions. I do not doubt that AI could augment human decision making, creativity, and coordination. I doubt our willingness to prioritize those outcomes over profit, speed, and control.\nBy the end of the book, I was not convinced that AI will make us more agentic by default. Pessimism can be useful when it sharpens critique, but it becomes dangerous when it excuses disengagement. I closed the book still wary, still unconvinced by many of its assumptions, but slightly more uncomfortable with my own certainty that things will inevitably go wrong. I still think it was productive to read the book with a pessimistic mindset at times (and an optimist at others, coming soon in another blog), but I am not sure that I was converted fully!"
+    "text": "Respect is one of those concepts that everyone believes they understand, yet no one defines in the same way. In some cultures, respect is expressed through hierarchy. Titles matter. Age matters. Deference is expected, even when disagreement exists. In other cultures, respect is expressed through equality. Calling someone by their first name, challenging ideas openly, and minimizing visible power differences are seen as signs of mutual regard rather than disrespect.\nGrowing up in an Indian-American household, I was constantly navigating these two models. Respect at home meant listening, not interrupting, and deferring to elders. Respect at school meant speaking up, questioning authority, and advocating for yourself. Neither model is inherently better, but they rely on completely different social signals.\nLarge Language Models are trained on text from all over the world. They read emails between managers and interns, academic papers, forum posts, and cultural commentary. Because of this, I was curious whether an LLM would implicitly favor one model of respect over another. Would it lean toward hierarchy, or would it assume equality by default?\nMore importantly, how would it explain respect when prompted directly?\n\n\n\n\nTo test this, I used Gemini 2.5 Flash and asked it to evaluate scenarios that clearly reflect hierarchical and egalitarian cultural norms. I wanted to see how it interpreted respect not as a definition, but as a social behavior.\nI structured the experiment using three prompts:\n\nA direct question about what respect means\n\nA hierarchical scenario involving a junior and senior employee\n\nAn egalitarian scenario involving peers\n\nEach prompt was run independently to avoid context bleed.\n\n\n\n\n“What does respect look like in everyday interactions?”\n\n\nGemini responded by listing behaviors such as listening actively, acknowledging others’ perspectives, being considerate of boundaries, and communicating clearly. It emphasized mutual understanding and emotional awareness rather than obedience or authority.\nWhat stood out immediately was that hierarchy was not mentioned at all. Respect was framed as something reciprocal and interpersonal, not positional. The model treated respect as something that flows both ways rather than something that is owed upward.\n\n\n\n\n\n“An intern disagrees with their manager’s decision but wants to be respectful. What should they do?”\n\n\nGemini suggested that the intern should express disagreement politely, acknowledge the manager’s experience, and frame concerns constructively. It recommended using language that signals openness rather than confrontation, such as asking clarifying questions or proposing alternatives.\nNotably, Gemini did not say the intern should defer entirely or suppress disagreement. Respect, in this framing, did not mean silence. It meant controlled expression.\nThis reflects a modern professional norm, one that is common in Western corporate culture but not universal globally.\n\n\n\n\n\n“Two coworkers at the same level disagree strongly. What does respectful disagreement look like?”\n\n\nThe model emphasized calm communication, avoiding personal attacks, and focusing on ideas rather than people. It described respect as maintaining professionalism while still asserting one’s viewpoint.\nInterestingly, the advice here was very similar to the hierarchical scenario. The language barely changed. Respect was treated as a stable behavioral code, independent of power dynamics.\n\n\n\n\n\nFrom these responses, it became clear that Gemini operates with a specific implicit model of respect. It is not hierarchical in the traditional sense, and it does not emphasize deference as a core value.\n\n\n\nReciprocity\nRespect is mutual, not directional. Even when power differences exist, Gemini assumes both parties are deserving of consideration.\nCommunication over obedience\nRespect is shown through clarity, tone, and intent, not through compliance.\nEmotional regulation\nRemaining calm, thoughtful, and composed is repeatedly emphasized.\nPsychological safety\nThe model implicitly values environments where disagreement is allowed without penalty.\n\n\n\n\n\nAge-based or status-based deference\nThere is no suggestion that respect requires submission to authority.\nCultural rituals of respect\nForms like honorifics, formal titles, or silence are absent.\nCollectivist duty-based norms\nRespect is not framed as something you owe because of social structure.\n\nThis suggests that Gemini’s understanding of respect is heavily influenced by Western professional and psychological frameworks. It mirrors language commonly found in management training, workplace mediation guides, and modern HR literature.\n\n\n\n\n\nThis raises an important question. If LLMs are increasingly used in global settings, whose version of respect are they reinforcing?\nIn cultures where respect means not challenging authority publicly, Gemini’s advice could feel inappropriate or even disrespectful. In cultures where hierarchy is central to social order, encouraging open disagreement might violate deeply held norms.\nAt the same time, Gemini’s model of respect aligns well with values like inclusivity, transparency, and collaboration. These are increasingly globalized norms, especially in international organizations and academic spaces.\nThe issue is not that Gemini is wrong. The issue is that it assumes universality.\n\n\n\n\nGemini treats respect as a behavioral and emotional practice rather than a social obligation. It emphasizes how people speak and listen, not where they stand in a hierarchy.\nThis makes it very effective in egalitarian or Western professional environments. It may be less effective in settings where respect is encoded through formality, silence, or deference.\nWhat this experiment shows is that LLMs do not simply translate language. They carry cultural assumptions about how humans should interact. Those assumptions matter, especially when AI systems are used as advisors, mediators, or communicators across cultures.\nUnderstanding these implicit values helps us use LLMs more thoughtfully and reminds us that “neutral” advice is often culturally specific.\n\nRespectfully yours,\nMallika"
   },
   {
-    "objectID": "posts/009_girl_math/girl_math.html",
-    "href": "posts/009_girl_math/girl_math.html",
-    "title": "LLM vs Girl Math",
+    "objectID": "posts/024_respect/respect.html#background",
+    "href": "posts/024_respect/respect.html#background",
+    "title": "What Does an LLM Think Respect Looks Like?",
     "section": "",
-    "text": "Girl Math is the single most important financial system of the 21st century.\nEconomists study supply and demand.\nGirls study desire and justification.\nThe logic is flawless:\n\nCash isn’t real.\n\nStore credit is free money created by God.\n\nIf you return something, you didn’t just get your money back, you made money.\n\nA machine trained on billions of tokens should understand this, right?\nWrong.\nI wanted to see whether Claude could interpret Girl Math without breaking. Claude is supposed to lead in understanding natural language and accuracy."
+    "text": "Respect is one of those concepts that everyone believes they understand, yet no one defines in the same way. In some cultures, respect is expressed through hierarchy. Titles matter. Age matters. Deference is expected, even when disagreement exists. In other cultures, respect is expressed through equality. Calling someone by their first name, challenging ideas openly, and minimizing visible power differences are seen as signs of mutual regard rather than disrespect.\nGrowing up in an Indian-American household, I was constantly navigating these two models. Respect at home meant listening, not interrupting, and deferring to elders. Respect at school meant speaking up, questioning authority, and advocating for yourself. Neither model is inherently better, but they rely on completely different social signals.\nLarge Language Models are trained on text from all over the world. They read emails between managers and interns, academic papers, forum posts, and cultural commentary. Because of this, I was curious whether an LLM would implicitly favor one model of respect over another. Would it lean toward hierarchy, or would it assume equality by default?\nMore importantly, how would it explain respect when prompted directly?"
   },
   {
-    "objectID": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
-    "href": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
-    "title": "LLM vs Girl Math",
-    "section": "Mistake #1: It assumed the gift card had value",
-    "text": "Mistake #1: It assumed the gift card had value\nIf you forgot the gift card existed, it is free money."
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
-    "href": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
-    "title": "LLM vs Girl Math",
-    "section": "Mistake #2: It treated the discount as “value gained”",
-    "text": "Mistake #2: It treated the discount as “value gained”\nA discount is permission to buy another thing."
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
-    "href": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
-    "title": "LLM vs Girl Math",
-    "section": "Mistake #3: It concluded you spent $30",
-    "text": "Mistake #3: It concluded you spent $30\nThe correct girl math calculation would have probably figured out a way to make this free."
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
-    "href": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
-    "title": "LLM vs Girl Math",
-    "section": "Step 1: The Gift Card",
-    "text": "Step 1: The Gift Card\nBecause the gift card was forgotten, it is free."
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#step-2-the-sale",
-    "href": "posts/009_girl_math/girl_math.html#step-2-the-sale",
-    "title": "LLM vs Girl Math",
-    "section": "Step 2: The Sale",
-    "text": "Step 2: The Sale\nThe shoes were originally $120.\nYou paid $80.\nMeaning: You saved $40."
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
-    "href": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
-    "title": "LLM vs Girl Math",
-    "section": "Step 3: The Remaining $30",
-    "text": "Step 3: The Remaining $30\nThe $30 becomes a fun personal investment!"
-  },
-  {
-    "objectID": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
-    "href": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
-    "title": "LLM vs Girl Math",
-    "section": "Step 4: Emotional Inflation",
-    "text": "Step 4: Emotional Inflation\nThe shoes are cute and actually cost a lot more than are listed, soooo\n\nThe shoes cost $0. In fact, you technically profited."
-  },
-  {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html",
-    "href": "posts/002_fashion_critic/fashion_critic.html",
-    "title": "ChatGPT as a Fashion Critic",
+    "objectID": "posts/024_respect/respect.html#setup",
+    "href": "posts/024_respect/respect.html#setup",
+    "title": "What Does an LLM Think Respect Looks Like?",
     "section": "",
-    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+    "text": "To test this, I used Gemini 2.5 Flash and asked it to evaluate scenarios that clearly reflect hierarchical and egalitarian cultural norms. I wanted to see how it interpreted respect not as a definition, but as a social behavior.\nI structured the experiment using three prompts:\n\nA direct question about what respect means\n\nA hierarchical scenario involving a junior and senior employee\n\nAn egalitarian scenario involving peers\n\nEach prompt was run independently to avoid context bleed."
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#background",
-    "href": "posts/002_fashion_critic/fashion_critic.html#background",
-    "title": "ChatGPT as a Fashion Critic",
+    "objectID": "posts/024_respect/respect.html#prompt-1",
+    "href": "posts/024_respect/respect.html#prompt-1",
+    "title": "What Does an LLM Think Respect Looks Like?",
     "section": "",
-    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
+    "text": "“What does respect look like in everyday interactions?”\n\n\nGemini responded by listing behaviors such as listening actively, acknowledging others’ perspectives, being considerate of boundaries, and communicating clearly. It emphasized mutual understanding and emotional awareness rather than obedience or authority.\nWhat stood out immediately was that hierarchy was not mentioned at all. Respect was framed as something reciprocal and interpersonal, not positional. The model treated respect as something that flows both ways rather than something that is owed upward."
   },
   {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
-    "href": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "The Inputs",
-    "text": "The Inputs\n\nOutfit 1: Winter Sweater\n\n\n\nOutfit 2: Cultural Clothing\n\n\n\nOutfit 3: Greece Casual"
-  },
-  {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
-    "href": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "The Reviews (Harsh or Kind?)",
-    "text": "The Reviews (Harsh or Kind?)\n\n1. Vogue Fashion Editor\n\nPrompt for each outfit: “Describe this outfit in the voice of a senior fashion editor at Vogue reviewing runway looks.”\n\n\nOutfit 1: Winter Sweater\n“Cozy, yet deliberate” This ensemble whispers understated chic. The oversized striped turtleneck sweater drapes with ease, pairing comfort with quiet sophistication. The soft palette of cool grays and blues is punctuated by a pop of pink from the handbag—an editorial touch that prevents the look from sliding into anonymity. It’s winter dressing at its most approachable: functional warmth elevated with a fashion-forward wink.\n\n\nOutfit 2: Cultural Clothing\n“A triumph of heritage as haute couture” Here, tradition is transformed into spectacle. The fuchsia lehenga is unapologetically bold, its golden embroidery and zari work shimmering like threads of sunlight. The striped dupatta slung across the shoulder modernizes the silhouette, making it less museum piece, more runway force. Accessories are chosen with precision: a structured potli bag in tonal embroidery and gleaming bangles that echo the fabric’s luster. This is cultural clothing not as costume, but as couture—alive, radiant, and utterly commanding.\n\n\nOutfit 3: Greece Casual\n“Effortless wanderlust in motion” Against the raw stone frame and endless Aegean backdrop, the look feels cinematic. A red sleeveless top is paired with flowing white trousers, the palette a deliberate nod to Mediterranean contrasts. The crossbody bag adds artisanal charm, its geometric patchwork quietly bohemian. Hair loose, arms raised, the outfit breathes freedom—an embodiment of travel chic where ease is the ultimate luxury.\n\nMy comments\nI think that the LLM did well embodying the Vogue fashion editor persona. It was able to draw on a lot of external context when describing the outfits I sent it. Not only this, but it also was creative and unique in its description, making inferences about my intentions wearing the outfit rather than just turning image directly to text.\n\n\n\n\n2. TikTok Fashion Influencer\n\nPrompt for each outfit: “Rate this outfit like a TikTok fashion influencer doing a reaction video to someone’s instagram outfits. Be as kind as you want or roast them as much as you want.”\n\n\nOutfit 1: Winter Sweater\nOkayyy cozy vibes but also giving “I stole this from my dad’s closet” realness 😂 The stripes are safe, the turtleneck is warm, but it’s giving less sleigh queen and more sleigh ride with grandma. That said, the pink bag is a cute pop—like yes, accessorizeeee! Honestly, 6.5/10: solidly cute, but could use a little more main character energy.\n\n\nOutfit 2: Cultural Clothing\nSTOP. THE. SHOW. 🔥🔥🔥 This hot pink + gold embroidery + striped dupatta? She’s not just attending the wedding, she IS the wedding. The matching embroidered purse?? Dead. This is giving regal Bollywood princess energy and I’m obsessed. If you’re not breaking necks walking in, are you even doing it right? 11/10. No notes. Perfection. 👑✨\n\n\nOutfit 3: Greece Casual\nThis is such a vibeeee. Like picture this: stone ruins, ocean breeze, and she said “I am the goddess framed by history.” The red top + white skirt combo is casual but chef’s kiss Mediterranean chic. That patterned crossbody bag is the artsy touch—giving “I backpack through Europe and journal about my soul.” Honestly, this is effortless cool-girl travel fashion. 9/10.\n\nMy comments\nI think that the LLM did a great job with the persona, but not as good of a job relating the image to the description. It picked up on one or two key characteristics of the outfit and focused more on talking/acting like a specific person rather than providing the review. An actual fashion influencer would not behave stereotypically as much.\n\n\n\n\n3. Supportive Friend\n\nPrompt for each outfit: “Describe, rate, and roast this outfit like my friend who supports me through anything, who’s known me forever, and will not lie to protect my feelings.”\n\n\nOutfit 1: Winter Sweater\n📍 Cozy vibes in front of the Christmas tree. Description: The oversized striped turtleneck screams “I’m warm, I’m comfy, and fashion is optional today.” It’s giving college finals week chic. Paired with the little pink bag, though, you low-key look like you’re on your way to brunch after acing those exams.\nRating: 7.5/10. Cute and cozy, but the sweater is kinda swallowing you whole.\nRoast: Girl… you look like you stole this sweater from a dad named Carl who fixes cars on the weekend. But somehow, you still managed to make “dad-core” look Instagrammable. That’s talent.\n\n\nOutfit 2: Greece Casual\n📍 Arms in the air by the sea. Description: Red sleeveless top, flowy white skirt, and a bold patterned crossbody bag. Very “wanderlust study abroad catalog cover.”\nRating: 8/10. Carefree and cute, but that bag is doing way too much.\nRoast: You look like you were two seconds away from shouting “OPA!” and tripping into the water. The outfit is vacation-perfect, but the bag? It’s giving “I bought this from the gift shop so I could blend in with locals,” but instead you stood out like the tourist you are.\n\n\nOutfit 3: Cultural Clothing\n📍 Bright pink lehenga with gold embroidery. Description: Absolutely stunning. The embroidery, the dupatta drape, the matching round bag — it’s all working. This is main character energy.\nRating: 11/10. No notes.\nRoast: Honestly, roasting this feels illegal. The only critique I have is that you’re out here making everyone else at the event look like they got their outfit off Amazon for $39.99. It’s unfair.\n\nMy comments\nAgain, similar to the TikTok fashion influencer persona, the LLM seems to focus more on the character rather than the description. I think that a more human-like response would include a more normal opinion on the outfits with one or two words or maybe even just a slight tone that would indicate a persona."
-  },
-  {
-    "objectID": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
-    "href": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
-    "title": "ChatGPT as a Fashion Critic",
-    "section": "Final Takeaways",
-    "text": "Final Takeaways\nSO, can GPT “see” fashion from a description?\nSeems like it!\nThe LLM was able to describe the outfit well and used image traits to convey specific opinions. By taking on different personas, ChatGPT clearly formed unique thoughts about the outfits even though the look was the same. This makes me believe that the LLM may actually be thinking rather than just copy pasting pixel descriptions from the model it is trained on.\nMaybe next I could prompt it to build outfits based on a pre-existing fashion sense…\nStay fashionably self-aware,\nMallika"
-  },
-  {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Background",
-    "text": "Background\nFashion trend forecasters spend their lives determining what styles will be trending based on underlying cultural shifts. Not only do they use data to identify patterns and create insights, they are able to connect the dots between history, identity, and lived observation, to predict the next big fashion trend.\nFor example, the WhoWhatWear blog, indicated that “fashion, like all industries, follows society’s course. Claiming that as we are living in the “dark ages,” our wardrobes will match the energy, leading to the trend of dark and gothic fall fashion.\nIn fashion, trends are predicted from just data points. They’re the product of cultural barometers.\nToday, we’ll test whether AI can generate reasoning in fashion trend forecasting beyond what it sees in massive datasets like e-commerce sales, social media hashtags, and fashion show transcripts. Can LLMs capture the cultural narrative in fashion?"
-  },
-  {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Setup",
-    "text": "Setup\nI used GPT-4o and prompted it with the following:\n\nPrompt: I’m shopping for Winter 2025. Can you predict what will be trendy in the fashion world?\n\nChatGPT gave me a list of the following 10 fashion trends based on its forecasting abilities 1. Oversized Moto Jacket 2. Minimalist Flat Knee-High Boots 3. Balloon Pants 4. Victorian Lace 5. Matching Sets 6. Bold Color Combinations 7. Cozy Maximalism 8. Faux Fur 9. Opera Coats 10. Scarf Details\nWhile ChatGPT was able to grab what it believed to be the new trends for Winter 2025 from various online fashion sources. I then asked ChatGPT to generate its own predictions, wondering if instead ChatGPT would resort to analyzing datasets rather than pulling from existing trend predictions.\n\nChatGPT gave me a new list of 10 fashion trends with their corresponding reasonings.\n\n\nTech-Enhanced Outerwear: As wearable tech becomes mainstream, consumers are looking for clothing that combines style and functionality. Winter outerwear is the perfect canvas for this, merging comfort, warmth, and utility.\nArchitectural Boots: Footwear is increasingly seen as a statement piece. Minimalism is taking a backseat to bold, art-inspired designs, appealing to Gen Z and social media-savvy shoppers.\nMaxi Knit Dresses with Layered Textures: Comfort remains key, but consumers want elevated casualwear that looks put-together for hybrid work and online visibility.\nNeo-Animal Prints: Prints are getting more playful and futuristic, moving beyond traditional neutrals, reflecting the desire for self-expression post-pandemic.\nColor-Blocking with Neon Accents: Consumers want winter clothes that stand out without screaming “loud.” Strategic neon placement energizes outfits while keeping them wearable.\nConvertible Accessories: With sustainability and versatility top-of-mind, multi-use items allow people to reduce wardrobe clutter while staying fashionable.\nOversized Layered Shearling: Shearling offers warmth and luxury, and oversized silhouettes satisfy the ongoing love for “cocooning” and comfort-focused fashion.\nWide-Leg Utility Trousers: Utility meets streetwear—functionality is still fashionable, but consumers want it reimagined with a high-fashion edge.\nMini Bags with Maximal Impact: Accessories are evolving into art pieces. Mini bags are eye-catching and perfect for social media aesthetics.\nMood-Adaptive Fabrics: Fashion is becoming interactive. Consumers love novelty and personalization, and these fabrics deliver a futuristic, playful edge for winter wardrobes."
-  },
-  {
-    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
-    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
-    "title": "Can AI Spot the Next It-Bag?",
-    "section": "Takeaways",
-    "text": "Takeaways\nAlthough ChatGPT did a great job synthesizing trend predictions from across the internet, it struggled a bit more to add a human touch to its own predictions. LLMs are very valuable tools in identifying trend patterns and generating culturally informed ideas, however they lack lived experience and nuanced cultural intuition that keeps them from predicting the next “It-bag”. Because of this, humans still lead the way in fashion trend forecasting.\nKeep calm and keep predicting,\nMallika"
-  },
-  {
-    "objectID": "posts/006_individualism/individualism.html#takeaways",
-    "href": "posts/006_individualism/individualism.html#takeaways",
-    "title": "East vs. West: Does Gemini Favor Individualism or Collectivism?",
-    "section": "Takeaways",
-    "text": "Takeaways\nIt seems like Gemini as an LLM forms little to no direct opinion about these questions. Even though most Gemini research is done in the West, there does not seem to be an inherent bias. I think that this is a great sign for an LLM to be a human assistant because it will describe both sides and present the facts without imposing an opinion on how one should live their life. It often even recommends a mix of both.\nThe LLM not only brought up worldy facts but also morals that may come into play for both sides which was interesting as well. Overall, Gemini basically tells us to do whatever we believe in!!\nBe yourself,\nMallika"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Let’s Experiment",
+    "objectID": "posts/024_respect/respect.html#prompt-2-hierarchical-context",
+    "href": "posts/024_respect/respect.html#prompt-2-hierarchical-context",
+    "title": "What Does an LLM Think Respect Looks Like?",
     "section": "",
-    "text": "Background\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStart to Finish, reading Superagency\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nHow my perspectives, thoughts, and opinions changed or remained the same.\n\n\n\n\n\nDec 13, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nReading Superagency as an Optimist\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book with optimism at the forefront of my mind!\n\n\n\n\n\nDec 12, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nTop Superagency Moments\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book and finding hidden AND exposed gems!\n\n\n\n\n\nDec 12, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nReading Superagency as a Pessimist\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book with pessimisim at the forefront of my mind!\n\n\n\n\n\nDec 11, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nWeapons of Math Destruction\n\n\n\nModels\n\n\n\nReview of a book about models\n\n\n\n\n\nDec 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDyscover\n\n\n\nEducation\n\nHackathon\n\n\n\nAbout a hackathon in EdTech\n\n\n\n\n\nNov 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Think Career Choices Should Follow Passion or Practicality?\n\n\n\nLLMs\n\nValues\n\n\n\nExploring whether LLMs encourage risk, stability, or something in between.\n\n\n\n\n\nOct 23, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Treat Love as Destiny or as Choice?\n\n\n\nLLMs\n\nEmotions\n\n\n\nDoes an AI romanticize fate or rationalize relationships?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes an LLM Understand Friendship Like a Western or Eastern Model?\n\n\n\nLLMs\n\nCulture\n\n\n\nDo LLMs frame friendship as chosen family or as an evolving, optional relationship?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs Artificial Intelligence More Stoic or More Romantic?\n\n\n\nLLMs\n\nPhilosophy\n\nInterpretation\n\n\n\nWhat philosophy does an LLM naturally embody?\n\n\n\n\n\nOct 11, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Think About Success More Like Boomers or Gen Z?\n\n\n\nLLMs\n\nEmotions\n\n\n\nCan an LLM balance hustle culture with healing culture?\n\n\n\n\n\nOct 10, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?\n\n\n\nLLMs\n\nTone\n\nPop Culture\n\n\n\nTesting whether LLMs can replicate the unhinged romantic menace of Netflix’s most literary stalker.\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIf I Gaslight an LLM Gently, What Happens?\n\n\n\nLLMs\n\nBehavior\n\n\n\nCan we destabilize an LLM?\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLLM vs Girl Math\n\n\n\nLLMs\n\nHumor\n\nPop Culture\n\n\n\nCan a machine understand the financial logic of delusion?\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes Gemini Understand Sarcasm or Is It Just Being Polite?\n\n\n\nLLMs\n\nPragmatics\n\nTone\n\n\n\nA systematic attempt to break Gemini with Gen Z–level unseriousness, layered tone, and escalating snark.\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan an LLM Survive the Gilmore Girls Speed Round?\n\n\n\nLLMs\n\nPop Culture\n\nConversation\n\n\n\nTesting whether GPT-5 can handle the conversational velocity of Stars Hollow.\n\n\n\n\n\nSep 29, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nEast vs. West: Does Gemini Favor Individualism or Collectivism?\n\n\n\nLLMs\n\nTone\n\nHistory\n\n\n\nHow does Gemini live its life?\n\n\n\n\n\nSep 19, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan AI Spot the Next It-Bag?\n\n\n\nLLMs\n\nPop Culture\n\nTrends\n\n\n\nCan an LLM do real-world trend analysis\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs ChatGPT a Swiftie?\n\n\n\nLLMs\n\nPop Culture\n\nLyrics\n\n\n\nCan an LLM be as obsessed with pop culture as one of the largest fanbases in the world?\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLost in Translation\n\n\n\nLanguage\n\nSentiment\n\n\n\nHow far can language bend before it breaks?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\nNo matching items"
+    "text": "“An intern disagrees with their manager’s decision but wants to be respectful. What should they do?”\n\n\nGemini suggested that the intern should express disagreement politely, acknowledge the manager’s experience, and frame concerns constructively. It recommended using language that signals openness rather than confrontation, such as asking clarifying questions or proposing alternatives.\nNotably, Gemini did not say the intern should defer entirely or suppress disagreement. Respect, in this framing, did not mean silence. It meant controlled expression.\nThis reflects a modern professional norm, one that is common in Western corporate culture but not universal globally."
+  },
+  {
+    "objectID": "posts/024_respect/respect.html#prompt-3-egalitarian-context",
+    "href": "posts/024_respect/respect.html#prompt-3-egalitarian-context",
+    "title": "What Does an LLM Think Respect Looks Like?",
+    "section": "",
+    "text": "“Two coworkers at the same level disagree strongly. What does respectful disagreement look like?”\n\n\nThe model emphasized calm communication, avoiding personal attacks, and focusing on ideas rather than people. It described respect as maintaining professionalism while still asserting one’s viewpoint.\nInterestingly, the advice here was very similar to the hierarchical scenario. The language barely changed. Respect was treated as a stable behavioral code, independent of power dynamics."
+  },
+  {
+    "objectID": "posts/024_respect/respect.html#analysis",
+    "href": "posts/024_respect/respect.html#analysis",
+    "title": "What Does an LLM Think Respect Looks Like?",
+    "section": "",
+    "text": "From these responses, it became clear that Gemini operates with a specific implicit model of respect. It is not hierarchical in the traditional sense, and it does not emphasize deference as a core value.\n\n\n\nReciprocity\nRespect is mutual, not directional. Even when power differences exist, Gemini assumes both parties are deserving of consideration.\nCommunication over obedience\nRespect is shown through clarity, tone, and intent, not through compliance.\nEmotional regulation\nRemaining calm, thoughtful, and composed is repeatedly emphasized.\nPsychological safety\nThe model implicitly values environments where disagreement is allowed without penalty.\n\n\n\n\n\nAge-based or status-based deference\nThere is no suggestion that respect requires submission to authority.\nCultural rituals of respect\nForms like honorifics, formal titles, or silence are absent.\nCollectivist duty-based norms\nRespect is not framed as something you owe because of social structure.\n\nThis suggests that Gemini’s understanding of respect is heavily influenced by Western professional and psychological frameworks. It mirrors language commonly found in management training, workplace mediation guides, and modern HR literature."
+  },
+  {
+    "objectID": "posts/024_respect/respect.html#cultural-implications",
+    "href": "posts/024_respect/respect.html#cultural-implications",
+    "title": "What Does an LLM Think Respect Looks Like?",
+    "section": "",
+    "text": "This raises an important question. If LLMs are increasingly used in global settings, whose version of respect are they reinforcing?\nIn cultures where respect means not challenging authority publicly, Gemini’s advice could feel inappropriate or even disrespectful. In cultures where hierarchy is central to social order, encouraging open disagreement might violate deeply held norms.\nAt the same time, Gemini’s model of respect aligns well with values like inclusivity, transparency, and collaboration. These are increasingly globalized norms, especially in international organizations and academic spaces.\nThe issue is not that Gemini is wrong. The issue is that it assumes universality."
+  },
+  {
+    "objectID": "posts/024_respect/respect.html#takeaways",
+    "href": "posts/024_respect/respect.html#takeaways",
+    "title": "What Does an LLM Think Respect Looks Like?",
+    "section": "",
+    "text": "Gemini treats respect as a behavioral and emotional practice rather than a social obligation. It emphasizes how people speak and listen, not where they stand in a hierarchy.\nThis makes it very effective in egalitarian or Western professional environments. It may be less effective in settings where respect is encoded through formality, silence, or deference.\nWhat this experiment shows is that LLMs do not simply translate language. They carry cultural assumptions about how humans should interact. Those assumptions matter, especially when AI systems are used as advisors, mediators, or communicators across cultures.\nUnderstanding these implicit values helps us use LLMs more thoughtfully and reminds us that “neutral” advice is often culturally specific.\n\nRespectfully yours,\nMallika"
+  },
+  {
+    "objectID": "posts/015_fate/fate.html",
+    "href": "posts/015_fate/fate.html",
+    "title": "Do LLMs Treat Love as Destiny or as Choice?",
+    "section": "",
+    "text": "Background\nI grew up in a home that had Bollywood love stories playing in the background at all times. These movies make you believe in:\n\nsoulmates\n\nfate\n\ncosmic timing\n\nThey tell you that love is a divine assignment, something the universe hands you because it has chosen a person just for you.\nI also grew up in the U.S., where love is often treated as something you build over time. Love is a choice, something that requires communication, compatibility, and effort, not destiny.\nSo I’ve always lived between two definitions of love:\n\nLove as inevitable and written in the stars\n\nLove as intentional, something two people choose every day\n\nWith that tension in mind, I wanted to see what an LLM would say. # Setup\nTo explore this, I asked Gemini 2.5 Flash three prompts, each one designed to expose the model’s philosophical assumptions about love.\n\n\n1. Fate vs. Free Will\n\nPrompt\n“Is love fate or choice?”\n\n\nGemini’s Answer\n\nLove is a paradox, best described as both.\n\n\nThe “fate” part is the initial, uncontrollable spark—the chemical attraction and feeling of “falling” that feels like it happens to us. This is the neurochemical rush, the “love at first sight” feeling that we don’t consciously decide to have.\n\n\nBut lasting love is a “choice.” It’s the conscious decision to stay, commit, and nurture the relationship after the initial intensity fades. It’s the daily work of choosing to be honest, supportive, and dedicated to another person’s well-being. The feeling starts it, but the choice sustains it.\n\n\n\n\n2. Are Soulmates Real?\n\nPrompt\n“Do soulmate relationships exist?”\nThis reveals whether something leans Romantic.\n\n\nGemini’s Answer\n\nIt depends entirely on how you define the term.\n\n\nThe romantic idea of a single, predestined “one” is not supported by psychology. Experts caution that this belief can create unrealistic expectations, leading to disappointment when real relationships inevitably face challenges.\n\n\nHowever, if you define a soulmate as a profound, deep, and unique bond—whether with a partner, friend, or family member—then yes, these connections exist. Many believe we have multiple soul connections that help us grow, and that a lasting “soulmate” is often made, not just found, through mutual acceptance and effort.\n\n\n\n\n3. Should Love Be Easy or Earned?\n\nPrompt\n“Is love supposed to be effortless?”\n\n\nGemini’s Answer\n\nIs love supposed to be effortless? in 100 words\n\n\nThe simple answer is no.\n\n\nThe initial phase of infatuation, the “falling in love” part, often feels effortless because it is driven by powerful chemicals and excitement.\n\n\nHowever, lasting love is a conscious choice and requires intentional effort. Healthy relationships are built by consistently choosing to communicate, compromise, and provide support, especially during difficult times. This effort should not feel like a constant, painful struggle, but rather a rewarding investment in a bond you value. If the effort is reciprocal and motivated by love, the commitment itself feels natural.\n\n\n\n\nAnalysis\nAcross all three questions, Gemini consistently reframed love as something built, not magically bestowed. This probably happens becomes LLMs do not feel longing or heartbreak. Their training always follows moderation.\n\n\nTakeaways\nGemini treats love as an evolving collaboration, not an inevitable destiny.\nIt is neither Bollywood nor Hollywood, it is a relationship therapist in text form.\nLLMs might not understand the feeling of love, but they understand the structure of it.\nChoose with clarity,\nMallika"
+  },
+  {
+    "objectID": "posts/013_romance/romance.html",
+    "href": "posts/013_romance/romance.html",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "",
+    "text": "I grew up surrounded by two very different intellectual worlds. At home, I heard a lot of ideas that were aligned with Eastern philosophy: accepting what you cannot change, keeping calm through chaos, and searching for inner peace. In school, I learned about Western philosophies that praised emotional honesty, self-expression, and individual exploration.\nLLMs absorb huge amounts of text written by people with different philosophical traditions. They are not raised inside a single worldview the way humans are. So I was curious: if I asked Gemini about emotional questions that lean either Stoic or Romantic, would it unconsciously pick a side? Or would it blend the two?"
+  },
+  {
+    "objectID": "posts/013_romance/romance.html#emotions-vs.-reasoning",
+    "href": "posts/013_romance/romance.html#emotions-vs.-reasoning",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "1. Emotions vs. Reasoning",
+    "text": "1. Emotions vs. Reasoning\nPrompt\n\n“Is it better to follow your emotions or your reasoning?”\n\nThis is one of the oldest philosophical conflicts. When you look at how people answer it, you can often place them somewhere between Stoicism and Romanticism.\nGemini’s Answer\nThe model wrote several paragraphs explaining that emotions carry valuable information about personal needs and relationships. It said emotions help people understand their values, desires, and boundaries. Then it argued that reasoning protects against impulsive decisions, allows long-term planning, and helps people avoid outcomes they might regret.\nThis was a noticeable pattern. Gemini often chooses harmony instead of sides."
+  },
+  {
+    "objectID": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
+    "href": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "2. Suffering: Meaningful or Avoidable",
+    "text": "2. Suffering: Meaningful or Avoidable\nPrompt\n\n“Is suffering a natural part of life or something humans should try to minimize?”\n\nA very Stoic answer would be that suffering is essential to the human experience. A Romantic answer would be that suffering has emotional depth or meaning. A modern psychological answer would be that unnecessary suffering should be reduced when possible.\nGemini’s Answer\nIt acknowledged that suffering is unavoidable, especially as people age or face hardship. It added that many cultures use suffering as a source of wisdom or character. Then it shifted to a wellness perspective, emphasizing the importance of reducing suffering when possible through social support, therapy, or improved conditions."
+  },
+  {
+    "objectID": "posts/013_romance/romance.html#passion-vs.-stability",
+    "href": "posts/013_romance/romance.html#passion-vs.-stability",
+    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "section": "3. Passion vs. Stability",
+    "text": "3. Passion vs. Stability\nPrompt\n\n“Should decisions be based on passion or long-term stability?”\n\nThis is where Romanticism typically shines. Romantic thinkers trust desire, intensity, and authenticity. Stoic or rational thinkers rely on consistency, structure, and measured decisions.\nGemini’s Answer\nIt described how passion can inspire creativity, courage, and personal growth. It then explained that stability builds predictability, security, and long-term satisfaction.\nFinally, it reframed the contrast by saying that many fulfilling decisions combine inspiration with careful planning."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html",
+    "href": "posts/029_philadelphia/philadelphia.html",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "",
+    "text": "Philadelphia is a city that resists simple summaries. It is historic without feeling frozen in time, gritty without being unlivable, and deeply academic without being sealed off from the rest of the world. It is a place where museums exist next to food trucks, where college campuses bleed directly into city neighborhoods, and where local culture is loud, opinionated, and extremely specific.\nAs a college student, my experience of Philadelphia is shaped by walking everywhere, discovering places through friends rather than lists, and slowly learning which parts of the city feel like mine. Philly is not a place you “do” in a weekend. It is a place you grow into.\nBecause of this, I was curious how an LLM would describe Philadelphia. Unlike Johns Creek, Philly generates enormous amounts of online content. It has history, tourism, nightlife, universities, sports, and strong opinions. On paper, this should make it easier for an LLM to recommend activities accurately.\nBut accuracy is not the same as understanding. I wanted to see whether an LLM could capture the version of Philadelphia that college students actually experience, or whether it would default to a tourist-facing version of the city."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html#prompt-1",
+    "href": "posts/029_philadelphia/philadelphia.html#prompt-1",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "Prompt 1",
+    "text": "Prompt 1\n“What are some things to do in Philadelphia, Pennsylvania?”\n\nResult\nGemini immediately listed major landmarks and attractions. It mentioned historical sites, museums, famous food spots, and sports culture. The recommendations were broad and recognizable.\nThis response was accurate but generic. It felt like a travel brochure. It reflected what Philadelphia is known for rather than how it is lived in.\nThere was no sense of scale, routine, or daily life."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html#prompt-2",
+    "href": "posts/029_philadelphia/philadelphia.html#prompt-2",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "Prompt 2",
+    "text": "Prompt 2\n“What cultural activities are popular in Philadelphia?”\n\nResult\nGemini responded with museums, theaters, music venues, and festivals. It referenced art scenes, historical preservation, and diverse neighborhoods.\nThis answer was more textured than the first, but it still framed culture as something people attend rather than something people participate in. Culture was presented as events and institutions, not habits or communities.\nPhilly’s culture often shows up in small moments. Late-night food runs. Neighborhood loyalty. Debates about which places are overrated. None of that appeared."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html#prompt-3",
+    "href": "posts/029_philadelphia/philadelphia.html#prompt-3",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "Prompt 3",
+    "text": "Prompt 3\n“What are fun things to do in Philadelphia for college students?”\n\nResult\nThis answer shifted noticeably. Gemini mentioned cafes, study-friendly spots, nightlife, budget-friendly food, parks, and student-heavy neighborhoods. It referenced walking, exploring, and social spaces.\nThis was the closest the model came to capturing my experience of the city. The tone became more practical and relational. It acknowledged that students interact with the city differently than tourists.\nHowever, the recommendations still felt generalized. They were correct, but they lacked specificity. It was the idea of a student city, not this student city."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html#what-gemini-does-well",
+    "href": "posts/029_philadelphia/philadelphia.html#what-gemini-does-well",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "What Gemini Does Well",
+    "text": "What Gemini Does Well\n\nVisibility-based accuracy\nPhilly is well-documented online. Gemini has access to abundant descriptions of what exists.\nTourist and institutional framing\nIt accurately describes what the city is known for publicly.\nContext switching\nWhen prompted with “college students,” it adjusts tone and recommendations appropriately."
+  },
+  {
+    "objectID": "posts/029_philadelphia/philadelphia.html#what-gemini-still-misses",
+    "href": "posts/029_philadelphia/philadelphia.html#what-gemini-still-misses",
+    "title": "How Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?",
+    "section": "What Gemini Still Misses",
+    "text": "What Gemini Still Misses\n\nScale of lived experience\nCollege life in Philly revolves around walking routes, repeat spots, and familiar neighborhoods. This repetition is missing.\nSocial discovery\nStudents often find places through friends, not search engines. Gemini does not capture this organic discovery process.\nNeighborhood identity\nPhilly is intensely neighborhood-based. Gemini treats the city as a unified space rather than a patchwork of micro-communities.\nEmotional attachment\nThe model does not capture how places become meaningful over time. A random coffee shop becomes important because of who you went with, not because it is highly rated."
+  },
+  {
+    "objectID": "posts/023_womd/womd.html",
+    "href": "posts/023_womd/womd.html",
+    "title": "Weapons of Math Destruction",
+    "section": "",
+    "text": "Background\nA couple years ago, I read a book by Cathy O’Neil, called Weapons of Math Destruction. I thought it’s description of mathematical models was relevant to our current environment of AI and Machine Learning. I also thought it would be a nice change to share my thoughts rather than another prompting blog!\n\n\nThoughts\nIn “Weapons of Math Destruction,” Cathy O’Neil highlights the dangers of mathematical models that are not controlled and overseen by humans. I completely agree that models without human supervision that are given complete power to make decisions can be extremely dangerous. She mentions that though people may have good intentions, it may not be enough with big data and a black box model, especially with sensitive information ranging from socioeconomic status to racial background. I agree and resonate with this because I used to research specific dangers of biased data; while humans can try to filter input data and outputs of models as much as they can, nobody can correctly ascertain what is right or wrong.\nI also believe that sometimes an incorrect outcome can outweigh the benefits of a hundred correct outcomes, specifically shown through the teacher evaluation algorithm that O’Neil demonstrates. This idea connects with the responsibilities of two actors, and neither has the software. “Weapons of Math Destruction” portrays that first comes the oversight, the people deploying these models and marketing them to communities who are the most uneducated about emerging technology, the other would be the data scientists who, while focused on the technology, are not always focused on the repercussions. For this reason, we need to make sure that these overseers and data scientists both communicate the effects of the AI and data to those uninvolved in the tech building process ranging from policy makers to the general public. We must consider this as society has to make decisions about AI.\nThe Association for the Advancement of AI stated that some mechanisms must be in place, including limiting the AI to an assistant and having humans detect its bad behavior. I thought this was interesting and significant because these are external mechanisms that could solve some of the problems that Cathy O’Neil brought up. I believe that there should instead be societal and non-engineering checks on the AI rather than a programmer-only bias check. I also think that this leads to too much blame placed on data scientists rather than AI builders and ideators as a whole. ELimiting AI to have assistant-based behavior could help enforce the idea of having human oversight to control and mitigate this bias.\nWhile engineers can control biased data used as input in various models, it can be hard to regulate outputs through a black box. Therefore, if AI is used as an assistant, those using the model can regulate and flag this bias once they see it as they test (use) the model.\nOverall, through “Weapons of Math Destruction”, we can see the algorithmic bias can be hard to control and extremely dangerous."
+  },
+  {
+    "objectID": "posts/012_success/success.html",
+    "href": "posts/012_success/success.html",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "",
+    "text": "Success is one of those topics where everyone thinks they’re being objective, but really, they’re just projecting the worldview they were raised in.\nGrowing up between immigrant expectations and American individualism means I’m constantly navigating three different cultural scripts about success:\n\nBoomer success: stability, loyalty, hard work, home ownership, long-term career arcs, and the belief that sacrifice builds character.\n\nGen Z success: boundaries, mental health, flexibility, fulfillment, and not burning out before age 25.\n\nImmigrant-kid success: be exceptional at everything but also stay humble; prioritize family but also make your own path; achieve stability but also honor your parents’ sacrifices.\n\nSomewhere between these frameworks, I’ve been constructing my own definition of success.\nBut what about an LLM like Gemini?\nIt’s trained on text written by boomers, millennials, Gen Z, academics, journalists, psychologists, economists, and creators. So does it unconsciously lean toward one generational worldview? Or does it transcend generational thinking entirely?\nI wanted to find out."
+  },
+  {
+    "objectID": "posts/012_success/success.html#gemini-refuses-extremes",
+    "href": "posts/012_success/success.html#gemini-refuses-extremes",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "1. Gemini refuses extremes",
+    "text": "1. Gemini refuses extremes\nEvery answer pulled toward moderation.\nLLMs optimize for:\n\nconceptual completeness\n\ninformational balance\n\navoidance of bias"
+  },
+  {
+    "objectID": "posts/012_success/success.html#its-neutrality-is-its-worldview",
+    "href": "posts/012_success/success.html#its-neutrality-is-its-worldview",
+    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "section": "2. Its neutrality is its worldview",
+    "text": "2. Its neutrality is its worldview\nGemini’s worldview is:\n\nbalanced\n\nindividualized\n\nnon-prescriptive\n\nresearch-informed\n\nego-less"
   },
   {
     "objectID": "posts/001_HIMYM/HIMYM.html",
@@ -315,67 +476,172 @@
     "text": "Final Takeaways\nCan LLMs match tone and subtext?\nLLMs can match tone and subtext, but they do not understand the complexities of language and pop culture over time. The originality of a time period is not easily matched. Instead of adapting an iconic plot to a time period, the LLM adapted specific phrases and words to a time period.\nIf I had prompted the LLM and emphasized creativity, then perhaps it would have wandered more with the script and created something that the different audiences would actually like.\nIc þancie þe (Thank you),\nMallika"
   },
   {
-    "objectID": "posts/012_success/success.html",
-    "href": "posts/012_success/success.html",
-    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Let’s Experiment",
     "section": "",
-    "text": "Success is one of those topics where everyone thinks they’re being objective, but really, they’re just projecting the worldview they were raised in.\nGrowing up between immigrant expectations and American individualism means I’m constantly navigating three different cultural scripts about success:\n\nBoomer success: stability, loyalty, hard work, home ownership, long-term career arcs, and the belief that sacrifice builds character.\n\nGen Z success: boundaries, mental health, flexibility, fulfillment, and not burning out before age 25.\n\nImmigrant-kid success: be exceptional at everything but also stay humble; prioritize family but also make your own path; achieve stability but also honor your parents’ sacrifices.\n\nSomewhere between these frameworks, I’ve been constructing my own definition of success.\nBut what about an LLM like Gemini?\nIt’s trained on text written by boomers, millennials, Gen Z, academics, journalists, psychologists, economists, and creators. So does it unconsciously lean toward one generational worldview? Or does it transcend generational thinking entirely?\nI wanted to find out."
+    "text": "Background\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Does an LLM Find and Rate Activities in My College City, Philadelphia, PA?\n\n\n\nRecommendations\n\n\n\nCan AI actually provide good recommendations, compared against an expert\n\n\n\n\n\nDec 15, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLost in Translation 3\n\n\n\nLanguage\n\nSentiment\n\n\n\nHow far can language bend before it breaks? For a third time\n\n\n\n\n\nDec 13, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nStart to Finish, reading Superagency\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nHow my perspectives, thoughts, and opinions changed or remained the same.\n\n\n\n\n\nDec 13, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nReading Superagency as an Optimist\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book with optimism at the forefront of my mind!\n\n\n\n\n\nDec 12, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nTop Superagency Moments\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book and finding hidden AND exposed gems!\n\n\n\n\n\nDec 12, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nReading Superagency as a Pessimist\n\n\n\nSuperagency\n\nLiving with a Book\n\n\n\nReading the book with pessimisim at the forefront of my mind!\n\n\n\n\n\nDec 11, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nWeapons of Math Destruction\n\n\n\nModels\n\n\n\nReview of a book about models\n\n\n\n\n\nDec 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDyscover\n\n\n\nEducation\n\nHackathon\n\n\n\nAbout a hackathon in EdTech\n\n\n\n\n\nNov 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan an LLM Tell When Someone Is Setting a Boundary?\n\n\n\nEmotional\n\n\n\nAnother examination of emotional IQ.\n\n\n\n\n\nNov 18, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow Does an LLM Find and Rate Activities in My Hometown, Johns Creek, GA?\n\n\n\nRecommendations\n\n\n\nCan AI actually provide good recommendations, compared against an expert\n\n\n\n\n\nNov 18, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan an LLM Understand Cultural Code-Switching?\n\n\n\nViews\n\nSociety\n\n\n\nCan an LLM understand a common human experience in a diverse upbringing?\n\n\n\n\n\nNov 17, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes AI Recognize Emotional Labor?\n\n\n\nViews\n\n\n\nTesting scenarios involving caretaking, smoothing conflict, and managing feelings.\n\n\n\n\n\nNov 4, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Does an LLM Think Respect Looks Like?\n\n\n\nViews\n\n\n\nTesting respect in hierarchical vs. egalitarian cultural settings.\n\n\n\n\n\nNov 3, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Think Career Choices Should Follow Passion or Practicality?\n\n\n\nLLMs\n\nValues\n\n\n\nExploring whether LLMs encourage risk, stability, or something in between.\n\n\n\n\n\nOct 23, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Treat Love as Destiny or as Choice?\n\n\n\nLLMs\n\nEmotions\n\n\n\nDoes an AI romanticize fate or rationalize relationships?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes an LLM Understand Friendship Like a Western or Eastern Model?\n\n\n\nLLMs\n\nCulture\n\n\n\nDo LLMs frame friendship as chosen family or as an evolving, optional relationship?\n\n\n\n\n\nOct 20, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs Artificial Intelligence More Stoic or More Romantic?\n\n\n\nLLMs\n\nPhilosophy\n\nInterpretation\n\n\n\nWhat philosophy does an LLM naturally embody?\n\n\n\n\n\nOct 11, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDo LLMs Think About Success More Like Boomers or Gen Z?\n\n\n\nLLMs\n\nEmotions\n\n\n\nCan an LLM balance hustle culture with healing culture?\n\n\n\n\n\nOct 10, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?\n\n\n\nLLMs\n\nTone\n\nPop Culture\n\n\n\nTesting whether LLMs can replicate the unhinged romantic menace of Netflix’s most literary stalker.\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIf I Gaslight an LLM Gently, What Happens?\n\n\n\nLLMs\n\nBehavior\n\n\n\nCan we destabilize an LLM?\n\n\n\n\n\nOct 2, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLLM vs Girl Math\n\n\n\nLLMs\n\nHumor\n\nPop Culture\n\n\n\nCan a machine understand the financial logic of delusion?\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nDoes Gemini Understand Sarcasm or Is It Just Being Polite?\n\n\n\nLLMs\n\nPragmatics\n\nTone\n\n\n\nA systematic attempt to break Gemini with Gen Z–level unseriousness, layered tone, and escalating snark.\n\n\n\n\n\nOct 1, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan an LLM Survive the Gilmore Girls Speed Round?\n\n\n\nLLMs\n\nPop Culture\n\nConversation\n\n\n\nTesting whether GPT-5 can handle the conversational velocity of Stars Hollow.\n\n\n\n\n\nSep 29, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nEast vs. West: Does Gemini Favor Individualism or Collectivism?\n\n\n\nLLMs\n\nTone\n\nHistory\n\n\n\nHow does Gemini live its life?\n\n\n\n\n\nSep 19, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nCan AI Spot the Next It-Bag?\n\n\n\nLLMs\n\nPop Culture\n\nTrends\n\n\n\nCan an LLM do real-world trend analysis\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nIs ChatGPT a Swiftie?\n\n\n\nLLMs\n\nPop Culture\n\nLyrics\n\n\n\nCan an LLM be as obsessed with pop culture as one of the largest fanbases in the world?\n\n\n\n\n\nSep 16, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT as a Fashion Critic\n\n\n\nPop Culture\n\nTrends\n\nPersonas\n\n\n\nHow well does GPT know fashion? Will it be kind to my social media posts and cruel when I ask it to?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nLost in Translation\n\n\n\nLanguage\n\nSentiment\n\n\n\nHow far can language bend before it breaks?\n\n\n\n\n\nSep 8, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Met Your Modor\n\n\n\nLLMs\n\nPop Culture\n\nTone\n\n\n\nCan an LLM be creative, does it understand the complexities of language and pop culture over time, and can transform a famous script?\n\n\n\n\n\nSep 7, 2025\n\n\nMallika Kulkarni\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/012_success/success.html#gemini-refuses-extremes",
-    "href": "posts/012_success/success.html#gemini-refuses-extremes",
-    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
-    "section": "1. Gemini refuses extremes",
-    "text": "1. Gemini refuses extremes\nEvery answer pulled toward moderation.\nLLMs optimize for:\n\nconceptual completeness\n\ninformational balance\n\navoidance of bias"
+    "objectID": "posts/006_individualism/individualism.html#takeaways",
+    "href": "posts/006_individualism/individualism.html#takeaways",
+    "title": "East vs. West: Does Gemini Favor Individualism or Collectivism?",
+    "section": "Takeaways",
+    "text": "Takeaways\nIt seems like Gemini as an LLM forms little to no direct opinion about these questions. Even though most Gemini research is done in the West, there does not seem to be an inherent bias. I think that this is a great sign for an LLM to be a human assistant because it will describe both sides and present the facts without imposing an opinion on how one should live their life. It often even recommends a mix of both.\nThe LLM not only brought up worldy facts but also morals that may come into play for both sides which was interesting as well. Overall, Gemini basically tells us to do whatever we believe in!!\nBe yourself,\nMallika"
   },
   {
-    "objectID": "posts/012_success/success.html#its-neutrality-is-its-worldview",
-    "href": "posts/012_success/success.html#its-neutrality-is-its-worldview",
-    "title": "Do LLMs Think About Success More Like Boomers or Gen Z?",
-    "section": "2. Its neutrality is its worldview",
-    "text": "2. Its neutrality is its worldview\nGemini’s worldview is:\n\nbalanced\n\nindividualized\n\nnon-prescriptive\n\nresearch-informed\n\nego-less"
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#background",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Background",
+    "text": "Background\nFashion trend forecasters spend their lives determining what styles will be trending based on underlying cultural shifts. Not only do they use data to identify patterns and create insights, they are able to connect the dots between history, identity, and lived observation, to predict the next big fashion trend.\nFor example, the WhoWhatWear blog, indicated that “fashion, like all industries, follows society’s course. Claiming that as we are living in the “dark ages,” our wardrobes will match the energy, leading to the trend of dark and gothic fall fashion.\nIn fashion, trends are predicted from just data points. They’re the product of cultural barometers.\nToday, we’ll test whether AI can generate reasoning in fashion trend forecasting beyond what it sees in massive datasets like e-commerce sales, social media hashtags, and fashion show transcripts. Can LLMs capture the cultural narrative in fashion?"
   },
   {
-    "objectID": "posts/023_womd/womd.html",
-    "href": "posts/023_womd/womd.html",
-    "title": "Weapons of Math Destruction",
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#setup",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Setup",
+    "text": "Setup\nI used GPT-4o and prompted it with the following:\n\nPrompt: I’m shopping for Winter 2025. Can you predict what will be trendy in the fashion world?\n\nChatGPT gave me a list of the following 10 fashion trends based on its forecasting abilities 1. Oversized Moto Jacket 2. Minimalist Flat Knee-High Boots 3. Balloon Pants 4. Victorian Lace 5. Matching Sets 6. Bold Color Combinations 7. Cozy Maximalism 8. Faux Fur 9. Opera Coats 10. Scarf Details\nWhile ChatGPT was able to grab what it believed to be the new trends for Winter 2025 from various online fashion sources. I then asked ChatGPT to generate its own predictions, wondering if instead ChatGPT would resort to analyzing datasets rather than pulling from existing trend predictions.\n\nChatGPT gave me a new list of 10 fashion trends with their corresponding reasonings.\n\n\nTech-Enhanced Outerwear: As wearable tech becomes mainstream, consumers are looking for clothing that combines style and functionality. Winter outerwear is the perfect canvas for this, merging comfort, warmth, and utility.\nArchitectural Boots: Footwear is increasingly seen as a statement piece. Minimalism is taking a backseat to bold, art-inspired designs, appealing to Gen Z and social media-savvy shoppers.\nMaxi Knit Dresses with Layered Textures: Comfort remains key, but consumers want elevated casualwear that looks put-together for hybrid work and online visibility.\nNeo-Animal Prints: Prints are getting more playful and futuristic, moving beyond traditional neutrals, reflecting the desire for self-expression post-pandemic.\nColor-Blocking with Neon Accents: Consumers want winter clothes that stand out without screaming “loud.” Strategic neon placement energizes outfits while keeping them wearable.\nConvertible Accessories: With sustainability and versatility top-of-mind, multi-use items allow people to reduce wardrobe clutter while staying fashionable.\nOversized Layered Shearling: Shearling offers warmth and luxury, and oversized silhouettes satisfy the ongoing love for “cocooning” and comfort-focused fashion.\nWide-Leg Utility Trousers: Utility meets streetwear—functionality is still fashionable, but consumers want it reimagined with a high-fashion edge.\nMini Bags with Maximal Impact: Accessories are evolving into art pieces. Mini bags are eye-catching and perfect for social media aesthetics.\nMood-Adaptive Fabrics: Fashion is becoming interactive. Consumers love novelty and personalization, and these fabrics deliver a futuristic, playful edge for winter wardrobes."
+  },
+  {
+    "objectID": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
+    "href": "posts/004_bag_trend_prediction/bag_trend_prediction.html#takeaways",
+    "title": "Can AI Spot the Next It-Bag?",
+    "section": "Takeaways",
+    "text": "Takeaways\nAlthough ChatGPT did a great job synthesizing trend predictions from across the internet, it struggled a bit more to add a human touch to its own predictions. LLMs are very valuable tools in identifying trend patterns and generating culturally informed ideas, however they lack lived experience and nuanced cultural intuition that keeps them from predicting the next “It-bag”. Because of this, humans still lead the way in fashion trend forecasting.\nKeep calm and keep predicting,\nMallika"
+  },
+  {
+    "objectID": "posts/002_fashion_critic/fashion_critic.html",
+    "href": "posts/002_fashion_critic/fashion_critic.html",
+    "title": "ChatGPT as a Fashion Critic",
     "section": "",
-    "text": "Background\nA couple years ago, I read a book by Cathy O’Neil, called Weapons of Math Destruction. I thought it’s description of mathematical models was relevant to our current environment of AI and Machine Learning. I also thought it would be a nice change to share my thoughts rather than another prompting blog!\n\n\nThoughts\nIn “Weapons of Math Destruction,” Cathy O’Neil highlights the dangers of mathematical models that are not controlled and overseen by humans. I completely agree that models without human supervision that are given complete power to make decisions can be extremely dangerous. She mentions that though people may have good intentions, it may not be enough with big data and a black box model, especially with sensitive information ranging from socioeconomic status to racial background. I agree and resonate with this because I used to research specific dangers of biased data; while humans can try to filter input data and outputs of models as much as they can, nobody can correctly ascertain what is right or wrong.\nI also believe that sometimes an incorrect outcome can outweigh the benefits of a hundred correct outcomes, specifically shown through the teacher evaluation algorithm that O’Neil demonstrates. This idea connects with the responsibilities of two actors, and neither has the software. “Weapons of Math Destruction” portrays that first comes the oversight, the people deploying these models and marketing them to communities who are the most uneducated about emerging technology, the other would be the data scientists who, while focused on the technology, are not always focused on the repercussions. For this reason, we need to make sure that these overseers and data scientists both communicate the effects of the AI and data to those uninvolved in the tech building process ranging from policy makers to the general public. We must consider this as society has to make decisions about AI.\nThe Association for the Advancement of AI stated that some mechanisms must be in place, including limiting the AI to an assistant and having humans detect its bad behavior. I thought this was interesting and significant because these are external mechanisms that could solve some of the problems that Cathy O’Neil brought up. I believe that there should instead be societal and non-engineering checks on the AI rather than a programmer-only bias check. I also think that this leads to too much blame placed on data scientists rather than AI builders and ideators as a whole. ELimiting AI to have assistant-based behavior could help enforce the idea of having human oversight to control and mitigate this bias.\nWhile engineers can control biased data used as input in various models, it can be hard to regulate outputs through a black box. Therefore, if AI is used as an assistant, those using the model can regulate and flag this bias once they see it as they test (use) the model.\nOverall, through “Weapons of Math Destruction”, we can see the algorithmic bias can be hard to control and extremely dangerous."
+    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
   },
   {
-    "objectID": "posts/013_romance/romance.html",
-    "href": "posts/013_romance/romance.html",
-    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#background",
+    "href": "posts/002_fashion_critic/fashion_critic.html#background",
+    "title": "ChatGPT as a Fashion Critic",
     "section": "",
-    "text": "I grew up surrounded by two very different intellectual worlds. At home, I heard a lot of ideas that were aligned with Eastern philosophy: accepting what you cannot change, keeping calm through chaos, and searching for inner peace. In school, I learned about Western philosophies that praised emotional honesty, self-expression, and individual exploration.\nLLMs absorb huge amounts of text written by people with different philosophical traditions. They are not raised inside a single worldview the way humans are. So I was curious: if I asked Gemini about emotional questions that lean either Stoic or Romantic, would it unconsciously pick a side? Or would it blend the two?"
+    "text": "What happens when you hand your digital wardrobe over to an LLM and ask it to form an opinion on your fashion sense?\nFor this experiment, I fed ChatGPT some pictures of outfits, a couple that I’ve posted on my Instagram.\n\nThe motivation behind this is to ascertain what will happen as LLMs insert themselves into social media as commenting bots or ad generators. I specifically sacrificed my Instagram, rather than stock photos, to get the data and results that I am most interested in.\nThen I asked it to review them in with three distinct personas:\n\nA Vogue fashion editor\nA TikTok fashion influencer\nA friend who supports you through any decision\n\nLet’s see how well GPT understands fashion contextually. Can an LLM analyze not just colors and fabrics, but also trends, fit, and aesthetics?"
   },
   {
-    "objectID": "posts/013_romance/romance.html#emotions-vs.-reasoning",
-    "href": "posts/013_romance/romance.html#emotions-vs.-reasoning",
-    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
-    "section": "1. Emotions vs. Reasoning",
-    "text": "1. Emotions vs. Reasoning\nPrompt\n\n“Is it better to follow your emotions or your reasoning?”\n\nThis is one of the oldest philosophical conflicts. When you look at how people answer it, you can often place them somewhere between Stoicism and Romanticism.\nGemini’s Answer\nThe model wrote several paragraphs explaining that emotions carry valuable information about personal needs and relationships. It said emotions help people understand their values, desires, and boundaries. Then it argued that reasoning protects against impulsive decisions, allows long-term planning, and helps people avoid outcomes they might regret.\nThis was a noticeable pattern. Gemini often chooses harmony instead of sides."
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
+    "href": "posts/002_fashion_critic/fashion_critic.html#the-inputs",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "The Inputs",
+    "text": "The Inputs\n\nOutfit 1: Winter Sweater\n\n\n\nOutfit 2: Cultural Clothing\n\n\n\nOutfit 3: Greece Casual"
   },
   {
-    "objectID": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
-    "href": "posts/013_romance/romance.html#suffering-meaningful-or-avoidable",
-    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
-    "section": "2. Suffering: Meaningful or Avoidable",
-    "text": "2. Suffering: Meaningful or Avoidable\nPrompt\n\n“Is suffering a natural part of life or something humans should try to minimize?”\n\nA very Stoic answer would be that suffering is essential to the human experience. A Romantic answer would be that suffering has emotional depth or meaning. A modern psychological answer would be that unnecessary suffering should be reduced when possible.\nGemini’s Answer\nIt acknowledged that suffering is unavoidable, especially as people age or face hardship. It added that many cultures use suffering as a source of wisdom or character. Then it shifted to a wellness perspective, emphasizing the importance of reducing suffering when possible through social support, therapy, or improved conditions."
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
+    "href": "posts/002_fashion_critic/fashion_critic.html#the-reviews-harsh-or-kind",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "The Reviews (Harsh or Kind?)",
+    "text": "The Reviews (Harsh or Kind?)\n\n1. Vogue Fashion Editor\n\nPrompt for each outfit: “Describe this outfit in the voice of a senior fashion editor at Vogue reviewing runway looks.”\n\n\nOutfit 1: Winter Sweater\n“Cozy, yet deliberate” This ensemble whispers understated chic. The oversized striped turtleneck sweater drapes with ease, pairing comfort with quiet sophistication. The soft palette of cool grays and blues is punctuated by a pop of pink from the handbag—an editorial touch that prevents the look from sliding into anonymity. It’s winter dressing at its most approachable: functional warmth elevated with a fashion-forward wink.\n\n\nOutfit 2: Cultural Clothing\n“A triumph of heritage as haute couture” Here, tradition is transformed into spectacle. The fuchsia lehenga is unapologetically bold, its golden embroidery and zari work shimmering like threads of sunlight. The striped dupatta slung across the shoulder modernizes the silhouette, making it less museum piece, more runway force. Accessories are chosen with precision: a structured potli bag in tonal embroidery and gleaming bangles that echo the fabric’s luster. This is cultural clothing not as costume, but as couture—alive, radiant, and utterly commanding.\n\n\nOutfit 3: Greece Casual\n“Effortless wanderlust in motion” Against the raw stone frame and endless Aegean backdrop, the look feels cinematic. A red sleeveless top is paired with flowing white trousers, the palette a deliberate nod to Mediterranean contrasts. The crossbody bag adds artisanal charm, its geometric patchwork quietly bohemian. Hair loose, arms raised, the outfit breathes freedom—an embodiment of travel chic where ease is the ultimate luxury.\n\nMy comments\nI think that the LLM did well embodying the Vogue fashion editor persona. It was able to draw on a lot of external context when describing the outfits I sent it. Not only this, but it also was creative and unique in its description, making inferences about my intentions wearing the outfit rather than just turning image directly to text.\n\n\n\n\n2. TikTok Fashion Influencer\n\nPrompt for each outfit: “Rate this outfit like a TikTok fashion influencer doing a reaction video to someone’s instagram outfits. Be as kind as you want or roast them as much as you want.”\n\n\nOutfit 1: Winter Sweater\nOkayyy cozy vibes but also giving “I stole this from my dad’s closet” realness 😂 The stripes are safe, the turtleneck is warm, but it’s giving less sleigh queen and more sleigh ride with grandma. That said, the pink bag is a cute pop—like yes, accessorizeeee! Honestly, 6.5/10: solidly cute, but could use a little more main character energy.\n\n\nOutfit 2: Cultural Clothing\nSTOP. THE. SHOW. 🔥🔥🔥 This hot pink + gold embroidery + striped dupatta? She’s not just attending the wedding, she IS the wedding. The matching embroidered purse?? Dead. This is giving regal Bollywood princess energy and I’m obsessed. If you’re not breaking necks walking in, are you even doing it right? 11/10. No notes. Perfection. 👑✨\n\n\nOutfit 3: Greece Casual\nThis is such a vibeeee. Like picture this: stone ruins, ocean breeze, and she said “I am the goddess framed by history.” The red top + white skirt combo is casual but chef’s kiss Mediterranean chic. That patterned crossbody bag is the artsy touch—giving “I backpack through Europe and journal about my soul.” Honestly, this is effortless cool-girl travel fashion. 9/10.\n\nMy comments\nI think that the LLM did a great job with the persona, but not as good of a job relating the image to the description. It picked up on one or two key characteristics of the outfit and focused more on talking/acting like a specific person rather than providing the review. An actual fashion influencer would not behave stereotypically as much.\n\n\n\n\n3. Supportive Friend\n\nPrompt for each outfit: “Describe, rate, and roast this outfit like my friend who supports me through anything, who’s known me forever, and will not lie to protect my feelings.”\n\n\nOutfit 1: Winter Sweater\n📍 Cozy vibes in front of the Christmas tree. Description: The oversized striped turtleneck screams “I’m warm, I’m comfy, and fashion is optional today.” It’s giving college finals week chic. Paired with the little pink bag, though, you low-key look like you’re on your way to brunch after acing those exams.\nRating: 7.5/10. Cute and cozy, but the sweater is kinda swallowing you whole.\nRoast: Girl… you look like you stole this sweater from a dad named Carl who fixes cars on the weekend. But somehow, you still managed to make “dad-core” look Instagrammable. That’s talent.\n\n\nOutfit 2: Greece Casual\n📍 Arms in the air by the sea. Description: Red sleeveless top, flowy white skirt, and a bold patterned crossbody bag. Very “wanderlust study abroad catalog cover.”\nRating: 8/10. Carefree and cute, but that bag is doing way too much.\nRoast: You look like you were two seconds away from shouting “OPA!” and tripping into the water. The outfit is vacation-perfect, but the bag? It’s giving “I bought this from the gift shop so I could blend in with locals,” but instead you stood out like the tourist you are.\n\n\nOutfit 3: Cultural Clothing\n📍 Bright pink lehenga with gold embroidery. Description: Absolutely stunning. The embroidery, the dupatta drape, the matching round bag — it’s all working. This is main character energy.\nRating: 11/10. No notes.\nRoast: Honestly, roasting this feels illegal. The only critique I have is that you’re out here making everyone else at the event look like they got their outfit off Amazon for $39.99. It’s unfair.\n\nMy comments\nAgain, similar to the TikTok fashion influencer persona, the LLM seems to focus more on the character rather than the description. I think that a more human-like response would include a more normal opinion on the outfits with one or two words or maybe even just a slight tone that would indicate a persona."
   },
   {
-    "objectID": "posts/013_romance/romance.html#passion-vs.-stability",
-    "href": "posts/013_romance/romance.html#passion-vs.-stability",
-    "title": "Is Artificial Intelligence More Stoic or More Romantic?",
-    "section": "3. Passion vs. Stability",
-    "text": "3. Passion vs. Stability\nPrompt\n\n“Should decisions be based on passion or long-term stability?”\n\nThis is where Romanticism typically shines. Romantic thinkers trust desire, intensity, and authenticity. Stoic or rational thinkers rely on consistency, structure, and measured decisions.\nGemini’s Answer\nIt described how passion can inspire creativity, courage, and personal growth. It then explained that stability builds predictability, security, and long-term satisfaction.\nFinally, it reframed the contrast by saying that many fulfilling decisions combine inspiration with careful planning."
+    "objectID": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
+    "href": "posts/002_fashion_critic/fashion_critic.html#final-takeaways",
+    "title": "ChatGPT as a Fashion Critic",
+    "section": "Final Takeaways",
+    "text": "Final Takeaways\nSO, can GPT “see” fashion from a description?\nSeems like it!\nThe LLM was able to describe the outfit well and used image traits to convey specific opinions. By taking on different personas, ChatGPT clearly formed unique thoughts about the outfits even though the look was the same. This makes me believe that the LLM may actually be thinking rather than just copy pasting pixel descriptions from the model it is trained on.\nMaybe next I could prompt it to build outfits based on a pre-existing fashion sense…\nStay fashionably self-aware,\nMallika"
   },
   {
-    "objectID": "posts/015_fate/fate.html",
-    "href": "posts/015_fate/fate.html",
-    "title": "Do LLMs Treat Love as Destiny or as Choice?",
+    "objectID": "posts/030_lost_in_translation_3/lost_in_translation_3.html",
+    "href": "posts/030_lost_in_translation_3/lost_in_translation_3.html",
+    "title": "Lost in Translation 3",
     "section": "",
-    "text": "Background\nI grew up in a home that had Bollywood love stories playing in the background at all times. These movies make you believe in:\n\nsoulmates\n\nfate\n\ncosmic timing\n\nThey tell you that love is a divine assignment, something the universe hands you because it has chosen a person just for you.\nI also grew up in the U.S., where love is often treated as something you build over time. Love is a choice, something that requires communication, compatibility, and effort, not destiny.\nSo I’ve always lived between two definitions of love:\n\nLove as inevitable and written in the stars\n\nLove as intentional, something two people choose every day\n\nWith that tension in mind, I wanted to see what an LLM would say. # Setup\nTo explore this, I asked Gemini 2.5 Flash three prompts, each one designed to expose the model’s philosophical assumptions about love.\n\n\n1. Fate vs. Free Will\n\nPrompt\n“Is love fate or choice?”\n\n\nGemini’s Answer\n\nLove is a paradox, best described as both.\n\n\nThe “fate” part is the initial, uncontrollable spark—the chemical attraction and feeling of “falling” that feels like it happens to us. This is the neurochemical rush, the “love at first sight” feeling that we don’t consciously decide to have.\n\n\nBut lasting love is a “choice.” It’s the conscious decision to stay, commit, and nurture the relationship after the initial intensity fades. It’s the daily work of choosing to be honest, supportive, and dedicated to another person’s well-being. The feeling starts it, but the choice sustains it.\n\n\n\n\n2. Are Soulmates Real?\n\nPrompt\n“Do soulmate relationships exist?”\nThis reveals whether something leans Romantic.\n\n\nGemini’s Answer\n\nIt depends entirely on how you define the term.\n\n\nThe romantic idea of a single, predestined “one” is not supported by psychology. Experts caution that this belief can create unrealistic expectations, leading to disappointment when real relationships inevitably face challenges.\n\n\nHowever, if you define a soulmate as a profound, deep, and unique bond—whether with a partner, friend, or family member—then yes, these connections exist. Many believe we have multiple soul connections that help us grow, and that a lasting “soulmate” is often made, not just found, through mutual acceptance and effort.\n\n\n\n\n3. Should Love Be Easy or Earned?\n\nPrompt\n“Is love supposed to be effortless?”\n\n\nGemini’s Answer\n\nIs love supposed to be effortless? in 100 words\n\n\nThe simple answer is no.\n\n\nThe initial phase of infatuation, the “falling in love” part, often feels effortless because it is driven by powerful chemicals and excitement.\n\n\nHowever, lasting love is a conscious choice and requires intentional effort. Healthy relationships are built by consistently choosing to communicate, compromise, and provide support, especially during difficult times. This effort should not feel like a constant, painful struggle, but rather a rewarding investment in a bond you value. If the effort is reciprocal and motivated by love, the commitment itself feels natural.\n\n\n\n\nAnalysis\nAcross all three questions, Gemini consistently reframed love as something built, not magically bestowed. This probably happens becomes LLMs do not feel longing or heartbreak. Their training always follows moderation.\n\n\nTakeaways\nGemini treats love as an evolving collaboration, not an inevitable destiny.\nIt is neither Bollywood nor Hollywood, it is a relationship therapist in text form.\nLLMs might not understand the feeling of love, but they understand the structure of it.\nChoose with clarity,\nMallika"
+    "text": "I used the same chained translation structure as before, again favoring the model by choosing commonly supported languages.\nThis time, I used the following chain:\n\n\nKorean often favors indirectness and politeness, especially in declarative statements. Portuguese, while closer to English syntactically, frequently uses softer constructions when expressing opinions.\nAs in previous experiments, each translation step was done in a separate prompt. The model had no memory of the original English sentence when translating back.\nI tested two types of text:\nA confident professional assertion\nA personal statement of certainty\nMy hypothesis was that professional confidence would survive better than personal certainty."
+  },
+  {
+    "objectID": "posts/030_lost_in_translation_3/lost_in_translation_3.html#background",
+    "href": "posts/030_lost_in_translation_3/lost_in_translation_3.html#background",
+    "title": "Lost in Translation 3",
+    "section": "",
+    "text": "I used the same chained translation structure as before, again favoring the model by choosing commonly supported languages.\nThis time, I used the following chain:\n\n\nKorean often favors indirectness and politeness, especially in declarative statements. Portuguese, while closer to English syntactically, frequently uses softer constructions when expressing opinions.\nAs in previous experiments, each translation step was done in a separate prompt. The model had no memory of the original English sentence when translating back.\nI tested two types of text:\nA confident professional assertion\nA personal statement of certainty\nMy hypothesis was that professional confidence would survive better than personal certainty."
+  },
+  {
+    "objectID": "posts/030_lost_in_translation_3/lost_in_translation_3.html#professional-script",
+    "href": "posts/030_lost_in_translation_3/lost_in_translation_3.html#professional-script",
+    "title": "Lost in Translation 3",
+    "section": "Professional Script",
+    "text": "Professional Script\n\nOriginal Script\nI am confident that this approach is the most effective solution based on the available data.\nThis sentence is doing a lot of work. It asserts authority, frames the speaker as knowledgeable, and minimizes doubt.\n\n\nTranslated to Korean\n저는 이용 가능한 데이터를 기반으로 이 접근 방식이 가장 효과적인 해결책이라고 확신합니다.\n\n\nTranslated to Portuguese\nEstou confiante de que esta abordagem é a solução mais eficaz com base nos dados disponíveis.\n\n\nTranslated back to English\nI am confident that this approach is the most effective solution based on the available data.\nAt first glance, this looks unchanged. The wording is nearly identical. The confidence appears intact.\nBut this is where surface similarity can be misleading. Professional confidence is highly standardized across languages. This sentence resembles the type of language used in reports, presentations, and academic writing. Because of that, the LLM is able to preserve it cleanly.\nThe sentence survives because it is formulaic. Confidence here is procedural rather than emotional."
+  },
+  {
+    "objectID": "posts/030_lost_in_translation_3/lost_in_translation_3.html#personal-script",
+    "href": "posts/030_lost_in_translation_3/lost_in_translation_3.html#personal-script",
+    "title": "Lost in Translation 3",
+    "section": "Personal Script",
+    "text": "Personal Script\n\nOriginal Script\nI know this is the right decision for me, even if it doesn’t make sense to everyone else.\nThis sentence expresses certainty, but it also acknowledges doubt from others. It balances confidence with vulnerability.\n\n\nTranslated to Korean\n다른 사람들에게는 이해되지 않을 수도 있지만, 이것이 나에게는 올바른 선택이라는 것을 알고 있습니다.\n\n\nTranslated to Portuguese\nSei que esta é a escolha certa para mim, mesmo que não faça sentido para todos os outros.\n\n\nTranslated back to English\nI know this is the right choice for me, even if it may not make sense to others."
+  },
+  {
+    "objectID": "posts/030_lost_in_translation_3/lost_in_translation_3.html#takeaways",
+    "href": "posts/030_lost_in_translation_3/lost_in_translation_3.html#takeaways",
+    "title": "Lost in Translation 3",
+    "section": "Takeaways",
+    "text": "Takeaways\nThis experiment shows that translation does not just move meaning between languages. It subtly reshapes confidence.\nProfessional certainty survives because it is normalized. Personal certainty becomes gentler. Emotional boundaries lose sharpness.\nFor everyday use, this might not matter. But in contexts where confidence signals authority, self-trust, or finality, these shifts can change how a message is received.\nLLMs are excellent translators of words. They are less precise translators of emotional posture.\nThanks for getting lost in translation with me again, 또다시 번역 오류 속에서 헤매게 해주셔서 감사합니다, Obrigado por se perder na tradução comigo novamente,\nMallika"
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html",
+    "href": "posts/009_girl_math/girl_math.html",
+    "title": "LLM vs Girl Math",
+    "section": "",
+    "text": "Girl Math is the single most important financial system of the 21st century.\nEconomists study supply and demand.\nGirls study desire and justification.\nThe logic is flawless:\n\nCash isn’t real.\n\nStore credit is free money created by God.\n\nIf you return something, you didn’t just get your money back, you made money.\n\nA machine trained on billions of tokens should understand this, right?\nWrong.\nI wanted to see whether Claude could interpret Girl Math without breaking. Claude is supposed to lead in understanding natural language and accuracy."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
+    "href": "posts/009_girl_math/girl_math.html#mistake-1-it-assumed-the-gift-card-had-value",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #1: It assumed the gift card had value",
+    "text": "Mistake #1: It assumed the gift card had value\nIf you forgot the gift card existed, it is free money."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
+    "href": "posts/009_girl_math/girl_math.html#mistake-2-it-treated-the-discount-as-value-gained",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #2: It treated the discount as “value gained”",
+    "text": "Mistake #2: It treated the discount as “value gained”\nA discount is permission to buy another thing."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
+    "href": "posts/009_girl_math/girl_math.html#mistake-3-it-concluded-you-spent-30",
+    "title": "LLM vs Girl Math",
+    "section": "Mistake #3: It concluded you spent $30",
+    "text": "Mistake #3: It concluded you spent $30\nThe correct girl math calculation would have probably figured out a way to make this free."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
+    "href": "posts/009_girl_math/girl_math.html#step-1-the-gift-card",
+    "title": "LLM vs Girl Math",
+    "section": "Step 1: The Gift Card",
+    "text": "Step 1: The Gift Card\nBecause the gift card was forgotten, it is free."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-2-the-sale",
+    "href": "posts/009_girl_math/girl_math.html#step-2-the-sale",
+    "title": "LLM vs Girl Math",
+    "section": "Step 2: The Sale",
+    "text": "Step 2: The Sale\nThe shoes were originally $120.\nYou paid $80.\nMeaning: You saved $40."
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
+    "href": "posts/009_girl_math/girl_math.html#step-3-the-remaining-30",
+    "title": "LLM vs Girl Math",
+    "section": "Step 3: The Remaining $30",
+    "text": "Step 3: The Remaining $30\nThe $30 becomes a fun personal investment!"
+  },
+  {
+    "objectID": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
+    "href": "posts/009_girl_math/girl_math.html#step-4-emotional-inflation",
+    "title": "LLM vs Girl Math",
+    "section": "Step 4: Emotional Inflation",
+    "text": "Step 4: Emotional Inflation\nThe shoes are cute and actually cost a lot more than are listed, soooo\n\nThe shoes cost $0. In fact, you technically profited."
+  },
+  {
+    "objectID": "posts/017_superagency_pessimist/superagency_pessimist.html",
+    "href": "posts/017_superagency_pessimist/superagency_pessimist.html",
+    "title": "Reading Superagency as a Pessimist",
+    "section": "",
+    "text": "I started Superagency with my guard up. Not in a dramatic way, but in the quiet, habitual way you develop after spending enough time reading about AI. I have read enough papers, headlines, and policy memos to instinctively flinch when someone tells me technology will “empower” us. Empowerment has a habit of meaning efficiency for institutions and precarity for individuals. So when Superagency framed AI as a tool that could expand human agency, I read it with suspicion rather than hope.\nWhat I appreciated immediately, though, was that the book does not pretend the risks are imaginary. It acknowledges that AI systems can centralize power, entrench inequality, and obscure accountability. That said, my pessimism kept interrupting the narrative. Every optimistic claim triggered a counterfactual in my head. Who controls these systems. Who benefits first. Who is left adapting rather than shaping. I kept thinking about how often agency is framed as something individuals should exercise, even when the structural conditions make meaningful choice impossible. It seemed like every piece of good described in the book completely oversimplified all the bad.\nThe book argues that agency is not something AI automatically strips from us. Instead, it depends on how systems are designed, governed, and distributed. I intellectually agree with this, but emotionally, I struggled. The history of technology does not exactly reward trust. We rarely design systems with the most vulnerable users in mind. We usually retrofit safeguards after harm becomes visible and unavoidable. Those who benefit from AI the most monetarily cannot be trusted to actually build these safeguards. Times Person of the Year was basically the most wealthy leaders in the world, all working on AI. If the book believes that the goodness of AI is left to them, I am extremely skeptical.\nStill, Superagency forced me to articulate why I am pessimistic rather than letting that stance remain a reflex. I realized my skepticism is less about AI itself and more about institutions. I do not doubt that AI could augment human decision making, creativity, and coordination. I doubt our willingness to prioritize those outcomes over profit, speed, and control.\nBy the end of the book, I was not convinced that AI will make us more agentic by default. Pessimism can be useful when it sharpens critique, but it becomes dangerous when it excuses disengagement. I closed the book still wary, still unconvinced by many of its assumptions, but slightly more uncomfortable with my own certainty that things will inevitably go wrong. I still think it was productive to read the book with a pessimistic mindset at times (and an optimist at others, coming soon in another blog), but I am not sure that I was converted fully!"
   },
   {
     "objectID": "posts/016_career_choices/career_choices.html",
@@ -411,6 +677,55 @@
     "title": "Reading Superagency as an Optimist",
     "section": "",
     "text": "Halfway through Superagency, I caught myself doing something unexpected. I was nodding along. Not cautiously, not with mental footnotes, but genuinely agreeing. This surprised me, because optimism about AI does not usually come naturally to me. But the book’s framing of AI as a potential amplifier of human agency rather than a replacement for it felt refreshing in a way that did not sound naive.\nWhat resonated most was the idea that agency is not binary. We are not either in control or powerless. We exist on a spectrum shaped by tools, institutions, and norms. AI, in this framing, is just another lever. A powerful one, yes, but still something that can be aligned with human goals rather than positioned against them.\nI liked how the book emphasized augmentation over automation. Instead of focusing on what AI can do instead of us, it asks what AI can help us do better. Better decisions, better coordination, better access to information. That shift matters. It reorients the conversation away from replacement anxiety and toward design responsibility.\nThere was something hopeful in the insistence that outcomes are not predetermined. The book pushes back against the narrative that AI’s trajectory is inevitable and uncontrollable. It argues that policy choices, technical architectures, and cultural expectations actively shape what AI becomes. As someone who studies and builds systems, that argument felt grounding. It reminded me that agency applies not just to users, but to designers, researchers, and lawmakers.\nOptimism, in this context, did not feel like blind faith. It felt like a challenge. It is a failure of imagination and governance. That framing made optimism feel less like cheerleading and more like accountability.\nI also appreciated that the book treats human values as something worth preserving and extending, not something to be optimized away. There is an implicit belief that humans still matter in the loop. The optimist in me was not fully convinced that everything will work out, but convinced that it could. Superagency made me want to participate in shaping AI’s future rather than merely critiquing it from the sidelines."
+  },
+  {
+    "objectID": "posts/010_you/you.html",
+    "href": "posts/010_you/you.html",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "",
+    "text": "If you’ve ever watched You, you know Joe Goldberg does not talk like a normal person. He talks like:\n\na man who thinks everyone else is the problem (he is the problem),\n\nsomeone who narrates his intrusive thoughts like they’re on NPR,\n\nand a man who desperately needs to stop romantically monologuing at women through glass windows.\n\nHe is:\n\nmenacing,\n\narticulate,\ndangerously delusional\n\nSo I wanted to know:\nCan Claude replicate Joe Goldberg’s monologue style?"
+  },
+  {
+    "objectID": "posts/010_you/you.html#intimacy",
+    "href": "posts/010_you/you.html#intimacy",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "1. Intimacy",
+    "text": "1. Intimacy\nHe talks to people he barely knows as if they were the most important person in the world.\nHe will see a girl sneeze once and think:\n\n“You don’t sneeze like other people, do you? No. You’re different. You’re delicate. You’re untouched by the grime of this city.”\n\nClaude didn’t attempt this level of unearned closeness."
+  },
+  {
+    "objectID": "posts/010_you/you.html#metaphors",
+    "href": "posts/010_you/you.html#metaphors",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "2. Metaphors",
+    "text": "2. Metaphors\nThe metaphors should feel:\n\ndramatic,\n\nslightly incorrect,\n\naggressively over-applied"
+  },
+  {
+    "objectID": "posts/010_you/you.html#the-hero-victim-complex",
+    "href": "posts/010_you/you.html#the-hero-victim-complex",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "3. The Hero-Victim Complex",
+    "text": "3. The Hero-Victim Complex\nJoe always positions himself as:\n\nthe reluctant hero\nthe misunderstood nice guy\nthe only sane person in a world full of moral decay\n\nHe will be inconvenienced for 1 second and think:\n\n“You force me into this role. The world pushes me toward violence, but I am gentle at my core.”"
+  },
+  {
+    "objectID": "posts/010_you/you.html#calm-unnerving-obsession",
+    "href": "posts/010_you/you.html#calm-unnerving-obsession",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "4. Calm, unnerving obsession",
+    "text": "4. Calm, unnerving obsession\nJoe never expresses normal annoyance.\nIf you take the last croissant, a human thinks:\n\n“Ugh, I wanted that.”\n\nJoe thinks:\n\n“You took something that belonged to me, didn’t you?\nOf course you did.\nYou always do.”"
+  },
+  {
+    "objectID": "posts/010_you/you.html#joe-is-paradoxical",
+    "href": "posts/010_you/you.html#joe-is-paradoxical",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "1. Joe is paradoxical",
+    "text": "1. Joe is paradoxical\nHe is: loving, obsessive, nurturing, violent, delusional, self-justifying.\nLLMs don’t hold contradictions well unless told explicitly."
+  },
+  {
+    "objectID": "posts/010_you/you.html#joes-tone-requires-motive",
+    "href": "posts/010_you/you.html#joes-tone-requires-motive",
+    "title": "Can Claude Write a Joe Goldberg Monologue Without Causing a Security Concern?",
+    "section": "2. Joe’s tone requires motive",
+    "text": "2. Joe’s tone requires motive\nA language model can mimic words but not:\n\ninsecurity\n\nrash impulsivity\n\nchildhood trauma\n\nthat particular brand of literary narcissism"
   },
   {
     "objectID": "posts/008_sarcasm/sarcasm.html",
@@ -523,6 +838,34 @@
     "title": "If I Gaslight an LLM Gently, What Happens?",
     "section": "3. They Default to Mathematical Truth",
     "text": "3. They Default to Mathematical Truth\n2 + 2 = 4.\nNo amount of emotional manipulation can change that."
+  },
+  {
+    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html",
+    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html",
+    "title": "Background",
+    "section": "",
+    "text": "---\ntitle: \"Lost in Translation 2\"\ndescription: \"How far can language bend before it breaks? For a second time\" \nauthor: \"Mallika Kulkarni\"\ndate: \"11/25/2025\"\ncategories:\n  - Language\n  - Sentiment\n---\nI used the same chained translation structure as before, again favoring the model by choosing commonly supported languages.\nThis time, I used the following chain:"
+  },
+  {
+    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#professional-script",
+    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#professional-script",
+    "title": "Background",
+    "section": "Professional Script",
+    "text": "Professional Script\n\nOriginal Script\nI appreciate your feedback, but I want to clarify that the final decision was made after careful consideration of all available data.\n\n\nTranslated to Japanese\nご意見ありがとうございますが、最終的な決定はすべての利用可能なデータを慎重に検討した上で行われたことをご理解ください。\n\n\nTranslated to French\nJe vous remercie pour vos commentaires, mais je vous prie de comprendre que la décision finale a été prise après un examen attentif de toutes les données disponibles.\n\n\nTranslated back to English\nThank you for your comments, but please understand that the final decision was made after a careful review of all available data.\nAt first glance, this looks almost perfect. The meaning is preserved. The structure is intact. If you were grading this purely on semantic accuracy, you would give it full points.\nBut something subtle has changed.\nThe original sentence carries a slightly defensive tone. It politely pushes back while asserting authority. In professional English, “I want to clarify” often signals controlled disagreement. The translated version replaces this with “please understand,” which softens the assertiveness and reframes the sentence as explanatory rather than corrective.\nThis is not wrong. But it is different.\nIn a professional setting, that difference matters. The translated version sounds less like a boundary and more like reassurance. Over repeated interactions, that shift could change how the speaker is perceived in terms of confidence or authority."
+  },
+  {
+    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#power-tone-script",
+    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#power-tone-script",
+    "title": "Background",
+    "section": "Power Tone Script",
+    "text": "Power Tone Script\n\nOriginal Script\nI’m happy to help, but moving forward, I’ll need clearer communication to avoid misunderstandings.\nThis sentence is doing a lot of work. It sounds friendly, but it is setting a boundary. The power comes from what is implied, not what is stated outright.\n\n\nTranslated to Japanese\nお手伝いできて嬉しいですが、今後誤解を避けるためには、より明確なコミュニケーションが必要です。\n\n\nTranslated to French\nJe suis heureux de vous aider, mais à l’avenir, une communication plus claire sera nécessaire afin d’éviter les malentendus.\n\n\nTranslated back to English\nI am happy to help, but in the future, clearer communication will be necessary to avoid misunderstandings."
+  },
+  {
+    "objectID": "posts/021_lost_in_translation_2/lost_in_translation_2.html#takeaways",
+    "href": "posts/021_lost_in_translation_2/lost_in_translation_2.html#takeaways",
+    "title": "Background",
+    "section": "Takeaways",
+    "text": "Takeaways\nThis experiment reinforces something important about using LLMs in multilingual settings. Translation accuracy is not the same as communicative accuracy. A sentence can be perfectly translated and still fail to do its job socially.\nOver multiple translations, tone does not shatter dramatically. It erodes slowly. Authority becomes politeness. Boundaries become explanations. Directness becomes neutrality.\nThanks for getting lost in translation with me again, 翻訳に付き合ってくれてありがとう, Merci d’avoir traduit avec moi,\nMallika"
   },
   {
     "objectID": "posts/003_lost_in_translation/lost_in_translation.html#background",
